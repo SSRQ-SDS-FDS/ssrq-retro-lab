@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ssrq-retro-lab"
+dynamic = ["version"]
+description = 'Scripts and data for working with retrodigitized SSRQ volumes'
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = []
+authors = [{ name = "Bpolitycki", email = "bastian.politycki@unisg.ch" }]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = []
+
+[project.urls]
+Issues = "https://github.com/unknown/ssrq-retro-lab/issues"
+Source = "https://github.com/unknown/ssrq-retro-lab"
+
+[tool.hatch.version]
+path = "src/ssrq_retro_lab/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = ["coverage[toml]>=6.5", "jupyter", "pandas", "PyMuPDF", "pytest"]
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = ["- coverage combine", "coverage report"]
+cov = ["test-cov", "cov-report"]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.11", "3.12"]
+
+[tool.hatch.envs.types]
+dependencies = ["mypy>=1.0.0"]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/ssrq_retro_lab tests}"
+
+[tool.coverage.run]
+source_pkgs = ["ssrq_retro_lab", "tests"]
+branch = true
+parallel = true
+omit = ["src/ssrq_retro_lab/__about__.py"]
+
+[tool.coverage.paths]
+ssrq_retro_lab = ["src/ssrq_retro_lab", "*/ssrq-retro-lab/src/ssrq_retro_lab"]
+tests = ["tests", "*/ssrq-retro-lab/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
