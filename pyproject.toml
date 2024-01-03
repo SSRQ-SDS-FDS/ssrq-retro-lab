@@ -28,6 +28,7 @@ path = "src/ssrq_retro_lab/__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = ["coverage[toml]>=6.5", "jupyter", "pandas", "PyMuPDF", "pytest"]
+path = ".hatch"
 [tool.hatch.envs.default.scripts]
 test = "pytest {args:tests}"
 test-cov = "coverage run -m pytest {args:tests}"
