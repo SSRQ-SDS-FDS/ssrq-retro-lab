@@ -27,7 +27,17 @@ Source = "https://github.com/unknown/ssrq-retro-lab"
 path = "src/ssrq_retro_lab/__about__.py"
 
 [tool.hatch.envs.default]
-dependencies = ["coverage[toml]>=6.5", "jupyter", "pandas", "PyMuPDF", "pytest"]
+dependencies = [
+    "coverage[toml]>=6.5",
+    "jupyter",
+    "matplotlib",
+    "pandas",
+    "PyMuPDF",
+    "pytest",
+    "textdistance",
+    "scikit-learn",
+    "seaborn",
+]
 path = ".hatch"
 [tool.hatch.envs.default.scripts]
 test = "pytest {args:tests}"
