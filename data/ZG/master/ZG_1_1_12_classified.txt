@@ -1,18 +1,20 @@
-E. Staatswesen : 572-183 377
+[START][FRAGMENT]
 StAZürich A 259.4.-1767 Juni 1. Personalien (Signalement) des alt Statthalter
 Brandenberg, seines Sohnes und Tochtersohnes, samt beigefügter Nachricht, daß Zug
 gezwungen war, sein Stadt- und Amt-Sekret zu ändern, ebd.
+[START][SUMMARY]
 1787 März 10.
 580. Pflicht, Käufe der Kanzlei anzumelden
 KAZug, Th. 87, VI. B. 2. -1787 Mai 4. Kaufverträge müssen vom geschworenen
 Schreiber beurkundet werden. StAZug, StaR 42, 374.— 1787 Mai 14. Die Stadt Zug
 genehmigt die Bestimmung, Aegeri verwirft sie, Menzingen verwirft und protestiert.
 StAR 42, 376 f.
-y) Der Stadt- und Amtrat
+[START][SUMMARY]
 1546 Februar 10.
 581. Aufforderung des Stadt- und Amtsrates an die Weibel zur Erfüllung
 ihrer Pflichten, Einfangen von Schuldigen, Pfändungen.
 KAZug, Th. 87, VI. B. 2.
+[START][DOCUMENT]
 (Ca 1580)
 582. Amtsgeheimnis. Weibelpflicht
 [1] Ittem mine herren statt und ampts habend mit einandern uff
@@ -29,6 +31,7 @@ by dem eyde gebotten wurde, und dan den selbigen nit hielte, der
 selbig oder die selbigen wellend mine herren straffen der maßen, das
 er welte, er hett den eydt gehalten.
 KAZug, Th. 87, VI. B. 2.
+[START][SUMMARY]
 1635 August 21.
 583. Verköstigung der Räte an der Landsgemeinde und am Schwörtag
 Die alte Verordnung bleibt in Kraft. Der Ammann soll jeweils an der
