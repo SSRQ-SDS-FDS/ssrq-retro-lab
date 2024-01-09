@@ -31,12 +31,14 @@ dependencies = [
     "coverage[toml]>=6.5",
     "jupyter",
     "matplotlib",
+    "openai",
     "pandas",
     "PyMuPDF",
     "pytest",
     "textdistance",
     "scikit-learn",
     "seaborn",
+    "tiktoken",
 ]
 path = ".hatch"
 [tool.hatch.envs.default.scripts]

@@ -1,4 +1,4 @@
-def split_content(content: str, strip_lines: bool = True) -> list[str]:
+def split_content(content: str, strip_lines: bool = True) -> list[str]:  # noqa: FBT001 FBT002
     """Splits the contents of a text file
     into a list of different 'documents' based on
     empty lines separating them.
@@ -11,9 +11,6 @@ def split_content(content: str, strip_lines: bool = True) -> list[str]:
         A list of documents.
     """
     return [
-        "\n".join(
-            line.strip() if strip_lines else line
-            for line in document.strip().splitlines()
-        )
+        "\n".join(line.strip() if strip_lines else line for line in document.strip().splitlines())
         for document in content.split("\n\n")
     ]
