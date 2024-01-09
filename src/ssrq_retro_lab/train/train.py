@@ -1,10 +1,6 @@
-import os
 from pathlib import Path
-from ssrq_retro_lab.repository.reader import BufferBinaryReader
 
 import openai
-
-openai.api_key = os.environ.get("OPEN_AI_API_KEY")
 
 
 def upload_training_file_to_openai(training_file: Path) -> str:
@@ -18,7 +14,7 @@ def upload_training_file_to_openai(training_file: Path) -> str:
         The file id.
     """
     file_upload = openai.files.create(
-        file=BufferBinaryReader(training_file).read(),
+        file=training_file,
         purpose="fine-tune",
     )
 
@@ -26,7 +22,7 @@ def upload_training_file_to_openai(training_file: Path) -> str:
 
 
 def create_openai_finetuning_job(
-    training_file_id: str, name: str, model: str = "gpt-3.5-turbo-16k", epochs: int = 3
+    training_file_id: str, name: str, model: str = "gpt-3.5-turbo-1106", epochs: int = 3
 ) -> str:
     """Creates a new OpenAI fine-tuning job.
 

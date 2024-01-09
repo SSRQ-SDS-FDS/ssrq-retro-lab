@@ -72,5 +72,4 @@ class JSONLReader(Reader):
 
 class BufferBinaryReader(Reader):
     def read(self):
-        with open(self.path, "rb") as binary_file:
-            return binary_file
+        return open(self.path, "rb")  # noqa
