@@ -1,3 +1,4 @@
+import json
 from abc import ABC, abstractmethod
 from pathlib import Path
 
@@ -56,3 +57,20 @@ class PDFReader(Reader):
             The file as a fitz Document.
         """
         return fitz_new.open(self.path)
+
+
+class JSONLReader(Reader):
+    def read(self):
+        """Reads a JSONL file.
+
+        Returns:
+            The content of the JSONL file.
+        """
+        with open(self.path, encoding="utf-8") as jsonl_file:
+            return [json.loads(line) for line in jsonl_file]
+
+
+class BufferBinaryReader(Reader):
+    def read(self):
+        with open(self.path, "rb") as binary_file:
+            return binary_file
