@@ -43,3 +43,21 @@ def create_openai_finetuning_job(
     )
 
     return response.id
+
+
+def get_finetuned_model_id(job_id: str) -> str:
+    """Gets the id of the finetuned model.
+
+    Args:
+        job_id: The id of the job.
+
+    Returns:
+        The id of the finetuned model.
+    """
+    job = openai.fine_tuning.jobs.retrieve(job_id)
+    model_id = job.fine_tuned_model
+
+    if model_id:
+        return model_id
+
+    raise ValueError("No model id found")

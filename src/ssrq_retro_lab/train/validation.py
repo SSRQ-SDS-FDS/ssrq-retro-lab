@@ -29,7 +29,9 @@ def validate_openai_training_data(dataset: list) -> bool:
             if "role" not in message or "content" not in message:
                 format_errors["message_missing_key"] += 1
 
-            if any(k not in ("role", "content", "name", "function_call") for k in message):
+            if any(
+                k not in ("role", "content", "name", "function_call") for k in message
+            ):
                 format_errors["message_unrecognized_key"] += 1
 
             if message.get("role", None) not in (
