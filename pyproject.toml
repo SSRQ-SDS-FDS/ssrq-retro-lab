@@ -35,9 +35,12 @@ dependencies = [
     "pandas",
     "PyMuPDF",
     "pytest",
+    "pyyaml",
     "textdistance",
     "scikit-learn",
     "seaborn",
+    "spacy",
+    "spacy-llm",
     "tiktoken",
 ]
 path = ".hatch"
