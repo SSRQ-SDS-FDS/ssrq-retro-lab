@@ -38,7 +38,7 @@ Note: You will need a valid API key for the OpenAI API to run the notebooks.
 
 The OCR results of the example volumes (ZG 1.1 and 1.2) are pretty good. Nevertheless, there are some errors. The goal of this experiment is to correct the OCR results with the help of GPT-3.5. First results are promising. While the initial CER of the training set was ~3% in average, the CER of the corrected text is 0.7%.
 
-![CER of the training set](./static/ocr_gpt_validation.png)
+![CER of the training set](./static/openai_ocr_validation_v1.png)
 
 See the [validation set](./data/ZG/openai_ocr_validation.jsonl) for details on the setup of the experiment.
 
