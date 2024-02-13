@@ -1,8 +1,10 @@
 import json
 from abc import ABC, abstractmethod
 from pathlib import Path
+from typing import Any
 
 import fitz_new  # type: ignore
+from parsel import Selector
 
 
 class Reader(ABC):
@@ -23,7 +25,7 @@ class Reader(ABC):
         self.path = path
 
     @abstractmethod
-    def read(self) -> str:
+    def read(self) -> Any:
         """Reads the file.
 
         Returns:
@@ -72,4 +74,17 @@ class JSONLReader(Reader):
 
 class BufferBinaryReader(Reader):
     def read(self):
-        return open(self.path, "rb")  # noqa
+        return open(self.path, "rb")
+
+
+class XMLReader(Reader):
+    """Reads an XML file from a given path.
+
+    Attributes:
+        path: The path to the file to read.
+
+    Returns:
+        The file contents, when read is called."""
+
+    def read(self) -> Selector:
+        return Selector(TextReader(self.path).read(), type="xml")
