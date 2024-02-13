@@ -1,0 +1,4908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<volinfo canton="ZG" vol="1.2" xml:lang="de">
+  <title>Stadt Zug und ihre Vogteien. Äußeres Amt</title>
+  <editor>Eugen Gruber</editor>
+  <pubinfo>
+    <publisher>Sauerländer</publisher>
+    <address>Aarau</address>
+    <date when="1972">1972</date>
+    <isbn>3-7941-0125-1</isbn>
+  </pubinfo>
+
+  <pages total="616">
+    <range from="1" to="28" type="upper_roman" start="1"/>
+    <range from="29" to="616" type="number" start="579"/>
+  </pages>
+
+
+  <toc>
+
+    <entry>
+      <title>Inhaltsverzeichnis</title>
+      <pg>V</pg>
+    </entry>
+
+
+
+    <entry>
+      <title>Abkürzungen</title>
+      <pg>XXV</pg>
+    </entry>
+    <entry>
+      <title>Archive</title>
+      <pg>XXVII</pg>
+    </entry>
+
+    <entry>
+      <title>Personen- und Ortsregister</title>
+      <pg>1138</pg>
+    </entry>
+
+
+  </toc>
+
+
+
+  <toe>
+
+
+    <entry>
+      <no>III</no>
+      <title>Stadt Zug und ihre Vogteien.</title>
+      <pg>579</pg>
+
+      <entry>
+        <no>A</no>
+        <title>Die Stadt Zug.</title>
+        <pg>579</pg>
+
+
+
+        <entry>
+          <no>a</no>
+          <title>Das Bürgerrecht der Stadt Zug.</title>
+          <pg>579</pg>
+          <entry>
+            <no>1142</no>
+            <title>Bürgerrecht.</title>
+            <pg>579</pg>
+            <date notBefore="1425" notAfter="1445">um 1435<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>b</no>
+          <title>Die Hoheitsprivilegien.</title>
+          <pg>585</pg>
+          <entry>
+            <no>1143</no>
+            <title>Hoheitsrechte.</title>
+            <pg>585</pg>
+            <date when="1488-09-25">1488 September 25</date>
+          </entry>
+          <entry>
+            <no>1144</no>
+            <title>Bestätigung.</title>
+            <pg>586</pg>
+            <date when="1541-07-22">1541 Juli 22</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>c</no>
+          <title>Die Bürger.</title>
+          <pg>588</pg>
+          <entry>
+            <no>1145</no>
+            <title>Bürgertaxe.</title>
+            <pg>588</pg>
+            <date when="1508-04-09">1508 April 9</date>
+          </entry>
+          <entry>
+            <no>1146</no>
+            <title>Bürgeraufnahme.</title>
+            <pg>588</pg>
+            <date when="1539-09-14">1539 September 14</date>
+          </entry>
+          <entry>
+            <no>1147</no>
+            <title>Des Einzugs wegen.</title>
+            <pg>588</pg>
+            <date when="1555-12-27">1555 Dezember 27</date>
+          </entry>
+          <entry>
+            <no>1148</no>
+            <title>Einzugstaxe für Fremde.</title>
+            <pg>588</pg>
+            <date when="1562-12-12">1562 Dezember 12</date>
+          </entry>
+          <entry>
+            <no>1149</no>
+            <title>Bürgeraufnahme.</title>
+            <pg>589</pg>
+            <date when="1608-05-11">1608 Mai 11</date>
+          </entry>
+          <entry>
+            <no>1150</no>
+            <title>Bürgerrechtsalter usw.</title>
+            <pg>589</pg>
+            <date when="1624-05-12">1624 Mai 12</date>
+          </entry>
+          <entry>
+            <no>1151</no>
+            <title>Kernenverteilung.</title>
+            <pg>590</pg>
+            <date when="1656-01-09">1656 Januar 9</date>
+          </entry>
+          <entry>
+            <no>1152</no>
+            <title>Bürgerrechtsalter.</title>
+            <pg>590</pg>
+            <date when="1677-12-13">1677 Dezember 13</date>
+          </entry>
+          <entry>
+            <no>1153</no>
+            <title>Bürgerrechtserneuerung.</title>
+            <pg>591</pg>
+            <date when="1708-09-09">1708 September 9</date>
+          </entry>
+          <entry>
+            <no>1154</no>
+            <title>Einkauf in das Bürgerrecht.</title>
+            <pg>591</pg>
+            <date when="1709-05-12">1709 Mai 12. ff</date>
+          </entry>
+          <entry>
+            <no>1155</no>
+            <title>Einheirat in das Bürgerrecht.</title>
+            <pg>592</pg>
+            <date when="1724-02-12">1724 Februar 12</date>
+          </entry>
+          <entry>
+            <no>1156</no>
+            <title>Heirat mit einer fremden Frau.</title>
+            <pg>592</pg>
+            <date when="1742-05-19">1742 Mai 19</date>
+          </entry>
+          <entry>
+            <no>1157</no>
+            <title>Einkauf in das Bürgerrecht.</title>
+            <pg>592</pg>
+            <date when="1744-05-10">1744 Mai 10</date>
+          </entry>
+          <entry>
+            <no>1158</no>
+            <title>Erbanteil einer Fremden.</title>
+            <pg>593</pg>
+            <date when="1752-09-16">1752 September 16</date>
+          </entry>
+          <entry>
+            <no>1159</no>
+            <title>Aufnahme in das Bürgerrecht.</title>
+            <pg>593</pg>
+            <date when="1770-05-13">1770 Mai 13</date>
+          </entry>
+          <entry>
+            <no>1160</no>
+            <title>Aufnahme in das Bürgerrecht.</title>
+            <pg>594</pg>
+            <date when="1780-05-15">1780 Mai 15</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>d</no>
+          <title>Die Beisaßen und Hintersaßen.</title>
+          <pg>594</pg>
+          <entry>
+            <no>1161</no>
+            <title>Fremde Insaßen.</title>
+            <pg>594</pg>
+            <date when="1535-08-14">1535 August 14</date>
+          </entry>
+          <entry>
+            <no>1162</no>
+            <title>Verbot fremder Insaßen.</title>
+            <pg>595</pg>
+            <date when="1540-09-25">1540 September 25</date>
+          </entry>
+          <entry>
+            <no>1163</no>
+            <title>Hintersaßen.</title>
+            <pg>595</pg>
+            <date when="1550">1550 ff</date>
+          </entry>
+          <entry>
+            <no>1164</no>
+            <title>Aufnahmeverbot von Hintersaßen.</title>
+            <pg>595</pg>
+            <date when="1577-07-10">1577 Juli 10</date>
+          </entry>
+          <entry>
+            <no>1165</no>
+            <title>Beisaßen.</title>
+            <pg>596</pg>
+            <date when="1686-06-08">1686 Juni 8</date>
+          </entry>
+          <entry>
+            <no>1166</no>
+            <title>Hintersaßen.</title>
+            <pg>596</pg>
+            <date when="1772-09-19">1772 September 19</date>
+          </entry>
+        </entry>
+
+
+        <entry>
+          <no>e</no>
+          <title>Die Ausbürger.</title>
+          <pg>596</pg>
+          <entry>
+            <no>1167</no>
+            <title>Einzug der Ausbürger.</title>
+            <pg>596</pg>
+            <date when="1551-11-30">1551 November 30</date>
+          </entry>
+          <entry>
+            <no>1168</no>
+            <title>Ausbürger.</title>
+            <pg>596</pg>
+            <date when="1597-06-24">1597 Juni 24</date>
+          </entry>
+          <entry>
+            <no>1169</no>
+            <title>Ausbürger.</title>
+            <pg>597</pg>
+            <date when="1612">1612 ff</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>f</no>
+          <title>Ämterbesetzung.</title>
+          <pg>598</pg>
+
+          <entry>
+            <no>1170</no>
+            <title>Ämterbesetzung.</title>
+            <pg>598</pg>
+            <date when="1554-12-27">1554 Dezember 27</date>
+          </entry>
+          <entry>
+            <no>1171</no>
+            <title>Ämterbesetzung.</title>
+            <pg>598</pg>
+            <date when="1556-10-04">1556 Oktober 4</date>
+          </entry>
+          <entry>
+            <no>1172</no>
+            <title>Abrechnung der Amtsträger.</title>
+            <pg>599</pg>
+            <date when="1580-12-27">1580 Dezember 27</date>
+          </entry>
+          <entry>
+            <no>1173</no>
+            <title>Eid der Räte, Weibel und Bürger.</title>
+            <pg>599</pg>
+            <date notBefore="1585" notAfter="1595">(um 1590)<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1174</no>
+            <title>Abrechnung.</title>
+            <pg>600</pg>
+            <date when="1621-01-07">1621 Januar 7</date>
+          </entry>
+          <entry>
+            <no>1175</no>
+            <title>Amtsdauer des Seckelmeisters.</title>
+            <pg>601</pg>
+            <date when="1635-12-30">1635 Dezember 30</date>
+          </entry>
+          <entry>
+            <no>1176</no>
+            <title>Bürgschaft des Seckelmeisters.</title>
+            <pg>601</pg>
+            <date when="1648">1648</date>
+          </entry>
+          <entry>
+            <no>1177</no>
+            <title>Amtsfähigkeit.</title>
+            <pg>601</pg>
+            <date when="1651">1651 ff</date>
+          </entry>
+          <entry>
+            <no>1178</no>
+            <title>Abgeordnete für die Rechnung.</title>
+            <pg>602</pg>
+            <date when="1656-01-09">1656 Januar 9</date>
+          </entry>
+          <entry>
+            <no>1179</no>
+            <title>Schweigepflicht der Ratsherren.</title>
+            <pg>602</pg>
+            <date when="1667-03-30">1667 März 30</date>
+          </entry>
+          <entry>
+            <no>1180</no>
+            <title>Blind- oder Glückswahl.</title>
+            <pg>603</pg>
+            <date when="1697-04-08">1697 April 8</date>
+          </entry>
+          <entry>
+            <no>1181</no>
+            <title>Bürgschaft des Großweibels.</title>
+            <pg>604</pg>
+            <date when="1714-05-13">1714 Mai 13</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>g</no>
+          <title>Trölverbote.</title>
+          <pg>604</pg>
+          <entry>
+            <no>1182</no>
+            <title>Trölverbote.</title>
+            <pg>604</pg>
+            <date notBefore="1575" notAfter="1595">um 1585 ff<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1183</no>
+            <title>Trölverbot.</title>
+            <pg>606</pg>
+            <date when="1590-02-01">1590 Februar 1</date>
+          </entry>
+          <entry>
+            <no>1184</no>
+            <title>Trölverbot.</title>
+            <pg>608</pg>
+            <date when="1637-12-21">1637 Dezember 21</date>
+          </entry>
+          <entry>
+            <no>1185</no>
+            <title>Gesetz und Ordnung.</title>
+            <pg>613</pg>
+            <date when="1708-07-11">1708 Juli 11. und 15</date>
+          </entry>
+          <entry>
+            <no>1186</no>
+            <title>Trölen und Kleiderpracht.</title>
+            <pg>618</pg>
+            <date when="1723-04-18">1723 April 18</date>
+          </entry>
+          <entry>
+            <no>1187</no>
+            <title>Reformation der Wahlen.</title>
+            <pg>625</pg>
+            <date when="1749-05-11">1749 Mai 11</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>h</no>
+          <title>Das Bürgergut.</title>
+          <pg>629</pg>
+          <entry>
+            <no>1188</no>
+            <title>Hofstätten am Stad.</title>
+            <pg>629</pg>
+            <date when="1373-03-03">1373 März 3</date>
+          </entry>
+          <entry>
+            <no>1189</no>
+            <title>Verbot des Güterverkaufs an Fremde und Ausbürger.</title>
+            <pg>629</pg>
+            <date when="1376">1376 Mai</date>
+          </entry>
+          <entry>
+            <no>1190</no>
+            <title>Kundschaft für städtische Rechte im Ennetsee.</title>
+            <pg>630</pg>
+            <date notBefore="1400" notAfter="1420">um 1410<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1191</no>
+            <title>Weingarten im Twing Hünenberg.</title>
+            <pg>630</pg>
+            <date when="1423-04-10">1423 April 10</date>
+          </entry>
+          <entry>
+            <no>1192</no>
+            <title>See-Anteil im Twing Hünenberg.</title>
+            <pg>630</pg>
+            <date when="1427-02-25">1427 Februar 25</date>
+          </entry>
+          <entry>
+            <no>1193</no>
+            <title>Gehölz zu Ibikon Risch.</title>
+            <pg>630</pg>
+            <date when="1433-07-04">1433 Juli 4</date>
+          </entry>
+          <entry>
+            <no>1194</no>
+            <title>Siechenhaus.</title>
+            <pg>630</pg>
+            <date when="1435-01-26">1435 Januar 26</date>
+          </entry>
+          <entry>
+            <no>1195</no>
+            <title>Horgener Straßenrodel.</title>
+            <pg>631</pg>
+            <date when="1452-06-24">1452 Juni 24</date>
+          </entry>
+          <entry>
+            <no>1196</no>
+            <title>Zinsrödel der Stadt Zug.</title>
+            <pg>631</pg>
+            <date when="1477">1477 ff</date>
+          </entry>
+          <entry>
+            <no>1197</no>
+            <title>Steinbruch Lotenbach Walchwil.</title>
+            <pg>631</pg>
+            <date notBefore="1480" notAfter="1500">um 1490<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1198</no>
+            <title>Mühle und Säge am Platz.</title>
+            <pg>632</pg>
+            <date when="1493-07-12">1493 Juli 12</date>
+          </entry>
+          <entry>
+            <no>1199</no>
+            <title>Zehnt in der Au Zug.</title>
+            <pg>633</pg>
+            <date when="1497-02-24">1497 Februar 24</date>
+          </entry>
+          <entry>
+            <no>1200</no>
+            <title>Besitzungen der Zuger Bürger.</title>
+            <pg>633</pg>
+            <date from="1401" to="1500">15. Jh.</date>
+          </entry>
+          <entry>
+            <no>1201</no>
+            <title>Banholz zu Walterten Risch.</title>
+            <pg>634</pg>
+            <date notAfter="1511-05-28" notBefore="1461">vor 1511 Mai 28<precision degree="0.5"
+                match="@notBefore"/></date>
+          </entry>
+          <entry>
+            <no>1202</no>
+            <title>Gehölz Holenwäg Risch.</title>
+            <pg>634</pg>
+            <date when="1515-10-17">1515 Oktober 17</date>
+          </entry>
+          <entry>
+            <no>1203</no>
+            <title>Gehölze im Ennetsee.</title>
+            <pg>634</pg>
+            <date when="1515">1515</date>
+          </entry>
+          <entry>
+            <no>1204</no>
+            <title>Talhölzli Risch.</title>
+            <pg>634</pg>
+            <date when="1516">1516</date>
+          </entry>
+          <entry>
+            <no>1205</no>
+            <title>Gemeindebeschluß betreffend Bürgergut.</title>
+            <pg>635</pg>
+            <date when="1519-03-13">1519 März 13</date>
+          </entry>
+          <entry>
+            <no>1206</no>
+            <title>Banholz Walterten Risch.</title>
+            <pg>635</pg>
+            <date notAfter="1528" notBefore="1478">vor 1528<precision degree="0.5"
+                match="@notBefore"/></date>
+          </entry>
+          <entry>
+            <no>1207</no>
+            <title>Eichwald Gangolfswil Risch.</title>
+            <pg>635</pg>
+            <date when="1535-04-08">1535 April 8</date>
+          </entry>
+          <entry>
+            <no>1208</no>
+            <title>Banngewalt der Gemeinde.</title>
+            <pg>635</pg>
+            <date when="1538-05-17">1538 Mai 17</date>
+          </entry>
+          <entry>
+            <no>1209</no>
+            <title>Gehölz im Sichental Risch.</title>
+            <pg>635</pg>
+            <date when="1539-03-28">1539 März 28</date>
+          </entry>
+          <entry>
+            <no>1210</no>
+            <title>Gehölze im Ennetsee.</title>
+            <pg>636</pg>
+            <date when="1562-09-25">1562 September 25</date>
+          </entry>
+          <entry>
+            <no>1211</no>
+            <title>Gehölz Hub Cham.</title>
+            <pg>636</pg>
+            <date when="1562">1562</date>
+          </entry>
+          <entry>
+            <no>1212</no>
+            <title>Gehölz im Ennetsee.</title>
+            <pg>636</pg>
+            <date when="1563-09-20">1563 September 20</date>
+          </entry>
+          <entry>
+            <no>1213</no>
+            <title>Gehölz im Ennetsee.</title>
+            <pg>636</pg>
+            <date when="1563-11-22">1563 November 22</date>
+          </entry>
+          <entry>
+            <no>1214</no>
+            <title>Gehölz im Zwyerholz Risch.</title>
+            <pg>636</pg>
+            <date when="1564-04-27">1564 April 27</date>
+          </entry>
+          <entry>
+            <no>1215</no>
+            <title>Toggelhölzli Hünenberg.</title>
+            <pg>636</pg>
+            <date when="1564-11-24">1564 November 24</date>
+          </entry>
+          <entry>
+            <no>1216</no>
+            <title>Gehölz im Sichental Risch.</title>
+            <pg>636</pg>
+            <date when="1566-04-18">1566 April 18</date>
+          </entry>
+          <entry>
+            <no>1217</no>
+            <title>Rütiholz Risch.</title>
+            <pg>637</pg>
+            <date when="1566-05-09">1566 Mai 9</date>
+          </entry>
+          <entry>
+            <no>1218</no>
+            <title>Gehölz im Talacher Hünenberg.</title>
+            <pg>637</pg>
+            <date when="1573-06-17">1573 Juni 17</date>
+          </entry>
+          <entry>
+            <no>1219</no>
+            <title>Geißboden.</title>
+            <pg>637</pg>
+            <date when="1583-03-03">1583 März 3</date>
+          </entry>
+          <entry>
+            <no>1220</no>
+            <title>Wald zu Dersbach Risch.</title>
+            <pg>637</pg>
+            <date when="1737-12-28">1737 Dezember 28</date>
+          </entry>
+          <entry>
+            <no>1221</no>
+            <title>Zwyerholz Risch.</title>
+            <pg>637</pg>
+            <date when="1737">1737</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>i</no>
+          <title>Markungen.</title>
+          <pg>637</pg>
+          <entry>
+            <no>1222</no>
+            <title>Grenze Zug und Arth SZ.</title>
+            <pg>637</pg>
+            <date when="1456-06-25">1456 Juni 25</date>
+          </entry>
+          <entry>
+            <no>1223</no>
+            <title>Zuger Marchrodel.</title>
+            <pg>639</pg>
+            <date when="1488-07-28">1488 Juli 28. -August 2</date>
+          </entry>
+          <entry>
+            <no>1224</no>
+            <title>Kundschaften betreffend die Frutt.</title>
+            <pg>644</pg>
+            <date when="1491-07-06">1491 Juli 6. und 10</date>
+          </entry>
+          <entry>
+            <no>1225</no>
+            <title>Prozeß wegen der Frutt.</title>
+            <pg>644</pg>
+            <date when="1491-08-08">1491 August 8</date>
+          </entry>
+          <entry>
+            <no>1226</no>
+            <title>Markung in Küntwil Risch.</title>
+            <pg>646</pg>
+            <date when="1511-05-28">1511 Mai 28</date>
+          </entry>
+          <entry>
+            <no>1227</no>
+            <title>Markung im Ennetsee.</title>
+            <pg>646</pg>
+            <date when="1528-08-24">1528 August 24.-29</date>
+          </entry>
+          <entry>
+            <no>1228</no>
+            <title>Markung im Chämistal Zug.</title>
+            <pg>647</pg>
+            <date when="1531-07-13">1531 Juli 13.-20</date>
+          </entry>
+          <entry>
+            <no>1229</no>
+            <title>Markung im Kiemen.</title>
+            <pg>649</pg>
+            <date when="1533-02-13">1533 Februar 13</date>
+          </entry>
+          <entry>
+            <no>1230</no>
+            <title>Markung in Oberwil und Otterschwil Zug.</title>
+            <pg>652</pg>
+            <date when="1535-05-19">1535 Mai 19</date>
+          </entry>
+          <entry>
+            <no>1231</no>
+            <title>Markungen im Herrenholz, Lotenbach, Eielen Zug.</title>
+            <pg>652</pg>
+            <date when="1535-05-19">1535 Mai 19. und November 4</date>
+          </entry>
+          <entry>
+            <no>1232</no>
+            <title>Markung im Geißboden Zug.</title>
+            <pg>654</pg>
+            <date when="1536-05-04">1536 Mai 4</date>
+          </entry>
+          <entry>
+            <no>1233</no>
+            <title>Markung am Winterstein Zug.</title>
+            <pg>654</pg>
+            <date when="1537-11-08">1537 November 8</date>
+          </entry>
+          <entry>
+            <no>1234</no>
+            <title>Markung im Guggental Zug.</title>
+            <pg>655</pg>
+            <date when="1540-04-23">1540 April 23</date>
+          </entry>
+          <entry>
+            <no>1235</no>
+            <title>Markung zwischen Hochstock und Hönggy.</title>
+            <pg>655</pg>
+            <date when="1541-05-25">1541 Mai 25</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>k</no>
+          <title>Die Fahrwege.</title>
+          <pg>655</pg>
+          <entry>
+            <no>1236</no>
+            <title>Straßenrodel der Zuger Bürger.</title>
+            <pg>655</pg>
+            <date when="1413-05-10">1413 Mai 10</date>
+          </entry>
+          <entry>
+            <no>1237</no>
+            <title>Straßenrodel der Zuger Bürger.</title>
+            <pg>658</pg>
+            <date when="1511">1511</date>
+          </entry>
+          <entry>
+            <no>1238</no>
+            <title>Weg oberhalb der Bohlgasse.</title>
+            <pg>663</pg>
+            <date when="1530">1530</date>
+          </entry>
+          <entry>
+            <no>1239</no>
+            <title>Straße Oberwil Zug.</title>
+            <pg>663</pg>
+            <date when="1531-04-22">1531 April 22</date>
+          </entry>
+          <entry>
+            <no>1240</no>
+            <title>Bauweg in Oberwil Zug.</title>
+            <pg>664</pg>
+            <date when="1538-03-15">1538 März 15</date>
+          </entry>
+          <entry>
+            <no>1241</no>
+            <title>Landstraße.</title>
+            <pg>664</pg>
+            <date when="1550-05-19">1550 Mai 19</date>
+          </entry>
+          <entry>
+            <no>1242</no>
+            <title>Weg beim Graben Zug.</title>
+            <pg>665</pg>
+            <date when="1556-05-23">1556 Mai 23</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>l</no>
+          <title>Allmende Zug-Baar.</title>
+          <pg>665</pg>
+          <entry>
+            <no>1243</no>
+            <title>Allmende Zug-Baar.</title>
+            <pg>665</pg>
+            <date when="1375-02-25">1375 Februar 25</date>
+          </entry>
+          <entry>
+            <no>1244</no>
+            <title>Allmende Zug-Baar.</title>
+            <pg>665</pg>
+            <date notBefore="1430" notAfter="1450">um 1440<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1245</no>
+            <title>Allmende Zug-Baar.</title>
+            <pg>668</pg>
+            <date when="1524-05-26">1524 Mai 26</date>
+          </entry>
+          <entry>
+            <no>1246</no>
+            <title>Zuger Allmende.</title>
+            <pg>671</pg>
+            <date when="1540-04-11">1540 April 11</date>
+          </entry>
+          <entry>
+            <no>1247</no>
+            <title>Markung zwischen Zug und Baar.</title>
+            <pg>671</pg>
+            <date when="1540-04-12">1540 April 12</date>
+          </entry>
+          <entry>
+            <no>1248</no>
+            <title>Ordnung für den Viehauftrieb.</title>
+            <pg>671</pg>
+            <date when="1629-05-03">1629 Mai 3</date>
+          </entry>
+          <entry>
+            <no>1249</no>
+            <title>Schutz der Weiden auf der Allmende.</title>
+            <pg>672</pg>
+            <date when="1715-04-10">1715 April 10</date>
+          </entry>
+          <entry>
+            <no>1250</no>
+            <title>Bestätigung des Treibbriefs.</title>
+            <pg>672</pg>
+            <date when="1732-05-02">1732 Mai 2</date>
+          </entry>
+          <entry>
+            <no>1251</no>
+            <title>Spruch betreffend Allmende Zug-Baar.</title>
+            <pg>672</pg>
+            <date when="1736-05-02">1736 Mai 2. und 30</date>
+          </entry>
+          <entry>
+            <no>1252</no>
+            <title>Beratung betreffend Teilung der Allmende.</title>
+            <pg>680</pg>
+            <date when="1798-06-20">1798 Juni 20</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>m</no>
+          <title>Die Genossen im Grüt.</title>
+          <pg>680</pg>
+          <entry>
+            <no>1253</no>
+            <title>Allmende Brunegg.</title>
+            <pg>680</pg>
+            <date when="1518-06-24">1518 Juni 24</date>
+          </entry>
+          <entry>
+            <no>1254</no>
+            <title>Markung auf der Brunegg.</title>
+            <pg>682</pg>
+            <date when="1544-05-14">1544 Mai 14</date>
+          </entry>
+          <entry>
+            <no>1255</no>
+            <title>Zehntpflicht der Genossen im Grüt.</title>
+            <pg>682</pg>
+            <date when="1573-12-19">1573 Dezember 19</date>
+          </entry>
+          <entry>
+            <no>1256</no>
+            <title>Genossenaufnahme.</title>
+            <pg>682</pg>
+            <date when="1605-11-16">1605 November 16</date>
+          </entry>
+          <entry>
+            <no>1257</no>
+            <title>Waldeinschlag.</title>
+            <pg>682</pg>
+            <date when="1612-06-24">1612 Juni 24</date>
+          </entry>
+          <entry>
+            <no>1258</no>
+            <title>Streit der Genossen im Grüt mit Stadt Zug.</title>
+            <pg>682</pg>
+            <date when="1686-06-30">1686 Juni 30</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>n</no>
+          <title>Erbe.</title>
+          <pg>683</pg>
+          <entry>
+            <no>1259</no>
+            <title>Verkauf von Erbe und Eigen an Fremde.</title>
+            <pg>683</pg>
+            <date when="1490-12-27">1490 Dezember 27</date>
+          </entry>
+          <entry>
+            <no>1260</no>
+            <title>Uneheliche Kinder.</title>
+            <pg>683</pg>
+            <date when="1540-04-10">1540 April 10</date>
+          </entry>
+          <entry>
+            <no>1261</no>
+            <title>Verbot der Güterversetzung.</title>
+            <pg>683</pg>
+            <date when="1631-10-16">1631 Oktober 16</date>
+          </entry>
+          <entry>
+            <no>1262</no>
+            <title>Bürgerrecht der fremden Frau.</title>
+            <pg>684</pg>
+            <date when="1651-08-12">1651 August 12</date>
+          </entry>
+          <entry>
+            <no>1263</no>
+            <title>Zusammenleben von Geschwistern.</title>
+            <pg>684</pg>
+            <date when="1683-01-29">1683 Januar 29</date>
+          </entry>
+          <entry>
+            <no>1264</no>
+            <title>Einheirat der fremden Frau.</title>
+            <pg>684</pg>
+            <date when="1726-03-17">1726 März 17</date>
+          </entry>
+          <entry>
+            <no>1265</no>
+            <title>Erbschaft.</title>
+            <pg>684</pg>
+            <date when="1726-05-26">1726 Mai 26</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>o</no>
+          <title>Zugrecht.</title>
+          <pg>685</pg>
+          <entry>
+            <no>1266</no>
+            <title>Zugrecht.</title>
+            <pg>685</pg>
+            <date when="1538-01-06">1538 Januar 6</date>
+          </entry>
+          <entry>
+            <no>1267</no>
+            <title>Zugrecht.</title>
+            <pg>686</pg>
+            <date when="1541-08-21">1541 August 21</date>
+          </entry>
+          <entry>
+            <no>1268</no>
+            <title>Zugrecht.</title>
+            <pg>686</pg>
+            <date when="1551-11-30">1551 November 30</date>
+          </entry>
+          <entry>
+            <no>1269</no>
+            <title>Zugrecht.</title>
+            <pg>687</pg>
+            <date when="1598-12-27">1598 Dezember 27</date>
+          </entry>
+          <entry>
+            <no>1270</no>
+            <title>Vertrag mit Bremgarten.</title>
+            <pg>687</pg>
+            <date when="1654-01-31">1654 Januar 31</date>
+          </entry>
+          <entry>
+            <no>1271</no>
+            <title>Neue Ordnung für die Züge.</title>
+            <pg>687</pg>
+            <date when="1746-09-15">1746 September 15./ 1747 Januar 8</date>
+          </entry>
+          <entry>
+            <no>1272</no>
+            <title>Zug betreffend Gotteshäuser und Zürcher Nachbarn.</title>
+            <pg>690</pg>
+            <date when="1746">1746/1747</date>
+            <date when="1747"/>
+          </entry>
+          <entry>
+            <no>1273</no>
+            <title>Erbzug in der Stadt und den städtischen Vogteien.</title>
+            <pg>690</pg>
+            <date when="1746">1746/1747</date>
+            <date when="1747"/>
+          </entry>
+          <entry>
+            <no>1274</no>
+            <title>Die anderen Erbzüge.</title>
+            <pg>691</pg>
+            <date when="1746">1746/1747</date>
+            <date when="1747"/>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>p</no>
+          <title>Polizei.</title>
+          <pg>691</pg>
+          <entry>
+            <no>1275</no>
+            <title>Bußenordnung.</title>
+            <pg>691</pg>
+            <date notBefore="1440" notAfter="1460">(um 1450)<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1276</no>
+            <title>Hausfrieden.</title>
+            <pg>691</pg>
+            <date when="1531">1531</date>
+          </entry>
+          <entry>
+            <no>1277</no>
+            <title>Torwächter.</title>
+            <pg>692</pg>
+            <date when="1532-08-17">1532 August 17</date>
+          </entry>
+          <entry>
+            <no>1278</no>
+            <title>Nachtruhe.</title>
+            <pg>692</pg>
+            <date when="1534-09-05">1534 September 5</date>
+          </entry>
+          <entry>
+            <no>1279</no>
+            <title>Friedbruch in der Stadt.</title>
+            <pg>692</pg>
+            <date when="1541-08-21">1541 August 21</date>
+          </entry>
+          <entry>
+            <no>1280</no>
+            <title>Spielverbot.</title>
+            <pg>693</pg>
+            <date when="1579-09-13">1579 September 13</date>
+          </entry>
+          <entry>
+            <no>1281</no>
+            <title>Das eidgenössische Schirmwerk.</title>
+            <pg>693</pg>
+            <date when="1677-07-02">1677 Juli 2</date>
+          </entry>
+          <entry>
+            <no>1282</no>
+            <title>Bettlermandat.</title>
+            <pg>694</pg>
+            <date when="1704-05-12">1704 Mai 12</date>
+          </entry>
+          <entry>
+            <no>1283</no>
+            <title>Bettlermandat.</title>
+            <pg>695</pg>
+            <date when="1711-05-10">1711 Mai 10</date>
+          </entry>
+          <entry>
+            <no>1284</no>
+            <title>Mandat gegen böswillige Reden.</title>
+            <pg>696</pg>
+            <date when="1713-08-30">1713 August 30</date>
+          </entry>
+          <entry>
+            <no>1285</no>
+            <title>Kirchenruf gegen Betrunkenheit.</title>
+            <pg>697</pg>
+            <date when="1713-12-26">1713 Dezember 26</date>
+          </entry>
+          <entry>
+            <no>1286</no>
+            <title>Vorschlag eines Kleidermandats.</title>
+            <pg>697</pg>
+            <date when="1723-11-13">1723 November 13</date>
+          </entry>
+          <entry>
+            <no>1287</no>
+            <title>Verteilung des Herrenkernen.</title>
+            <pg>699</pg>
+            <date when="1737-12-23">1737 Dezember 23</date>
+          </entry>
+          <entry>
+            <no>1288</no>
+            <title>Zehntpflicht der Kartoffeln.</title>
+            <pg>699</pg>
+            <date when="1742-07-14">1742 Juli 14</date>
+          </entry>
+          <entry>
+            <no>1289</no>
+            <title>Tanzverbot.</title>
+            <pg>699</pg>
+            <date when="1745-05-09">1745 Mai 9</date>
+          </entry>
+          <entry>
+            <no>1290</no>
+            <title>Bettler.</title>
+            <pg>699</pg>
+            <date when="1745-09-11">1745 September 11</date>
+          </entry>
+          <entry>
+            <no>1291</no>
+            <title>Mandat gegen Schießen und Nachtruhestörung.</title>
+            <pg>700</pg>
+            <date when="1750-01-15">1750 Januar 15</date>
+          </entry>
+          <entry>
+            <no>1292</no>
+            <title>Verordnung für die Harschiere.</title>
+            <pg>700</pg>
+            <date when="1754-01-26">1754 Januar 26</date>
+          </entry>
+          <entry>
+            <no>1293</no>
+            <title>Anschaffung der zürcherischen Gesetze.</title>
+            <pg>703</pg>
+            <date when="1767-03-18">1767 März 18</date>
+          </entry>
+          <entry>
+            <no>1294</no>
+            <title>Verordnung betreffend Gemeindebesuch.</title>
+            <pg>703</pg>
+            <date when="1775-05-20">1775 Mai 20</date>
+          </entry>
+          <entry>
+            <no>1295</no>
+            <title>Sonntags- und Feiertagsmandat.</title>
+            <pg>705</pg>
+            <date when="1782-09-25">1782 September 25</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>q</no>
+          <title>Handel und Gewerbe.</title>
+          <pg>705</pg>
+          <entry>
+            <no>1296</no>
+            <title>Metzgerordnung.</title>
+            <pg>705</pg>
+            <date when="1497">1497</date>
+          </entry>
+          <entry>
+            <no>1297</no>
+            <title>Vertrag des Stadtzieglers.</title>
+            <pg>706</pg>
+            <date when="1512-11-29">1512 November 29</date>
+          </entry>
+          <entry>
+            <no>1298</no>
+            <title>Inventar des Stadthauses.</title>
+            <pg>706</pg>
+            <date when="1514-05-13">1514 Mai 13</date>
+          </entry>
+          <entry>
+            <no>1299</no>
+            <title>Amtliche Fleisch-, Wein- und Brotordnung.</title>
+            <pg>707</pg>
+            <date when="1529-03-21">1529 März 21</date>
+          </entry>
+          <entry>
+            <no>1300</no>
+            <title>Bäckerordnung.</title>
+            <pg>707</pg>
+            <date when="1531-09-09">1531 September 9</date>
+          </entry>
+          <entry>
+            <no>1301</no>
+            <title>Marktordnung.</title>
+            <pg>707</pg>
+            <date when="1534-07-18">1534 Juli 18</date>
+          </entry>
+          <entry>
+            <no>1302</no>
+            <title>Kornsteuer.</title>
+            <pg>708</pg>
+            <date when="1535-01-16">1535 Januar 16</date>
+          </entry>
+          <entry>
+            <no>1303</no>
+            <title>Zuger Nauen.</title>
+            <pg>709</pg>
+            <date when="1536-07-23">1536 Juli 23</date>
+          </entry>
+          <entry>
+            <no>1304</no>
+            <title>Gebot für den Stadtziegler.</title>
+            <pg>709</pg>
+            <date when="1540-04-04">1540 April 4</date>
+          </entry>
+          <entry>
+            <no>1305</no>
+            <title>Ansetzen des Marktes.</title>
+            <pg>709</pg>
+            <date when="1540-08-17">1540 August 17</date>
+          </entry>
+          <entry>
+            <no>1306</no>
+            <title>Kohle von Meierskappel LU.</title>
+            <pg>710</pg>
+            <date when="1551-12-14">1551 Dezember 14</date>
+          </entry>
+          <entry>
+            <no>1307</no>
+            <title>Bauholz.</title>
+            <pg>710</pg>
+            <date when="1577">1577</date>
+          </entry>
+          <entry>
+            <no>1308</no>
+            <title>Feierabend der Handwerker.</title>
+            <pg>710</pg>
+            <date when="1598-04-03">1598 April 3</date>
+          </entry>
+          <entry>
+            <no>1309</no>
+            <title>Metzgerordnung.</title>
+            <pg>710</pg>
+            <date when="1609">1609</date>
+          </entry>
+          <entry>
+            <no>1310</no>
+            <title>Aamühle Zug.</title>
+            <pg>711</pg>
+            <date when="1626-06-12">1626 Juni 12</date>
+          </entry>
+          <entry>
+            <no>1311</no>
+            <title>Früchtekauf zu Muri und Meienberg AG.</title>
+            <pg>711</pg>
+            <date when="1635-11-11">1635 November 11</date>
+          </entry>
+          <entry>
+            <no>1312</no>
+            <title>Betätigung der Käufe.</title>
+            <pg>711</pg>
+            <date when="1660-11-13">1660 November 13</date>
+          </entry>
+          <entry>
+            <no>1313</no>
+            <title>Zuger Schlosser auf dem Zürcher Markt.</title>
+            <pg>711</pg>
+            <date when="1672-09-23">1672 September 23</date>
+          </entry>
+          <entry>
+            <no>1314</no>
+            <title>Schutz der Zuger Gewerbsleute.</title>
+            <pg>712</pg>
+            <date when="1683-02-06">1683 Februar 6</date>
+          </entry>
+          <entry>
+            <no>1315</no>
+            <title>Hafnerordnung.</title>
+            <pg>712</pg>
+            <date when="1685-02-23">1685 Februar 23</date>
+          </entry>
+          <entry>
+            <no>1316</no>
+            <title>Brotverkauf.</title>
+            <pg>712</pg>
+            <date when="1685-08-07">1685 August 7</date>
+          </entry>
+          <entry>
+            <no>1317</no>
+            <title>Getreideverkauf.</title>
+            <pg>712</pg>
+            <date when="1690-08-12">1690 August 12</date>
+          </entry>
+          <entry>
+            <no>1318</no>
+            <title>Marktrecht für Butter.</title>
+            <pg>713</pg>
+            <date when="1693-06-13">1693 Juni 13</date>
+          </entry>
+          <entry>
+            <no>1319</no>
+            <title>Bäckerordnung.</title>
+            <pg>713</pg>
+            <date when="1705">1705</date>
+          </entry>
+          <entry>
+            <no>1320</no>
+            <title>Zinnware.</title>
+            <pg>714</pg>
+            <date when="1716-07-29">1716 Juli 29</date>
+          </entry>
+          <entry>
+            <no>1321</no>
+            <title>Zuger Schlosser auf dem Zürcher Markt.</title>
+            <pg>714</pg>
+            <date when="1716-08-26">1716 August 26</date>
+          </entry>
+          <entry>
+            <no>1322</no>
+            <title>Kaminfeger.</title>
+            <pg>715</pg>
+            <date when="1718-10-30">1718 Oktober 30</date>
+          </entry>
+          <entry>
+            <no>1323</no>
+            <title>Markt- und Hausierordnung.</title>
+            <pg>715</pg>
+            <date when="1729-06-01">1729 Juni 1</date>
+          </entry>
+          <entry>
+            <no>1324</no>
+            <title>Messe und Jahrmarkt.</title>
+            <pg>716</pg>
+            <date when="1739-10-10">1739 Oktober 10</date>
+          </entry>
+          <entry>
+            <no>1325</no>
+            <title>Krämer und Gewerbsleute.</title>
+            <pg>717</pg>
+            <date when="1750-05-23"> 1750 Mai 23</date>
+          </entry>
+          <entry>
+            <no>1326</no>
+            <title>Mandat gegen Fürkauf.</title>
+            <pg>717</pg>
+            <date when="1770-09-15">1770 September 15</date>
+          </entry>
+          <entry>
+            <no>1327</no>
+            <title>Ausfuhr von Lebensmitteln.</title>
+            <pg>718</pg>
+            <date when="1771-03-03">1771 März 3</date>
+          </entry>
+          <entry>
+            <no>1328</no>
+            <title>Mandat betreffend Frucht, Anken, Käse und Vieh.</title>
+            <pg>719</pg>
+            <date when="1771-04-13">1771 April 13</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>r</no>
+          <title>Zünfte.</title>
+          <pg>721</pg>
+
+          <entry>
+            <no>1329</no>
+            <title>Zunftbrief der Ledergerber und Schuhmacher.</title>
+            <pg>721</pg>
+            <date when="1398-07-18">1398 Juli 18</date>
+          </entry>
+          <entry>
+            <no>1330</no>
+            <title>Brief der Schneider- und Tuchschererzunft.</title>
+            <pg>722</pg>
+            <date when="1408-10-03">1408 Oktober 3</date>
+          </entry>
+          <entry>
+            <no>1331</no>
+            <title>Kerzenstiftung der Metzgerzunft.</title>
+            <pg>723</pg>
+            <date when="1418-02-01">1418 Februar 1</date>
+          </entry>
+          <entry>
+            <no>1332</no>
+            <title>Bruderschaftsrodel der Schneiderzunft.</title>
+            <pg>725</pg>
+            <date when="1466">1466</date>
+          </entry>
+          <entry>
+            <no>1333</no>
+            <title>Rodel der Schuhmacherzunft.</title>
+            <pg>725</pg>
+            <date notBefore="1498" notAfter="1518">um 1508<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1334</no>
+            <title>Tischmacher.</title>
+            <pg>725</pg>
+            <date when="1585-09-25">1585 September 25</date>
+          </entry>
+          <entry>
+            <no>1335</no>
+            <title>Lederhandwerk.</title>
+            <pg>726</pg>
+            <date when="1608-09-13">1608 September 13</date>
+          </entry>
+          <entry>
+            <no>1336</no>
+            <title>Metzger.</title>
+            <pg>730</pg>
+            <date when="1613">1613</date>
+          </entry>
+          <entry>
+            <no>1337</no>
+            <title>Ordnung der Metzger.</title>
+            <pg>730</pg>
+            <date notBefore="1680" notAfter="1690">ca. 1680<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1338</no>
+            <title>Hafnerzunft.</title>
+            <pg>731</pg>
+            <date when="1685-02-03">1685 Februar 3</date>
+          </entry>
+          <entry>
+            <no>1339</no>
+            <title>Uhrmacher- und Schlosserzunft.</title>
+            <pg>733</pg>
+            <date when="1726-08-24">1726 August 24</date>
+          </entry>
+          <entry>
+            <no>1340</no>
+            <title>Schneiderzunft.</title>
+            <pg>733</pg>
+            <date when="1749-09-27">1749 September 27</date>
+          </entry>
+          <entry>
+            <no>1341</no>
+            <title>Bauhandwerk.</title>
+            <pg>735</pg>
+            <date when="1775-01-09">1775 Januar 9</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>s</no>
+          <title>Sust, Zoll, Umgeld.</title>
+          <pg>737</pg>
+          <entry>
+            <no>1342</no>
+            <title>Fahrrechte auf dem Zugersee.</title>
+            <pg>737</pg>
+            <date when="1399-03-12">1399 März 12. ff</date>
+          </entry>
+          <entry>
+            <no>1343</no>
+            <title>Ordnung für Zoll, Umgeld und Sust.</title>
+            <pg>737</pg>
+            <date notAfter="1445" notBefore="1425">um 1435<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1344</no>
+            <title>Straßen- und Transportrodel.</title>
+            <pg>740</pg>
+            <date when="1452-06-24">1452 Juni 24</date>
+          </entry>
+          <entry>
+            <no>1345</no>
+            <title>Umgeld und Zoll.</title>
+            <pg>740</pg>
+            <date when="1488-01-06">1488 Januar 6</date>
+          </entry>
+          <entry>
+            <no>1346</no>
+            <title>Handelsweg Horgen-Zug.</title>
+            <pg>741</pg>
+            <date when="1491-07-30">1491 Juli 30</date>
+          </entry>
+          <entry>
+            <no>1347</no>
+            <title>Handelsweg Zürich-Luzern.</title>
+            <pg>741</pg>
+            <date when="1491-07-30">1491 Juli 30</date>
+          </entry>
+          <entry>
+            <no>1348</no>
+            <title>Handelsweg Horgen-Luzern.</title>
+            <pg>742</pg>
+            <date when="1491-08-01">1491 August 1</date>
+          </entry>
+          <entry>
+            <no>1349</no>
+            <title>Rechtspruch betreffend Handelsweg Horgen-Zug.</title>
+            <pg>743</pg>
+            <date when="1491-11-04">1491 November 4</date>
+          </entry>
+          <entry>
+            <no>1350</no>
+            <title>Umgeld.</title>
+            <pg>743</pg>
+            <date when="1536-01-29">1536 Januar 29</date>
+          </entry>
+          <entry>
+            <no>1351</no>
+            <title>Zollfreiheit für Engelberg.</title>
+            <pg>744</pg>
+            <date when="1552">1552</date>
+          </entry>
+          <entry>
+            <no>1352</no>
+            <title>Fuhren für die Sust.</title>
+            <pg>744</pg>
+            <date when="1662-07-21">1662 Juli 21</date>
+          </entry>
+          <entry>
+            <no>1353</no>
+            <title>Umgeld.</title>
+            <pg>744</pg>
+            <date when="1688-01-24">1688 Januar 24</date>
+          </entry>
+          <entry>
+            <no>1354</no>
+            <title>Stadtzoll.</title>
+            <pg>744</pg>
+            <date when="1692">1692 und 1723</date>
+          </entry>
+          <entry>
+            <no>1355</no>
+            <title>Zollstreit der Stadt mit den drei Gemeinden.</title>
+            <pg>744</pg>
+            <date when="1789">1789 ff</date>
+          </entry>
+        </entry>
+
+
+        <entry>
+          <no>t</no>
+          <title>Fischerei im Zugersee.</title>
+          <pg>744</pg>
+          <entry>
+            <no>1356</no>
+            <title>Fischereirechte.</title>
+            <pg>744</pg>
+            <date when="1479-06-19">1479 Juni 19</date>
+          </entry>
+          <entry>
+            <no>1357</no>
+            <title>Fischerrodel.</title>
+            <pg>746</pg>
+            <date when="1488-12-27">1488 Dezember 27</date>
+          </entry>
+          <entry>
+            <no>1358</no>
+            <title>Fischenz im Lotenbach.</title>
+            <pg>747</pg>
+            <date when="1496-11-21">1496 November 21</date>
+          </entry>
+          <entry>
+            <no>1359</no>
+            <title>Fischenzen am Kiemen.</title>
+            <pg>747</pg>
+            <date when="1501-09-12">1501 September 12</date>
+          </entry>
+          <entry>
+            <no>1360</no>
+            <title>Fischereirechte im Kiemen.</title>
+            <pg>747</pg>
+            <date when="1505-03-05">1505 März 5</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>u</no>
+          <title>Die Reuß.</title>
+          <pg>748</pg>
+          <entry>
+            <no>1361</no>
+            <title>Zug kauft das Fahr zu Sins AG.</title>
+            <pg>748</pg>
+            <date when="1486-07-06">1486 Juli 6</date>
+          </entry>
+          <entry>
+            <no>1362</no>
+            <title>Vorkaufsrecht Zugs für Fischenzen und Fahr.</title>
+            <pg>748</pg>
+            <date when="1506-04-28">1506 April 28</date>
+          </entry>
+          <entry>
+            <no>1363</no>
+            <title>Fischenzlehen.</title>
+            <pg>748</pg>
+            <date when="1515-03-17">1515 März 17</date>
+          </entry>
+          <entry>
+            <no>1364</no>
+            <title>Fahr bei Sins.</title>
+            <pg>748</pg>
+            <date when="1525-08-19">1525 August 19</date>
+          </entry>
+          <entry>
+            <no>1365</no>
+            <title>Fahr bei Sins.</title>
+            <pg>749</pg>
+            <date when="1526-05-19">1526 Mai 19</date>
+          </entry>
+          <entry>
+            <no>1366</no>
+            <title>Fahr bei Sins.</title>
+            <pg>749</pg>
+            <date when="1530-03-19">1530 März 19</date>
+          </entry>
+          <entry>
+            <no>1367</no>
+            <title>Fischenz Reußegg.</title>
+            <pg>750</pg>
+            <date when="1540-09-18">1540 September 18</date>
+          </entry>
+          <entry>
+            <no>1368</no>
+            <title>Befahren der Reuß.</title>
+            <pg>750</pg>
+            <date when="1546">1546 f</date>
+          </entry>
+          <entry>
+            <no>1369</no>
+            <title>Fischenz in der Reuß.</title>
+            <pg>750</pg>
+            <date when="1553-03-20">1553 März 20</date>
+          </entry>
+          <entry>
+            <no>1370</no>
+            <title>Reußwuhr.</title>
+            <pg>750</pg>
+            <date when="1612-02-01">1612 Februar 1</date>
+          </entry>
+          <entry>
+            <no>1371</no>
+            <title>Brücke über die Reuß.</title>
+            <pg>751</pg>
+            <date when="1640-03-17">1640 März 17</date>
+          </entry>
+          <entry>
+            <no>1372</no>
+            <title>Zolltarif auf der Reußbrücke.</title>
+            <pg>751</pg>
+            <date when="1641">1641 ff</date>
+          </entry>
+          <entry>
+            <no>1373</no>
+            <title>Klage gegen den Zöllner an der Reuß.</title>
+            <pg>751</pg>
+            <date when="1654-09-09">1654 September 9</date>
+          </entry>
+          <entry>
+            <no>1374</no>
+            <title>Wuhrung der Reuß.</title>
+            <pg>751</pg>
+            <date when="1695-02-19">1695 Februar 19</date>
+          </entry>
+          <entry>
+            <no>1375</no>
+            <title>Kosten der neuen Reußbrücke.</title>
+            <pg>751</pg>
+            <date when="1712">1712</date>
+          </entry>
+          <entry>
+            <no>1376</no>
+            <title>Streit wegen des Lorzenstegs.</title>
+            <pg>751</pg>
+            <date when="1717-11-24">1717 November 24</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>v</no>
+          <title>Religiöse Belange.</title>
+          <pg>751</pg>
+          <entry>
+            <no>1377</no>
+            <title>Begräbnis der Hingerichteten.</title>
+            <pg>751</pg>
+            <date when="1497-04-25">1497 April 25</date>
+          </entry>
+          <entry>
+            <no>1378</no>
+            <title>Das große Zuger Banner.</title>
+            <pg>752</pg>
+            <date when="1509-02-13">1509 Februar 13</date>
+          </entry>
+          <entry>
+            <no>1379</no>
+            <title>Kollatur der Pfründen in Stadt und Herrschaft.</title>
+            <pg>752</pg>
+            <date when="1513-01-08">1513 Januar 8</date>
+          </entry>
+          <entry>
+            <no>1380</no>
+            <title>Religionshandel.</title>
+            <pg>752</pg>
+            <date when="1555">1555</date>
+          </entry>
+          <entry>
+            <no>1381</no>
+            <title>Städtische Kollaturen.</title>
+            <pg>752</pg>
+            <date when="1668-03-18">1668 März 18</date>
+          </entry>
+          <entry>
+            <no>1382</no>
+            <title>Sonn- und Festtagsmandat.</title>
+            <pg>753</pg>
+            <date when="1741-11-24">1741 November 24</date>
+          </entry>
+          <entry>
+            <no>1383</no>
+            <title>Falliment eines Geistlichen.</title>
+            <pg>755</pg>
+            <date when="1769-04-29">1769 April 29</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>w</no>
+          <title>Nachbarschaften.</title>
+          <pg>755</pg>
+          <entry>
+            <no>1384</no>
+            <title>Artikelbuch der Nachbarschaft Lorzen.</title>
+            <pg>755</pg>
+            <date when="1761-01-11">1761 Januar 11</date>
+          </entry>
+          <entry>
+            <no>1385</no>
+            <title>Nachbarschaft Vorstadt.</title>
+            <pg>757</pg>
+            <date when="1768-02-14">1768 Februar 14</date>
+          </entry>
+          <entry>
+            <no>1386</no>
+            <title>Nachbarschaft Dorf.</title>
+            <pg>758</pg>
+            <date when="1770">1770</date>
+          </entry>
+          <entry>
+            <no>1387</no>
+            <title>Nachbarschaft St. Michael.</title>
+            <pg>759</pg>
+            <date when="1771-02-05">1771 Februar 5</date>
+          </entry>
+          <entry>
+            <no>1388</no>
+            <title>Nachbarschaft St. Michael.</title>
+            <pg>760</pg>
+            <date when="1780-11-04">1780 November 4</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>x</no>
+          <title>Das Sondergericht: der sogenannte Große Rat.</title>
+          <pg>761</pg>
+          <entry>
+            <no>1389</no>
+            <title>Satzungen.</title>
+            <pg>761</pg>
+            <date when="1587">1587</date>
+          </entry>
+          <entry>
+            <no>1390</no>
+            <title>Satzungen.</title>
+            <pg>766</pg>
+            <date when="1608">1608</date>
+          </entry>
+        </entry>
+
+
+      </entry>
+
+
+      <entry>
+        <no>B</no>
+        <title>Die städtischen Vogteien.</title>
+        <pg>770</pg>
+
+        <entry>
+          <no>a</no>
+          <title>Vogteiverwaltung.</title>
+          <pg>770</pg>
+          <entry>
+            <no>1391</no>
+            <title>Friede in den Vogteien.</title>
+            <pg>770</pg>
+            <date when="1501-01-31">1501 Januar 31</date>
+          </entry>
+          <entry>
+            <no>1392</no>
+            <title>Röcke der Untervögte.</title>
+            <pg>770</pg>
+            <date when="1528">1528</date>
+          </entry>
+          <entry>
+            <no>1393</no>
+            <title>Unkosten der Vögte.</title>
+            <pg>770</pg>
+            <date when="1531-01-15">1531 Januar 15</date>
+          </entry>
+          <entry>
+            <no>1394</no>
+            <title>Zugrecht.</title>
+            <pg>772</pg>
+            <date when="1586-01-08">1586 Januar 8</date>
+          </entry>
+          <entry>
+            <no>1395</no>
+            <title>Fürsprech als Beistand vor Gericht.</title>
+            <pg>772</pg>
+            <date when="1586-11-05">1586 November 5</date>
+          </entry>
+          <entry>
+            <no>1396</no>
+            <title>Lohn der Vögte.</title>
+            <pg>772</pg>
+            <date when="1612">1612 ff</date>
+          </entry>
+          <entry>
+            <no>1397</no>
+            <title>Gerichtsordnung für Cham, Steinhausen und Risch.</title>
+            <pg>773</pg>
+            <date when="1624">1624-1634</date>
+          </entry>
+          <entry>
+            <no>1398</no>
+            <title>Eid in den Vogteien.</title>
+            <pg>779</pg>
+            <date when="1636">1636-1640-1642</date>
+          </entry>
+          <entry>
+            <no>1399</no>
+            <title>Mandat in den Vogteien.</title>
+            <pg>784</pg>
+            <date notBefore="1690" notAfter="1710">ca. 1700<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1400</no>
+            <title>Bettelmandat für die Vogteien.</title>
+            <pg>785</pg>
+            <date when="1713-04-29">1713 April 29</date>
+          </entry>
+          <entry>
+            <no>1401</no>
+            <title>Eid der Untervögte.</title>
+            <pg>787</pg>
+            <date when="1719">1719</date>
+          </entry>
+          <entry>
+            <no>1402</no>
+            <title>Eid der Fürsprechen zu Cham und Steinhausen.</title>
+            <pg>787</pg>
+            <date when="1719">1719</date>
+          </entry>
+          <entry>
+            <no>1403</no>
+            <title>Eid der Sechser zu Cham.</title>
+            <pg>788</pg>
+            <date when="1719">1719</date>
+          </entry>
+          <entry>
+            <no>1404</no>
+            <title>Eid der Untertanen in den Vogteien.</title>
+            <pg>788</pg>
+            <date when="1719">1719</date>
+          </entry>
+          <entry>
+            <no>1405</no>
+            <title>Fallpflicht.</title>
+            <pg>789</pg>
+            <date when="1729-06-30">1729 Juni 30</date>
+          </entry>
+          <entry>
+            <no>1406</no>
+            <title>Hausieren.</title>
+            <pg>790</pg>
+            <date when="1734-04-17">1734 April 17</date>
+          </entry>
+          <entry>
+            <no>1407</no>
+            <title>Erbrecht.</title>
+            <pg>790</pg>
+            <date when="1736-01-08">1736 Januar 8</date>
+          </entry>
+          <entry>
+            <no>1408</no>
+            <title>Niederlassung von Fremden.</title>
+            <pg>791</pg>
+            <date when="1740-11-15">1740 November 15</date>
+          </entry>
+          <entry>
+            <no>1409</no>
+            <title>Einheirat einer fremden Frau.</title>
+            <pg>791</pg>
+            <date when="1750-11-14">1750 November 14</date>
+          </entry>
+          <entry>
+            <no>1410</no>
+            <title>Verpflichtung für den Zuger Markt.</title>
+            <pg>791</pg>
+            <date when="1785-12-23">1785 Dezember 23</date>
+          </entry>
+          <entry>
+            <no>1411</no>
+            <title>Teilungen und Erbauskäufe.</title>
+            <pg>791</pg>
+            <date when="1787-09-15">1787 September 15</date>
+          </entry>
+          <entry>
+            <no>1412</no>
+            <title>Gesuch der Vogteien Cham, Risch, Steinhausen und Walchwil.</title>
+            <pg>791</pg>
+            <date when="1798-02-08">1798 Februar 8</date>
+          </entry>
+          <entry>
+            <no>1413</no>
+            <title>Anerkennung der Neubürger.</title>
+            <pg>792</pg>
+            <date when="1798-02-11">1798 Februar 11</date>
+          </entry>
+          <entry>
+            <no>1414</no>
+            <title>Entlassungsurkunde der Vogteien.</title>
+            <pg>792</pg>
+            <date when="1798-02-17">1798 Februar 17</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>b</no>
+          <title>Der Vogthandel.</title>
+          <pg>793</pg>
+          <entry>
+            <no>1415</no>
+            <title>Zerwürfnis zwischen der Stadt und den drei Gemeinden.</title>
+            <pg>794</pg>
+            <date when="1700">1700-1702</date>
+          </entry>
+          <entry>
+            <no>1416</no>
+            <title>Rezesse von SZ, OW, UR und NW.</title>
+            <pg>794</pg>
+            <date when="1701-06-27">1701 Juni 27.-Juli 1</date>
+          </entry>
+          <entry>
+            <no>1417</no>
+            <title>Rezesse von Appenzell AI.</title>
+            <pg>794</pg>
+            <date when="1701-06-30">1701 Juni 30</date>
+          </entry>
+          <entry>
+            <no>1418</no>
+            <title>Klage des äußern Amtes in Appenzell AI.</title>
+            <pg>795</pg>
+            <date when="1701-07-08">1701 Juli 8. ff</date>
+          </entry>
+          <entry>
+            <no>1419</no>
+            <title>Schreiben der Stadt Zug an FR und SO.</title>
+            <pg>795</pg>
+            <date when="1701-09-19">1701 September 19</date>
+          </entry>
+          <entry>
+            <no>1420</no>
+            <title>Schreiben der Orte LU, UR, UW, FR und SO an die drei Gemeinden.</title>
+            <pg>795</pg>
+            <date when="1702-01-02">1702 Januar 2</date>
+          </entry>
+          <entry>
+            <no>1421</no>
+            <title>Brief der Stadt Zug an Tagsatzung in Luzern.</title>
+            <pg>795</pg>
+            <date when="1702-06-15">1702 Juni 15</date>
+          </entry>
+          <entry>
+            <no>1422</no>
+            <title>Eidgenössischer Rechtsentscheid.</title>
+            <pg>796</pg>
+            <date when="1702-10-12">1702 Oktober 12</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>c</no>
+          <title>Cham.</title>
+          <pg>802</pg>
+          <entry>
+            <no>α</no>
+            <title>St. Andreas.</title>
+            <pg>802</pg>
+            <entry>
+              <no>1423</no>
+              <title>Eroberung durch Schwyz und Zug.</title>
+              <pg>802</pg>
+              <date notAfter="1385-12-31" notBefore="1335">vor 1385 Dezember 31.<precision
+                  degree="0.5" match="@notBefore"/></date>
+            </entry>
+            <entry>
+              <no>1424</no>
+              <title>Zinsen und Gülten des Peter von Moos.</title>
+              <pg>802</pg>
+              <date when="1405-06-20">1405 Juni 20</date>
+            </entry>
+            <entry>
+              <no>1425</no>
+              <title>Ordnung für St. Andreas.</title>
+              <pg>802</pg>
+              <date when="1406-12-12">1406 Dezember 12</date>
+            </entry>
+            <entry>
+              <no>1426</no>
+              <title>Streit Zugs mit Peter von Moos.</title>
+              <pg>803</pg>
+              <date when="1407-03-01">1407 März 1</date>
+            </entry>
+            <entry>
+              <no>1427</no>
+              <title>Luzerns Vermittlung bei Schwyz.</title>
+              <pg>803</pg>
+              <date when="1410-03-07">1410 März 7</date>
+            </entry>
+            <entry>
+              <no>1428</no>
+              <title>Auskauf eines Fischzinses.</title>
+              <pg>804</pg>
+              <date when="1412-01-17">1412 Januar 17</date>
+            </entry>
+            <entry>
+              <no>1429</no>
+              <title>Zinsurbar von Cham.</title>
+              <pg>804</pg>
+              <date when="1417-12-16">1417 Dezember 16</date>
+            </entry>
+            <entry>
+              <no>1430</no>
+              <title>Pfefferzins.</title>
+              <pg>804</pg>
+              <date when="1422-12-28">1422 Dezember 28</date>
+            </entry>
+            <entry>
+              <no>1431</no>
+              <title>Zinsenverkauf.</title>
+              <pg>804</pg>
+              <date when="1432-07-23">1432 Juli 23</date>
+            </entry>
+            <entry>
+              <no>1432</no>
+              <title>Urbar St. Andreas Cham.</title>
+              <pg>804</pg>
+              <date when="1495">1495</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>β</no>
+            <title>Kirchbüel oder Niedercham.</title>
+            <pg>805</pg>
+
+            <entry>
+              <no>1433</no>
+              <title>Meierhof.</title>
+              <pg>805</pg>
+              <date when="1387-04-02">1387 April 2</date>
+            </entry>
+            <entry>
+              <no>1434</no>
+              <title>Säge zu Cham.</title>
+              <pg>805</pg>
+              <date when="1397-11-16">1397 November 16</date>
+            </entry>
+            <entry>
+              <no>1435</no>
+              <title>Büelgiiter zu Niedercham.</title>
+              <pg>805</pg>
+              <date when="1432-11-12">1432 November 12</date>
+            </entry>
+            <entry>
+              <no>1436</no>
+              <title>Kauf von Cham durch die Stadt Zug.</title>
+              <pg>805</pg>
+              <date when="1477-08-23">1477 August 23</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>γ</no>
+            <title>Das Schloß St. Andreas.</title>
+            <pg>806</pg>
+
+            <entry>
+              <no>1437</no>
+              <title>Verkauf des Burgstalls St. Andreas.</title>
+              <pg>806</pg>
+              <date when="1533-11-23">1533 November 23</date>
+            </entry>
+            <entry>
+              <no>1438</no>
+              <title>Abkommen wegen des Pfandschillings.</title>
+              <pg>808</pg>
+              <date when="1533-12-20">1533 Dezember 20</date>
+            </entry>
+            <entry>
+              <no>1439</no>
+              <title>Zugrecht der Stadt Zug.</title>
+              <pg>809</pg>
+              <date when="1733-07-18">1733 Juli 18. und 1747 April 29</date>
+            </entry>
+          </entry>
+
+
+          <entry>
+            <no>δ</no>
+            <title>Die Erblehenmühle.</title>
+            <pg>809</pg>
+            <entry>
+              <no>1440</no>
+              <title>Fischenzenstreit.</title>
+              <pg>809</pg>
+              <date when="1438-03-12">1438 März 12</date>
+            </entry>
+            <entry>
+              <no>1441</no>
+              <title>Verleihung der Erblehenmühle.</title>
+              <pg>810</pg>
+              <date when="1479-03-11">1479 März 11</date>
+            </entry>
+            <entry>
+              <no>1442</no>
+              <title>Markbrief des See- und Fischenzanteils.</title>
+              <pg>810</pg>
+              <date when="1639-05-02">1639 Mai 2</date>
+            </entry>
+            <entry>
+              <no>1443</no>
+              <title>Verkauf der unteren Mühle zu Cham.</title>
+              <pg>810</pg>
+              <date when="1795-10-17">1795 Oktober 17</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>ε</no>
+            <title>Zehnten.</title>
+            <pg>810</pg>
+            <entry>
+              <no>1444</no>
+              <title>Kleiner Zehnt.</title>
+              <pg>810</pg>
+              <date when="1407-08-07">1407 August 7</date>
+            </entry>
+            <entry>
+              <no>1445</no>
+              <title>Streit wegen des Jahrzeitbuchs.</title>
+              <pg>810</pg>
+              <date when="1413-04-12">1413 April 12</date>
+            </entry>
+            <entry>
+              <no>1446</no>
+              <title>Vermittlung betreffend den kleinen Zehnten.</title>
+              <pg>811</pg>
+              <date when="1428-08-05">1428 August 5</date>
+            </entry>
+            <entry>
+              <no>1447</no>
+              <title>Rischer Zehnten in Cham.</title>
+              <pg>811</pg>
+              <date when="1490-02-27">1490 Februar 27</date>
+            </entry>
+            <entry>
+              <no>1448</no>
+              <title>Zehnt zu Meierskappel LU.</title>
+              <pg>811</pg>
+              <date when="1528-07-11">1528 Juli 11</date>
+            </entry>
+            <entry>
+              <no>1449</no>
+              <title>Einzug der Zinsen.</title>
+              <pg>812</pg>
+              <date when="1551-12-19">1551 Dezember 19</date>
+            </entry>
+            <entry>
+              <no>1450</no>
+              <title>Zehntrecht.</title>
+              <pg>813</pg>
+              <date when="1719">1719</date>
+            </entry>
+            <entry>
+              <no>1451</no>
+              <title>Neugrützehnt.</title>
+              <pg>815</pg>
+              <date when="1743-07-20">1743 Juli 20</date>
+            </entry>
+            <entry>
+              <no>1452</no>
+              <title>Weinzehnt.</title>
+              <pg>815</pg>
+              <date when="1756-11-13">1756 November 13</date>
+            </entry>
+            <entry>
+              <no>1453</no>
+              <title>Flachszehnt.</title>
+              <pg>815</pg>
+              <date when="1757-07-09">1757 Juli 9</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>ζ</no>
+            <title>Fischerei.</title>
+            <pg>815</pg>
+            <entry>
+              <no>1454</no>
+              <title>Fischerordnung.</title>
+              <pg>815</pg>
+              <date when="1540-05-08">1540 Mai 8</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>η</no>
+            <title>Die Vogtei.</title>
+            <pg>815</pg>
+            <entry>
+              <no>1455</no>
+              <title>Allmendstreit Niedercham.</title>
+              <pg>815</pg>
+              <date when="1500-02-08">1500 Februar 8</date>
+            </entry>
+            <entry>
+              <no>1456</no>
+              <title>Markung Cham und Hünenberg.</title>
+              <pg>815</pg>
+              <date when="1523">1523</date>
+            </entry>
+            <entry>
+              <no>1457</no>
+              <title>Güterkauf in Cham.</title>
+              <pg>816</pg>
+              <date when="1528-02-22">1528 Februar 22</date>
+            </entry>
+            <entry>
+              <no>1458</no>
+              <title>Gericht.</title>
+              <pg>817</pg>
+              <date when="1540-04-24">1540 April 24</date>
+            </entry>
+            <entry>
+              <no>1459</no>
+              <title>Zollfreiheit.</title>
+              <pg>817</pg>
+              <date when="1544-05-17">1544 Mai 17</date>
+            </entry>
+            <entry>
+              <no>1460</no>
+              <title>Baurecht.</title>
+              <pg>817</pg>
+              <date when="1555-02-23">1555 Februar 23</date>
+            </entry>
+            <entry>
+              <no>1461</no>
+              <title>Chamer Schwörtag.</title>
+              <pg>817</pg>
+              <date when="1594-01-12">1594 Januar 12</date>
+            </entry>
+            <entry>
+              <no>1462</no>
+              <title>Hebamme von Cham und Hünenberg.</title>
+              <pg>817</pg>
+              <date when="1652-11-22">1652 November 22</date>
+            </entry>
+            <entry>
+              <no>1463</no>
+              <title>Zuger Zoll in Cham.</title>
+              <pg>818</pg>
+              <date when="1683-06-15">1683 Juni 15</date>
+            </entry>
+            <entry>
+              <no>1464</no>
+              <title>Eigenausschank von Getränken.</title>
+              <pg>818</pg>
+              <date when="1703-08-25">1703 August 25</date>
+            </entry>
+            <entry>
+              <no>1465</no>
+              <title>Einschläge.</title>
+              <pg>818</pg>
+              <date when="1791-04-30">1791 April 30</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>θ</no>
+            <title>Die Korporation im Städtli St. Andreas.</title>
+            <pg>818</pg>
+            <entry>
+              <no>1466</no>
+              <title>Handelsweg Zürich-Luzern.</title>
+              <pg>818</pg>
+              <date when="1399-12-09">1399 Dezember 9</date>
+            </entry>
+            <entry>
+              <no>1467</no>
+              <title>Gehölze Reitebuech und Schluecht.</title>
+              <pg>819</pg>
+              <date when="1504-12-20">1504 Dezember 20</date>
+            </entry>
+            <entry>
+              <no>1468</no>
+              <title>Genossenstreit zwischen Städtli und Niedercham.</title>
+              <pg>819</pg>
+              <date when="1508-03-04">1508 März 4</date>
+            </entry>
+            <entry>
+              <no>1469</no>
+              <title>Genossenstreit zwischen Städtli und Niedercham.</title>
+              <pg>819</pg>
+              <date when="1518-03-04">1518 März 4</date>
+            </entry>
+            <entry>
+              <no>1470</no>
+              <title>Korporation Städtli.</title>
+              <pg>820</pg>
+              <date when="1519-02-23">1519 Februar 23</date>
+            </entry>
+            <entry>
+              <no>1471</no>
+              <title>Genossensatzung.</title>
+              <pg>820</pg>
+              <date when="1531-05-27">1531 Mai 27</date>
+            </entry>
+            <entry>
+              <no>1472</no>
+              <title>Gemeinwerch.</title>
+              <pg>821</pg>
+              <date when="1536-04-01">1536 April 1</date>
+            </entry>
+            <entry>
+              <no>1473</no>
+              <title>Genossengut Berg.</title>
+              <pg>821</pg>
+              <date when="1558-04-30">1558 April 30</date>
+            </entry>
+            <entry>
+              <no>1474</no>
+              <title>Einzugstaxe.</title>
+              <pg>821</pg>
+              <date when="1561-02-15">1561 Februar 15</date>
+            </entry>
+            <entry>
+              <no>1475</no>
+              <title>Erneuerung des Genossenrechts.</title>
+              <pg>822</pg>
+              <date when="1569-08-20">1569 August 20</date>
+            </entry>
+            <entry>
+              <no>1476</no>
+              <title>Satzung.</title>
+              <pg>822</pg>
+              <date when="1571-02-17">1571 Februar 17</date>
+            </entry>
+            <entry>
+              <no>1477</no>
+              <title>Rezeß des Zuger Rats.</title>
+              <pg>822</pg>
+              <date when="1574-01-23">1574 Januar 23</date>
+            </entry>
+            <entry>
+              <no>1478</no>
+              <title>Wahl des Vierers.</title>
+              <pg>823</pg>
+              <date when="1590-12-05">1590 Dezember 5</date>
+            </entry>
+            <entry>
+              <no>1479</no>
+              <title>Lehensmann auf dem Schloß.</title>
+              <pg>823</pg>
+              <date when="1605-09-24">1605 September 24</date>
+            </entry>
+            <entry>
+              <no>1480</no>
+              <title>Löbernhof.</title>
+              <pg>823</pg>
+              <date when="1620">1620</date>
+            </entry>
+            <entry>
+              <no>1481</no>
+              <title>Neuland am See.</title>
+              <pg>823</pg>
+              <date when="1639-11-11">1639 November 11</date>
+            </entry>
+            <entry>
+              <no>1482</no>
+              <title>Belehnung des Schlosses.</title>
+              <pg>824</pg>
+              <date when="1663-04-14">1663 April 14</date>
+            </entry>
+            <entry>
+              <no>1483</no>
+              <title>Straße auf dem Berg und im Schluechtholz.</title>
+              <pg>824</pg>
+              <date when="1668-11-12">1668 November 12</date>
+            </entry>
+            <entry>
+              <no>1484</no>
+              <title>Treibrecht.</title>
+              <pg>824</pg>
+              <date when="1679-04-07">1679 April 7</date>
+            </entry>
+            <entry>
+              <no>1485</no>
+              <title>Weg zur Sust.</title>
+              <pg>824</pg>
+              <date when="1685-12-18">1685 Dezember 18</date>
+            </entry>
+            <entry>
+              <no>1486</no>
+              <title>Lorzensteg.</title>
+              <pg>825</pg>
+              <date when="1689-05-07">1689 Mai 7</date>
+            </entry>
+            <entry>
+              <no>1487</no>
+              <title>Kauf eines Hauses ohne Gerechtigkeit.</title>
+              <pg>825</pg>
+              <date when="1695-03-13">1695 März 13</date>
+            </entry>
+            <entry>
+              <no>1488</no>
+              <title>Fahrrecht über die Allmende.</title>
+              <pg>825</pg>
+              <date when="1706-07-17">1706 Juli 17</date>
+            </entry>
+            <entry>
+              <no>1489</no>
+              <title>Verteilung der Gemeinwerch-Gelder.</title>
+              <pg>825</pg>
+              <date when="1728-09-09">1728 September 9</date>
+            </entry>
+            <entry>
+              <no>1490</no>
+              <title>Gerechtigkeitshaus.</title>
+              <pg>826</pg>
+              <date when="1762-05-08">1762 Mai 8</date>
+            </entry>
+            <entry>
+              <no>1491</no>
+              <title>Fremde Hausleute.</title>
+              <pg>826</pg>
+              <date when="1764-05-16">1764 Mai 16</date>
+            </entry>
+            <entry>
+              <no>1492</no>
+              <title>Aufteilung der Allmende.</title>
+              <pg>826</pg>
+              <date when="1786-10-14">1786 Oktober 14</date>
+            </entry>
+            <entry>
+              <no>1493</no>
+              <title>Straße gegen die Oberweid.</title>
+              <pg>826</pg>
+              <date when="1796-02-10">1796 Februar 10</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>ι</no>
+            <title>Friesencham.</title>
+            <pg>827</pg>
+            <entry>
+              <no>1494</no>
+              <title>Gemeindebrief.</title>
+              <pg>827</pg>
+              <date when="1655-03-06">1655 März 6</date>
+            </entry>
+            <entry>
+              <no>1495</no>
+              <title>Aufteilung des Gemeinwerchs.</title>
+              <pg>827</pg>
+              <date when="1775-02-18">1775 Februar 18</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>κ</no>
+            <title>Lindencham.</title>
+            <pg>827</pg>
+            <entry>
+              <no>1496</no>
+              <title>Satzung Lindencham.</title>
+              <pg>827</pg>
+              <date when="1641">1641-1655</date>
+            </entry>
+            <entry>
+              <no>1497</no>
+              <title>Einschlag von Moosland.</title>
+              <pg>828</pg>
+              <date when="1662-12-02">1662 Dezember 2</date>
+            </entry>
+            <entry>
+              <no>1498</no>
+              <title>Brief und Siegel.</title>
+              <pg>828</pg>
+              <date when="1664-03-01">1664 März 1</date>
+            </entry>
+            <entry>
+              <no>1499</no>
+              <title>Einschlag von Wald und Weide.</title>
+              <pg>828</pg>
+              <date when="1779-03-06">1779 März 6</date>
+            </entry>
+            <entry>
+              <no>1500</no>
+              <title>Aufteilung des Gemeinwerchs.</title>
+              <pg>828</pg>
+              <date when="1779-03-06">1779 März 6. und 13</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>λ</no>
+            <title>Niederwil (Wiprechtswil).</title>
+            <pg>829</pg>
+            <entry>
+              <no>1501</no>
+              <title>Steuerhandel.</title>
+              <pg>829</pg>
+              <date when="1447-06-30">1447 Juni 30</date>
+            </entry>
+            <entry>
+              <no>1502</no>
+              <title>Gerichtsrechte.</title>
+              <pg>829</pg>
+              <date when="1472-12-17">1472 Dezember 17</date>
+            </entry>
+            <entry>
+              <no>1503</no>
+              <title>Verkauf an die Stadt Zug.</title>
+              <pg>829</pg>
+              <date when="1510-05-27">1510 Mai 27</date>
+            </entry>
+            <entry>
+              <no>1504</no>
+              <title>Anschluß von Niederwil an Pfarrei Cham.</title>
+              <pg>830</pg>
+              <date when="1513-12-27">1513 Dezember 27</date>
+            </entry>
+            <entry>
+              <no>1505</no>
+              <title>Grenze und Weidgang.</title>
+              <pg>830</pg>
+              <date when="1527-04-25">1527 April 25</date>
+            </entry>
+            <entry>
+              <no>1506</no>
+              <title>Erblehenhof.</title>
+              <pg>831</pg>
+              <date when="1534-05-16">1534 Mai 16</date>
+            </entry>
+            <entry>
+              <no>1507</no>
+              <title>Einschlag im Gemeinwerch.</title>
+              <pg>831</pg>
+              <date when="1535-10-23">1535 Oktober 23</date>
+            </entry>
+            <entry>
+              <no>1508</no>
+              <title>Freiheitsbrief.</title>
+              <pg>831</pg>
+              <date when="1537-03-10">1537 März 10</date>
+            </entry>
+            <entry>
+              <no>1509</no>
+              <title>Teilung der Weiden zwischen Niederwil und Rumentikon.</title>
+              <pg>833</pg>
+              <date when="1639-07-08">1639 Juli 8</date>
+            </entry>
+            <entry>
+              <no>1510</no>
+              <title>Kleiner Zehnt.</title>
+              <pg>833</pg>
+              <date when="1666-04-20">1666 April 20</date>
+            </entry>
+            <entry>
+              <no>1511</no>
+              <title>Holzhau und Holzverkauf.</title>
+              <pg>833</pg>
+              <date when="1669-06-28">1669 Juni 28</date>
+            </entry>
+            <entry>
+              <no>1512</no>
+              <title>Markenstreit mit Maschwanden ZH.</title>
+              <pg>833</pg>
+              <date when="1690-10-07">1690 Oktober 7</date>
+            </entry>
+            <entry>
+              <no>1513</no>
+              <title>Aufteilung der Allmende.</title>
+              <pg>833</pg>
+              <date when="1710-06-14">1710 Juni 14</date>
+            </entry>
+            <entry>
+              <no>1514</no>
+              <title>Niederwiler Zehnt zu Knonau ZH.</title>
+              <pg>833</pg>
+              <date when="1729-12-13">1729 Dezember 13</date>
+            </entry>
+            <entry>
+              <no>1515</no>
+              <title>Kaplanei- und Schulpfrund zu Niederwil.</title>
+              <pg>834</pg>
+              <date when="1746-04-16">1746 April 16. ff</date>
+            </entry>
+            <entry>
+              <no>1516</no>
+              <title>Kleiner Zehnt.</title>
+              <pg>834</pg>
+              <date when="1757-11-12">1757 November 12</date>
+            </entry>
+          </entry>
+
+          <entry>
+            <no>μ</no>
+            <title>Rumentikon.</title>
+            <pg>834</pg>
+            <entry>
+              <no>1517</no>
+              <title>Spitalhof.</title>
+              <pg>834</pg>
+              <date when="1433-03-18">1433 März 18</date>
+            </entry>
+            <entry>
+              <no>1518</no>
+              <title>Einzugstaxe.</title>
+              <pg>834</pg>
+              <date when="1642-05-02">1642 Mai 2</date>
+            </entry>
+            <entry>
+              <no>1519</no>
+              <title>Zoll auf der Brücke.</title>
+              <pg>835</pg>
+              <date when="1660-10-08">1660 Oktober 8</date>
+            </entry>
+            <entry>
+              <no>1520</no>
+              <title>Schule für Rumentikon und Niederwil.</title>
+              <pg>835</pg>
+              <date when="1735-11-12">1735 November 12</date>
+            </entry>
+          </entry>
+
+        </entry>
+
+        <entry>
+          <no>d</no>
+          <title>Gangolfswil (Risch).</title>
+          <pg>835</pg>
+          <entry>
+            <no>1521</no>
+            <title>Österreichisches Pfand.</title>
+            <pg>835</pg>
+            <date when="1407-09-28">1407 September 28</date>
+          </entry>
+          <entry>
+            <no>1522</no>
+            <title>Gericht.</title>
+            <pg>835</pg>
+            <date when="1408-08-23">1408 August 23</date>
+          </entry>
+          <entry>
+            <no>1523</no>
+            <title>Rechte Zugs in Gangolfswil.</title>
+            <pg>835</pg>
+            <date when="1410-03-08">1410 März 8</date>
+          </entry>
+          <entry>
+            <no>1524</no>
+            <title>Verkauf der Rechtungen.</title>
+            <pg>836</pg>
+            <date when="1410-03-19">1410 März 19</date>
+          </entry>
+          <entry>
+            <no>1525</no>
+            <title>Hofrecht Gangolfswil.</title>
+            <pg>836</pg>
+            <date when="1413-05-16">1413 Mai 16</date>
+          </entry>
+          <entry>
+            <no>1526</no>
+            <title>Zugs Rechte in Walterten und Holzhäusern Risch.</title>
+            <pg>840</pg>
+            <date when="1416-02-09">1416 Februar 9</date>
+          </entry>
+          <entry>
+            <no>1527</no>
+            <title>Unterhalt der Kirche von Risch.</title>
+            <pg>840</pg>
+            <date when="1429-02-25">1429 Februar 25</date>
+          </entry>
+          <entry>
+            <no>1528</no>
+            <title>Zins zu Berchtwil Risch.</title>
+            <pg>841</pg>
+            <date when="1431-01-09">1431 Januar 9</date>
+          </entry>
+          <entry>
+            <no>1529</no>
+            <title>Kirche von Risch.</title>
+            <pg>841</pg>
+            <date when="1431-08-25">1431 August 25</date>
+          </entry>
+          <entry>
+            <no>1530</no>
+            <title>Bach in Küntwil Risch.</title>
+            <pg>842</pg>
+            <date when="1450-12-25">1450 Dezember 25</date>
+          </entry>
+          <entry>
+            <no>1531</no>
+            <title>Steuerstreit zwischen Risch und Hünenberg.</title>
+            <pg>842</pg>
+            <date when="1458-04-19">1458 April 19</date>
+          </entry>
+          <entry>
+            <no>1532</no>
+            <title>Gültstreit.</title>
+            <pg>843</pg>
+            <date when="1470-03-15">1470 März 15</date>
+          </entry>
+          <entry>
+            <no>1533</no>
+            <title>Schiedspruch betreffend Zehnten.</title>
+            <pg>843</pg>
+            <date when="1470-05-09">1470 Mai 9</date>
+          </entry>
+          <entry>
+            <no>1534</no>
+            <title>Kaplanei Risch.</title>
+            <pg>843</pg>
+            <date when="1471-05-04">1471 Mai 4</date>
+          </entry>
+          <entry>
+            <no>1535</no>
+            <title>Streit zwischen Risch sowie Sins und Dietwil.</title>
+            <pg>844</pg>
+            <date when="1476-08-26">1476 August 26</date>
+          </entry>
+          <entry>
+            <no>1536</no>
+            <title>Zug kauft den Hof Gangolfswil.</title>
+            <pg>844</pg>
+            <date when="1486-09-05">1486 September 5</date>
+          </entry>
+          <entry>
+            <no>1537</no>
+            <title>Hellmühle.</title>
+            <pg>845</pg>
+            <date when="1488-06-09">1488 Juni 9</date>
+          </entry>
+          <entry>
+            <no>1538</no>
+            <title>Zinsrodel Vogtei Gangolfswil.</title>
+            <pg>845</pg>
+            <date when="1490-01-03">1490 Januar 3</date>
+          </entry>
+          <entry>
+            <no>1539</no>
+            <title>Korporation Gangolfswil.</title>
+            <pg>845</pg>
+            <date when="1527-08-17">1527 August 17</date>
+          </entry>
+          <entry>
+            <no>1540</no>
+            <title>Zehntmarken-Bereinigung.</title>
+            <pg>846</pg>
+            <date when="1547-10-20">1547 Oktober 20</date>
+          </entry>
+          <entry>
+            <no>1541</no>
+            <title>St. Verenawald in Risch.</title>
+            <pg>846</pg>
+            <date when="1598-10-16">1598 Oktober 16</date>
+          </entry>
+          <entry>
+            <no>1542</no>
+            <title>Urbare von Risch.</title>
+            <pg>846</pg>
+            <date when="1598">1598</date>
+          </entry>
+          <entry>
+            <no>1543</no>
+            <title>Zehntgült.</title>
+            <pg>846</pg>
+            <date when="1603">1603</date>
+          </entry>
+          <entry>
+            <no>1544</no>
+            <title>Ehrschatz und Fallpflicht.</title>
+            <pg>846</pg>
+            <date when="1607-12-15">1607 Dezember 15</date>
+          </entry>
+          <entry>
+            <no>1545</no>
+            <title>Umgeld und Zoll.</title>
+            <pg>847</pg>
+            <date when="1668-01-14">1668 Januar 14. ff</date>
+          </entry>
+          <entry>
+            <no>1546</no>
+            <title>Vatererbe.</title>
+            <pg>847</pg>
+            <date when="1683-05-09">1683 Mai 9</date>
+          </entry>
+          <entry>
+            <no>1547</no>
+            <title>Gemeindewald Hönau LU.</title>
+            <pg>848</pg>
+            <date when="1685">1685 und 1686</date>
+          </entry>
+          <entry>
+            <no>1548</no>
+            <title>Eid des Untervogts und der Untertanen.</title>
+            <pg>848</pg>
+            <date when="1707">1707</date>
+          </entry>
+          <entry>
+            <no>1549</no>
+            <title>Buße zu Böschenrot LU.</title>
+            <pg>848</pg>
+            <date when="1727-10-18">1727 Oktober 18</date>
+          </entry>
+          <entry>
+            <no>1550</no>
+            <title>Erbe und Zugrecht.</title>
+            <pg>848</pg>
+            <date when="1728-05-17">1728 Mai 17</date>
+          </entry>
+          <entry>
+            <no>1551</no>
+            <title>Gelddarlehen.</title>
+            <pg>848</pg>
+            <date when="1735-05-21">1735 Mai 21</date>
+          </entry>
+          <entry>
+            <no>1552</no>
+            <title>Neuordnung des Zugrechts.</title>
+            <pg>849</pg>
+            <date when="1747-01-08">1747 Januar 8</date>
+          </entry>
+          <entry>
+            <no>1553</no>
+            <title>Besoldung der Gerichtsherren.</title>
+            <pg>850</pg>
+            <date when="1757-09-10">1757 September 10</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>e</no>
+          <title>Hünenberg.</title>
+          <pg>850</pg>
+          <entry>
+            <no>1554</no>
+            <title>Kauf der Herrschaft Hünenberg.</title>
+            <pg>850</pg>
+            <date when="1414-01-17">1414 Januar 17</date>
+          </entry>
+          <entry>
+            <no>1555</no>
+            <title>Kauf der Herrschaft Hünenberg.</title>
+            <pg>853</pg>
+            <date when="1415-06-27">1415 Juni 27</date>
+          </entry>
+          <entry>
+            <no>1556</no>
+            <title>Anschluß der Genossame an Zug.</title>
+            <pg>853</pg>
+            <date when="1416-01-21">1416 Januar 21</date>
+          </entry>
+          <entry>
+            <no>1557</no>
+            <title>Burg- und Hofrecht mit Zug.</title>
+            <pg>854</pg>
+            <date when="1416-01-21">1416 Januar 21</date>
+          </entry>
+          <entry>
+            <no>1558</no>
+            <title>Allmende.</title>
+            <pg>857</pg>
+            <date when="1416">1416</date>
+          </entry>
+          <entry>
+            <no>1559</no>
+            <title>Erwerb des Waldes in der Chamau.</title>
+            <pg>857</pg>
+            <date when="1418-01-28">1418 Januar 28</date>
+          </entry>
+          <entry>
+            <no>1560</no>
+            <title>Allmendstreit zwischen Nieder- und Oberhünenberg.</title>
+            <pg>857</pg>
+            <date when="1420-05-08">1420 Mai 8</date>
+          </entry>
+          <entry>
+            <no>1561</no>
+            <title>Definitiver Kauf des Waldes in der Chamau.</title>
+            <pg>858</pg>
+            <date when="1430-10-18">1430 Oktober 18</date>
+          </entry>
+          <entry>
+            <no>1562</no>
+            <title>Eichelnerlös im Gemeinwerch.</title>
+            <pg>858</pg>
+            <date when="1430-12-28">1430 Dezember 28</date>
+          </entry>
+          <entry>
+            <no>1563</no>
+            <title>Gerichtssitzung.</title>
+            <pg>859</pg>
+            <date when="1432-06-23">1432 Juni 23</date>
+          </entry>
+          <entry>
+            <no>1564</no>
+            <title>Sühnestiftung.</title>
+            <pg>859</pg>
+            <date when="1434-05-13">1434 Mai 13</date>
+          </entry>
+          <entry>
+            <no>1565</no>
+            <title>Schachen zu Stadelmatt Hünenberg.</title>
+            <pg>859</pg>
+            <date when="1440-03-09">1440 März 9</date>
+          </entry>
+          <entry>
+            <no>1566</no>
+            <title>Genossenrecht des Fahrs von Sins.</title>
+            <pg>859</pg>
+            <date when="1466-11-29">1466 November 29</date>
+          </entry>
+          <entry>
+            <no>1567</no>
+            <title>Reußfahr.</title>
+            <pg>860</pg>
+            <date when="1466">1466</date>
+          </entry>
+          <entry>
+            <no>1568</no>
+            <title>Appellation und militärisches Aufgebot.</title>
+            <pg>860</pg>
+            <date when="1495-03-30">1495 März 30</date>
+          </entry>
+          <entry>
+            <no>1569</no>
+            <title>Unterholz Hünenberg.</title>
+            <pg>861</pg>
+            <date when="1497-02-25">1497 Februar 25</date>
+          </entry>
+          <entry>
+            <no>1570</no>
+            <title>Kauf eines Schachens.</title>
+            <pg>861</pg>
+            <date when="1518-03-17">1518 März 17</date>
+          </entry>
+          <entry>
+            <no>1571</no>
+            <title>Bürgerrecht in Zug.</title>
+            <pg>862</pg>
+            <date when="1536-12-09">1536 Dezember 9</date>
+          </entry>
+          <entry>
+            <no>1572</no>
+            <title>Streit betreffend Allmende.</title>
+            <pg>862</pg>
+            <date when="1539-04-30">1539 April 30</date>
+          </entry>
+          <entry>
+            <no>1573</no>
+            <title>Gültbriefe.</title>
+            <pg>864</pg>
+            <date when="1551-03-14">1551 März 14</date>
+          </entry>
+          <entry>
+            <no>1574</no>
+            <title>Wald bei St. Wolfgang Hünenberg.</title>
+            <pg>864</pg>
+            <date when="1555-10-05">1555 Oktober 5</date>
+          </entry>
+          <entry>
+            <no>1575</no>
+            <title>Ausfuhr von Gezimber.</title>
+            <pg>864</pg>
+            <date when="1560-11-03">1560 November 3</date>
+          </entry>
+          <entry>
+            <no>1576</no>
+            <title>Zugrecht.</title>
+            <pg>864</pg>
+            <date when="1576-05-05">1576 Mai 5</date>
+          </entry>
+          <entry>
+            <no>1577</no>
+            <title>Burgrechtserneuerung der Leute von Hünenberg.</title>
+            <pg>865</pg>
+            <date when="1602-03-02">1602 März 2</date>
+          </entry>
+          <entry>
+            <no>1578</no>
+            <title>Genossengerechtigkeit.</title>
+            <pg>866</pg>
+            <date when="1608">1608</date>
+          </entry>
+          <entry>
+            <no>1579</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>866</pg>
+            <date when="1612-11-21">1612 November 21</date>
+          </entry>
+          <entry>
+            <no>1580</no>
+            <title>Unehelichkeit.</title>
+            <pg>867</pg>
+            <date when="1634-10-25">1634 Oktober 25</date>
+          </entry>
+          <entry>
+            <no>1581</no>
+            <title>Straße zum Fahr von Sins.</title>
+            <pg>867</pg>
+            <date when="1635-01-19">1635 Januar 19</date>
+          </entry>
+          <entry>
+            <no>1582</no>
+            <title>Auftrieb auf die Allmende.</title>
+            <pg>868</pg>
+            <date when="1636-12-06">1636 Dezember 6</date>
+          </entry>
+          <entry>
+            <no>1583</no>
+            <title>Verkauf, Zug, Tausch.</title>
+            <pg>868</pg>
+            <date when="1637-01-01">1637 Januar 1</date>
+          </entry>
+          <entry>
+            <no>1584</no>
+            <title>Beisaßen, Erbzüge, Abstimmungen.</title>
+            <pg>869</pg>
+            <date when="1641-09-21">1641 September 21</date>
+          </entry>
+          <entry>
+            <no>1585</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>872</pg>
+            <date when="1644-06-16">1644 Juni 16</date>
+          </entry>
+          <entry>
+            <no>1586</no>
+            <title>Auffall-Rechnungen.</title>
+            <pg>875</pg>
+            <date when="1652-10-24">1652 Oktober 24</date>
+          </entry>
+          <entry>
+            <no>1587</no>
+            <title>Vermahnung gegen Mißbräuche.</title>
+            <pg>875</pg>
+            <date when="1652-10-24">1652 Oktober 24</date>
+          </entry>
+          <entry>
+            <no>1588</no>
+            <title>Bestätigung der Gemeinde-Artikel.</title>
+            <pg>876</pg>
+            <date when="1663-09-16">1663 September 16</date>
+          </entry>
+          <entry>
+            <no>1589</no>
+            <title>Erbfälle, Frevel, Bußen, Bürgschaft.</title>
+            <pg>876</pg>
+            <date notAfter="1664" notBefore="1614">spätestens 1664<precision degree="0.5"
+                match="@notBefore"/></date>
+          </entry>
+          <entry>
+            <no>1590</no>
+            <title>Gastrecht, Stabführung, Obervogt, Schwörtag.</title>
+            <pg>880</pg>
+            <date notAfter="1664" notBefore="1614">spätestens 1664<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1591</no>
+            <title>Gericht und Untervogt.</title>
+            <pg>881</pg>
+            <date notAfter="1664" notBefore="1614">spätestens 1664<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1592</no>
+            <title>Erneuerung des Hünenberger Libells.</title>
+            <pg>882</pg>
+            <date when="1664">1664</date>
+          </entry>
+          <entry>
+            <no>1593</no>
+            <title>Hausbau. Beisaßen.</title>
+            <pg>882</pg>
+            <date when="1665-03-08">1665 März 8</date>
+          </entry>
+          <entry>
+            <no>1594</no>
+            <title>Gericht in Zug.</title>
+            <pg>883</pg>
+            <date when="1667-05-02">1667 Mai 2</date>
+          </entry>
+          <entry>
+            <no>1595</no>
+            <title>Reußbrücke.</title>
+            <pg>883</pg>
+            <date when="1672-05-08">1672 Mai 8</date>
+          </entry>
+          <entry>
+            <no>1596</no>
+            <title>Geldschuld.</title>
+            <pg>883</pg>
+            <date when="1675-06-21">1675 Juni 21</date>
+          </entry>
+          <entry>
+            <no>1597</no>
+            <title>Gemeindelade (Archiv).</title>
+            <pg>884</pg>
+            <date when="1678-03-14">1678 März 14</date>
+          </entry>
+          <entry>
+            <no>1598</no>
+            <title>Einzugsrecht in Zug.</title>
+            <pg>884</pg>
+            <date when="1691-05-11">1691 Mai 11</date>
+          </entry>
+          <entry>
+            <no>1599</no>
+            <title>Erbzüge.</title>
+            <pg>884</pg>
+            <date when="1697-06-03">1697 Juni 3. ff</date>
+          </entry>
+          <entry>
+            <no>1600</no>
+            <title>Markung zu St. Wolfgang.</title>
+            <pg>885</pg>
+            <date when="1700-08-26">1700 August 26</date>
+          </entry>
+          <entry>
+            <no>1601</no>
+            <title>Brand des Gesellenhauses.</title>
+            <pg>886</pg>
+            <date when="1701-03-04">1701 März 4</date>
+          </entry>
+          <entry>
+            <no>1602</no>
+            <title>Vogtstreit zwischen Zug und den äußeren drei Gemeinden.</title>
+            <pg>886</pg>
+            <date when="1702-10-12">1702 Oktober 12</date>
+          </entry>
+          <entry>
+            <no>1603</no>
+            <title>Buße für Wolfgang Vogt, Stadtschreiber.</title>
+            <pg>886</pg>
+            <date when="1703-09-24">1703 September 24</date>
+          </entry>
+          <entry>
+            <no>1604</no>
+            <title>Zahlung Hünenbergs an die Stadt Zug.</title>
+            <pg>886</pg>
+            <date when="1703-09-27">1703 September 27</date>
+          </entry>
+          <entry>
+            <no>1605</no>
+            <title>Kaplaneipfründe in Cham.</title>
+            <pg>887</pg>
+            <date when="1717-04-18">1717 April 18</date>
+          </entry>
+          <entry>
+            <no>1606</no>
+            <title>Hünenberger Eid.</title>
+            <pg>887</pg>
+            <date when="1719">1719</date>
+          </entry>
+          <entry>
+            <no>1607</no>
+            <title>Markung zwischen Hünenberg und Risch.</title>
+            <pg>889</pg>
+            <date when="1734-08-28">1734 August 28</date>
+          </entry>
+          <entry>
+            <no>1608</no>
+            <title>Abkommen zwischen den Genossen und den Hintersaßen.</title>
+            <pg>889</pg>
+            <date when="1739-04-04">1739 April 4</date>
+          </entry>
+          <entry>
+            <no>1609</no>
+            <title>Bereinigung zum Instrument von 1644.</title>
+            <pg>895</pg>
+            <date when="1739-06-27">1739 Juni 27</date>
+          </entry>
+          <entry>
+            <no>1610</no>
+            <title>Kauf-, Tausch- und Teilbriefe.</title>
+            <pg>899</pg>
+            <date notAfter="1756" notBefore="1736">um 1746<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1611</no>
+            <title>Truppenkontingent.</title>
+            <pg>900</pg>
+            <date when="1755-11-16">1755 November 16</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>f</no>
+          <title>Rüti AG.</title>
+          <pg>900</pg>
+          <entry>
+            <no>1612</no>
+            <title>Kauf von Rüti durch Zug.</title>
+            <pg>900</pg>
+            <date when="1498-08-31">1498 August 31</date>
+          </entry>
+          <entry>
+            <no>1613</no>
+            <title>Eid im Twing Rüti.</title>
+            <pg>900</pg>
+            <date when="1719">1719</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>g</no>
+          <title>Steinhausen.</title>
+          <pg>901</pg>
+          <entry>
+            <no>1614</no>
+            <title>Hof und Gericht.</title>
+            <pg>901</pg>
+            <date when="1361-02-02">1361 Februar 2</date>
+          </entry>
+          <entry>
+            <no>1615</no>
+            <title>Zehnt.</title>
+            <pg>901</pg>
+            <date when="1362-04-28">1362 April 28</date>
+          </entry>
+          <entry>
+            <no>1616</no>
+            <title>Verzicht Hünenbergs.</title>
+            <pg>901</pg>
+            <date when="1372-06-26">1372 Juni 26</date>
+          </entry>
+          <entry>
+            <no>1617</no>
+            <title>Verkauf von Steinhausen samt Laienzehnt.</title>
+            <pg>902</pg>
+            <date when="1383-05-10">1383 Mai 10</date>
+          </entry>
+          <entry>
+            <no>1618</no>
+            <title>Umwandlung des Lehens.</title>
+            <pg>902</pg>
+            <date when="1384-09-03">1384 September 3</date>
+          </entry>
+          <entry>
+            <no>1619</no>
+            <title>Zehnten.</title>
+            <pg>902</pg>
+            <date when="1401">1401 und 1403</date>
+          </entry>
+          <entry>
+            <no>1620</no>
+            <title>Zinsrodel der Segesser.</title>
+            <pg>902</pg>
+            <date when="1414-03-04">1414 März 4</date>
+          </entry>
+          <entry>
+            <no>1621</no>
+            <title>Steuerstreit.</title>
+            <pg>903</pg>
+            <date when="1421-07-04">1421 Juli 4</date>
+          </entry>
+          <entry>
+            <no>1622</no>
+            <title>Zehnt.</title>
+            <pg>903</pg>
+            <date when="1424-02-07">1424 Februar 7</date>
+          </entry>
+          <entry>
+            <no>1623</no>
+            <title>Kirchweg Steinhausen-Βaar.</title>
+            <pg>903</pg>
+            <date when="1425">1425</date>
+          </entry>
+          <entry>
+            <no>1624</no>
+            <title>Blutbann.</title>
+            <pg>904</pg>
+            <date when="1426-08-14">1426 August 14</date>
+          </entry>
+          <entry>
+            <no>1625</no>
+            <title>Streit mit Buoch (Knonau ZH).</title>
+            <pg>904</pg>
+            <date when="1429-08-30">1429 August 30</date>
+          </entry>
+          <entry>
+            <no>1626</no>
+            <title>Zug kauft die Vogtei und den vierten Teil des Gerichts.</title>
+            <pg>904</pg>
+            <date when="1438-06-18">1438 Juni 18</date>
+          </entry>
+          <entry>
+            <no>1627</no>
+            <title>Laienzehnt.</title>
+            <pg>904</pg>
+            <date when="1451-08-25">1451 August 25</date>
+          </entry>
+          <entry>
+            <no>1628</no>
+            <title>Zug kauft die Rechte der Segesser.</title>
+            <pg>905</pg>
+            <date when="1451-08-26">1451 August 26</date>
+          </entry>
+          <entry>
+            <no>1629</no>
+            <title>Zug kauft die Herrschaft St. Blasiens.</title>
+            <pg>905</pg>
+            <date when="1470-02-09">1470 Februar 9</date>
+          </entry>
+          <entry>
+            <no>1630</no>
+            <title>Dorfrecht.</title>
+            <pg>905</pg>
+            <date when="1472-11-18">1472 November 18</date>
+          </entry>
+          <entry>
+            <no>1631</no>
+            <title>Zehnt.</title>
+            <pg>906</pg>
+            <date when="1483-05-26">1483 Mai 26</date>
+          </entry>
+          <entry>
+            <no>1632</no>
+            <title>Zug kauft die Rechtsame Kappels.</title>
+            <pg>906</pg>
+            <date when="1485-07-07">1485 Juli 7</date>
+          </entry>
+          <entry>
+            <no>1633</no>
+            <title>Zehnt.</title>
+            <pg>906</pg>
+            <date when="1525-06-24">1525 Juni 24</date>
+          </entry>
+          <entry>
+            <no>1634</no>
+            <title>Dorfrecht.</title>
+            <pg>906</pg>
+            <date when="1527-01-19">1527 Januar 19</date>
+          </entry>
+          <entry>
+            <no>1635</no>
+            <title>Steinhauser Freibrief.</title>
+            <pg>907</pg>
+            <date when="1534-08-01">1534 August 1</date>
+          </entry>
+          <entry>
+            <no>1636</no>
+            <title>Dorfrecht.</title>
+            <pg>908</pg>
+            <date when="1540-04-17">1540 April 17</date>
+          </entry>
+          <entry>
+            <no>1637</no>
+            <title>Allmende.</title>
+            <pg>909</pg>
+            <date when="1542-01-07">1542 Januar 7</date>
+          </entry>
+          <entry>
+            <no>1638</no>
+            <title>Zweiter Freiheitsbrief.</title>
+            <pg>909</pg>
+            <date when="1542-01-07">1542 Januar 7</date>
+          </entry>
+          <entry>
+            <no>1639</no>
+            <title>Einzugstaxe.</title>
+            <pg>911</pg>
+            <date when="1545-12-05">1545 Dezember 5</date>
+          </entry>
+          <entry>
+            <no>1640</no>
+            <title>Hausbau.</title>
+            <pg>912</pg>
+            <date when="1559-05-27">1559 Mai 27</date>
+          </entry>
+          <entry>
+            <no>1641</no>
+            <title>Anzahl der Allmende-Nutzungen.</title>
+            <pg>912</pg>
+            <date when="1567">1567</date>
+          </entry>
+          <entry>
+            <no>1642</no>
+            <title>Dorfrecht.</title>
+            <pg>912</pg>
+            <date when="1607-04-26">1607 April 26</date>
+          </entry>
+          <entry>
+            <no>1643</no>
+            <title>Kirchliche Trennung von Steinhausen.</title>
+            <pg>913</pg>
+            <date when="1611-05-26">1611 Mai 26</date>
+          </entry>
+          <entry>
+            <no>1644</no>
+            <title>Kleiner Zehnt.</title>
+            <pg>913</pg>
+            <date when="1626-06-06">1626 Juni 6</date>
+          </entry>
+          <entry>
+            <no>1645</no>
+            <title>Gründung der Pfarrei Steinhausen.</title>
+            <pg>913</pg>
+            <date when="1626-06-06">1626 Juni 6</date>
+          </entry>
+          <entry>
+            <no>1646</no>
+            <title>Straßen.</title>
+            <pg>915</pg>
+            <date when="1650">1650</date>
+          </entry>
+          <entry>
+            <no>1647</no>
+            <title>Straßen.</title>
+            <pg>915</pg>
+            <date when="1665-01-31">1665 Januar 31</date>
+          </entry>
+          <entry>
+            <no>1648</no>
+            <title>Dorfrecht.</title>
+            <pg>915</pg>
+            <date when="1669-12-27">1669 Dezember 27</date>
+          </entry>
+          <entry>
+            <no>1649</no>
+            <title>Hausbau.</title>
+            <pg>916</pg>
+            <date when="1671-12-28">1671 Dezember 28</date>
+          </entry>
+          <entry>
+            <no>1650</no>
+            <title>Allmende.</title>
+            <pg>916</pg>
+            <date when="1672">(1672) Oktober 5</date>
+          </entry>
+          <entry>
+            <no>1651</no>
+            <title>Allmendnutzung.</title>
+            <pg>916</pg>
+            <date when="1685">1685</date>
+          </entry>
+          <entry>
+            <no>1652</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>917</pg>
+            <date when="1687-02-15">1687 Februar 15</date>
+          </entry>
+          <entry>
+            <no>1653</no>
+            <title>Aufnahme Fremder.</title>
+            <pg>917</pg>
+            <date when="1690">1690</date>
+          </entry>
+          <entry>
+            <no>1654</no>
+            <title>Hausbau.</title>
+            <pg>918</pg>
+            <date when="1697-02-16">1697 Februar 16</date>
+          </entry>
+          <entry>
+            <no>1655</no>
+            <title>Zehnt.</title>
+            <pg>918</pg>
+            <date when="1711">1711</date>
+          </entry>
+          <entry>
+            <no>1656</no>
+            <title>Hausbau.</title>
+            <pg>918</pg>
+            <date when="1723-03-06">1723 März 6</date>
+          </entry>
+          <entry>
+            <no>1657</no>
+            <title>Neugrützehnt.</title>
+            <pg>919</pg>
+            <date when="1753-04-18">1753 April 18</date>
+          </entry>
+          <entry>
+            <no>1658</no>
+            <title>Waldschutz.</title>
+            <pg>919</pg>
+            <date when="1756-02-08">1756 Februar 8</date>
+          </entry>
+          <entry>
+            <no>1659</no>
+            <title>Kartoffelzehnt.</title>
+            <pg>919</pg>
+            <date when="1759-11-24">1759 November 24</date>
+          </entry>
+          <entry>
+            <no>1660</no>
+            <title>Holzhau.</title>
+            <pg>919</pg>
+            <date when="1764-12-26">1764 Dezember 26</date>
+          </entry>
+          <entry>
+            <no>1661</no>
+            <title>Einschläge in der Allmende.</title>
+            <pg>919</pg>
+            <date when="1791-04-30">1791 April 30</date>
+          </entry>
+          <entry>
+            <no>1662</no>
+            <title>Seckelmeister und Schule.</title>
+            <pg>919</pg>
+            <date when="1793">1793</date>
+          </entry>
+          <entry>
+            <no>1663</no>
+            <title>Aufwendungen des Seckelmeisters.</title>
+            <pg>920</pg>
+            <date from="1701" to="1800">18. Jh</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>h</no>
+          <title>Walchwil.</title>
+          <pg>921</pg>
+          <entry>
+            <no>1664</no>
+            <title>Rechte zu Walchwil und Emmeten (Oberdorf).</title>
+            <pg>921</pg>
+            <date notBefore="1342" notAfter="1362">um 1352<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1665</no>
+            <title>Zug kauft Steuer und Gericht.</title>
+            <pg>921</pg>
+            <date when="1379-03-22">1379 März 22</date>
+          </entry>
+          <entry>
+            <no>1666</no>
+            <title>Harnischbrief.</title>
+            <pg>921</pg>
+            <date when="1398-04-21">1398 April 21</date>
+          </entry>
+          <entry>
+            <no>1667</no>
+            <title>Zehnt.</title>
+            <pg>922</pg>
+            <date when="1434-05-15">1434 Mai 15</date>
+          </entry>
+          <entry>
+            <no>1668</no>
+            <title>Gült auf Bossenrüti.</title>
+            <pg>922</pg>
+            <date when="1454-01-31">1454 Januar 31</date>
+          </entry>
+          <entry>
+            <no>1669</no>
+            <title>Kaplaneipfründe.</title>
+            <pg>922</pg>
+            <date when="1497-04-21">1497 April 21</date>
+          </entry>
+          <entry>
+            <no>1670</no>
+            <title>Allmende.</title>
+            <pg>923</pg>
+            <date when="1534-08-29">1534 August 29</date>
+          </entry>
+          <entry>
+            <no>1671</no>
+            <title>Markung zwischen Zug und Walchwil.</title>
+            <pg>923</pg>
+            <date when="1547-07-15">1547 Juli 15</date>
+          </entry>
+          <entry>
+            <no>1672</no>
+            <title>Gemeinde-Ordnung.</title>
+            <pg>923</pg>
+            <date when="1549-03-23">1549 März 23</date>
+          </entry>
+          <entry>
+            <no>1673</no>
+            <title>Straße bei St. Adrian.</title>
+            <pg>924</pg>
+            <date when="1564">1564</date>
+          </entry>
+          <entry>
+            <no>1674</no>
+            <title>Kleiner Zehnt.</title>
+            <pg>925</pg>
+            <date when="1569-08-20">1569 August 20</date>
+          </entry>
+          <entry>
+            <no>1675</no>
+            <title>Straßenrodel.</title>
+            <pg>925</pg>
+            <date when="1609">1609</date>
+          </entry>
+          <entry>
+            <no>1676</no>
+            <title>Libell von Walchwil.</title>
+            <pg>925</pg>
+            <date when="1666-07-10">1666 Juli 10</date>
+          </entry>
+          <entry>
+            <no>1677</no>
+            <title>Hintersaßen.</title>
+            <pg>927</pg>
+            <date when="1686-05-11">1686 Mai 11</date>
+          </entry>
+          <entry>
+            <no>1678</no>
+            <title>Markung zwischen Schwyz und Walchwil.</title>
+            <pg>927</pg>
+            <date when="1699-10-28">1699 Oktober 28</date>
+          </entry>
+          <entry>
+            <no>1679</no>
+            <title>Kopie des Libells.</title>
+            <pg>927</pg>
+            <date when="1706-01-16">1706 Januar 16</date>
+          </entry>
+          <entry>
+            <no>1680</no>
+            <title>Ordnung für die Züge.</title>
+            <pg>928</pg>
+            <date when="1747-01-08">1747 Januar 8</date>
+          </entry>
+          <entry>
+            <no>1681</no>
+            <title>Weinzehnt.</title>
+            <pg>931</pg>
+            <date when="1795-11-20">1795 November 20</date>
+          </entry>
+        </entry>
+
+      </entry>
+
+    </entry>
+
+    <entry>
+      <no>IV</no>
+      <title>Die drei Gemeinden des äußeren Amtes.</title>
+      <pg>932</pg>
+
+      <entry>
+        <no>A</no>
+        <title>Aegeri.</title>
+        <pg>932</pg>
+
+        <entry>
+          <no>1682</no>
+          <title>Kirche von (Ober) Aegeri.</title>
+          <pg>932</pg>
+          <date when="1226-10-15">1226 Oktober 15</date>
+        </entry>
+        <entry>
+          <no>1683</no>
+          <title>Hofrecht.</title>
+          <pg>932</pg>
+          <date from="1301" to="1400">14. Jh</date>
+        </entry>
+        <entry>
+          <no>1684</no>
+          <title>Hofrecht.</title>
+          <pg>932</pg>
+          <date when="1407">1407</date>
+        </entry>
+        <entry>
+          <no>1685</no>
+          <title>Seebrief.</title>
+          <pg>934</pg>
+          <date when="1431-03-03">1431 März 3</date>
+        </entry>
+        <entry>
+          <no>1686</no>
+          <title>Grenze.</title>
+          <pg>935</pg>
+          <date when="1434-09-26">1434 September 26</date>
+        </entry>
+        <entry>
+          <no>1687</no>
+          <title>Zollfreiheit in Zürich.</title>
+          <pg>936</pg>
+          <date when="1436-03-30">1436 März 30</date>
+        </entry>
+        <entry>
+          <no>1688</no>
+          <title>Steuerbrief.</title>
+          <pg>936</pg>
+          <date when="1448-06-23">1448 Juni 23</date>
+        </entry>
+        <entry>
+          <no>1689</no>
+          <title>Alpen von Schwyz und Aegeri.</title>
+          <pg>937</pg>
+          <date when="1450">1450/1460</date>
+          <date when="1460"/>
+        </entry>
+        <entry>
+          <no>1690</no>
+          <title>Zoll von Zürich ein Lehen der Stadt.</title>
+          <pg>937</pg>
+          <date when="1463-09-22">1463 September 22</date>
+        </entry>
+        <entry>
+          <no>1691</no>
+          <title>Kirchenrodel.</title>
+          <pg>938</pg>
+          <date notAfter="1469" notBefore="1419">spätestens 1469<precision degree="0.5"
+              match="@notBefore,@notAfter"/></date>
+        </entry>
+        <entry>
+          <no>1692</no>
+          <title>Neuregelung des Zolls in Zürich.</title>
+          <pg>938</pg>
+          <date when="1471-06-29">1471 Juni 29</date>
+        </entry>
+        <entry>
+          <no>1693</no>
+          <title>Lorzenbrief.</title>
+          <pg>939</pg>
+          <date when="1479-06-02">1479 Juni 2</date>
+        </entry>
+        <entry>
+          <no>1694</no>
+          <title>Streit zwischen Zug und Aegeri betreffend Frutt.</title>
+          <pg>940</pg>
+          <date when="1495-08-27">1495 August 27</date>
+        </entry>
+        <entry>
+          <no>1695</no>
+          <title>Urbar.</title>
+          <pg>940</pg>
+          <date notAfter="1525" notBefore="1450">spätestens Anfang 16. Jh<precision degree="0.5"
+              match="@notBefore,@notAfter"/></date>
+        </entry>
+        <entry>
+          <no>1696</no>
+          <title>Untermark im Hürital.</title>
+          <pg>940</pg>
+          <date when="1541-10-11">1541 Oktober 11</date>
+        </entry>
+        <entry>
+          <no>1697</no>
+          <title>Gemeinde-Artikel.</title>
+          <pg>940</pg>
+          <date when="1547-03-08">1547 März 8</date>
+        </entry>
+        <entry>
+          <no>1698</no>
+          <title>Weg nach Aegeri.</title>
+          <pg>941</pg>
+          <date when="1558-08-24">1558 August 24</date>
+        </entry>
+        <entry>
+          <no>1699</no>
+          <title>Gemeinde-Artikel.</title>
+          <pg>941</pg>
+          <date when="1573">1573</date>
+        </entry>
+        <entry>
+          <no>1700</no>
+          <title>Streit zwischen Ober- und Unterägeri.</title>
+          <pg>942</pg>
+          <date when="1575-08-31">1575 August 31</date>
+        </entry>
+        <entry>
+          <no>1701</no>
+          <title>Vertrag mit Schwyz.</title>
+          <pg>942</pg>
+          <date when="1602">1602</date>
+        </entry>
+        <entry>
+          <no>1702</no>
+          <title>Zürcher Ankenzoll.</title>
+          <pg>943</pg>
+          <date when="1603-06-11">1603 Juni 11</date>
+        </entry>
+        <entry>
+          <no>1703</no>
+          <title>Solddienst.</title>
+          <pg>943</pg>
+          <date when="1675-01-13">1675 Januar 13</date>
+        </entry>
+        <entry>
+          <no>1704</no>
+          <title>Der große Zehnt.</title>
+          <pg>943</pg>
+          <date when="1677-08-03">1677 August 3</date>
+        </entry>
+        <entry>
+          <no>1705</no>
+          <title>Talstatuten.</title>
+          <pg>943</pg>
+          <date when="1684">1684 ff</date>
+        </entry>
+        <entry>
+          <no>1706</no>
+          <title>Beziehungen mit Zürich.</title>
+          <pg>952</pg>
+          <date when="1709-09-26">1709 September 26</date>
+        </entry>
+        <entry>
+          <no>1707</no>
+          <title>Trennung und Errichtung der Pfarrei Unterägeri.</title>
+          <pg>952</pg>
+          <date when="1714-01-22">1714 Januar 22</date>
+        </entry>
+        <entry>
+          <no>1708</no>
+          <title>Mandat für Ruhe und Frieden.</title>
+          <pg>952</pg>
+          <date when="1739-03-11">1739 März 11</date>
+        </entry>
+        <entry>
+          <no>1709</no>
+          <title>Weg beim Dorfbach.</title>
+          <pg>952</pg>
+          <date when="1763-09-07">1763 September 7</date>
+        </entry>
+        <entry>
+          <no>1710</no>
+          <title>Markung zwischen Einsiedeln und Aegeri.</title>
+          <pg>953</pg>
+          <date when="1796-09-17">1796 September 17</date>
+        </entry>
+      </entry>
+
+      <entry>
+        <no>B</no>
+        <title>Baar.</title>
+        <pg>953</pg>
+        <entry>
+          <no>1711</no>
+          <title>Grenzstreit mit Zug.</title>
+          <pg>953</pg>
+          <date when="1442-10-19">1442 Oktober 19</date>
+        </entry>
+        <entry>
+          <no>1712</no>
+          <title>Steuerstreit mit Gemeinde am Berg.</title>
+          <pg>953</pg>
+          <date when="1448-06-30">1448 Juni 30</date>
+        </entry>
+        <entry>
+          <no>1713</no>
+          <title>Steuerstreit mit Hirzwangen ZH.</title>
+          <pg>953</pg>
+          <date when="1470-06-07">1470 Juni 7</date>
+        </entry>
+        <entry>
+          <no>1714</no>
+          <title>Unterstützung der Kriegsgeschädigten.</title>
+          <pg>953</pg>
+          <date when="1532-03-13">1532 März 13</date>
+        </entry>
+        <entry>
+          <no>1715</no>
+          <title>Fischenzen.</title>
+          <pg>954</pg>
+          <date when="1542-02-04">1542 Februar 4</date>
+        </entry>
+        <entry>
+          <no>1716</no>
+          <title>Streit mit Kappel.</title>
+          <pg>954</pg>
+          <date when="1542">1542/1543 ff</date>
+          <date when="1543"/>
+        </entry>
+        <entry>
+          <no>1717</no>
+          <title>Lorzenfischerei.</title>
+          <pg>954</pg>
+          <date when="1564-11-09">1564 November 9</date>
+        </entry>
+        <entry>
+          <no>1718</no>
+          <title>Stubenrecht.</title>
+          <pg>954</pg>
+          <date when="1564-11-19">1564 November 19</date>
+        </entry>
+        <entry>
+          <no>1719</no>
+          <title>Einsiedler Zins.</title>
+          <pg>955</pg>
+          <date when="1568-09-20">1568 September 20</date>
+        </entry>
+        <entry>
+          <no>1720</no>
+          <title>Korngarbe.</title>
+          <pg>956</pg>
+          <date when="1571-02-21">1571 Februar 21</date>
+        </entry>
+        <entry>
+          <no>1721</no>
+          <title>Schochenmühle.</title>
+          <pg>956</pg>
+          <date when="1611-10-30">1611 Oktober 30</date>
+        </entry>
+        <entry>
+          <no>1722</no>
+          <title>Aamühlebrief.</title>
+          <pg>956</pg>
+          <date when="1612-07-07">1612 Juli 7</date>
+        </entry>
+        <entry>
+          <no>1723</no>
+          <title>Zehnten in Rossau und Hauptikon ZH.</title>
+          <pg>956</pg>
+          <date when="1639-08-27">1639 August 27</date>
+        </entry>
+        <entry>
+          <no>1724</no>
+          <title>Schochenmühle.</title>
+          <pg>957</pg>
+          <date when="1640-03-24">1640 März 24</date>
+        </entry>
+        <entry>
+          <no>1725</no>
+          <title>Obermühle.</title>
+          <pg>957</pg>
+          <date when="1651-06-09">1651 Juni 9</date>
+        </entry>
+        <entry>
+          <no>1726</no>
+          <title>Ehrschätzige Güter.</title>
+          <pg>957</pg>
+          <date when="1674-06-16">1674 Juni 16</date>
+        </entry>
+        <entry>
+          <no>1727</no>
+          <title>Solddienst.</title>
+          <pg>957</pg>
+          <date when="1675-01-13">1675 Januar 13</date>
+        </entry>
+        <entry>
+          <no>1728</no>
+          <title>Gült für St. Michael Zug.</title>
+          <pg>957</pg>
+          <date when="1679-11-11">1679 November 11</date>
+        </entry>
+        <entry>
+          <no>1729</no>
+          <title>Zinsablösung von Kappel.</title>
+          <pg>957</pg>
+          <date when="1682-11-15">1682 November 15</date>
+        </entry>
+        <entry>
+          <no>1730</no>
+          <title>Jagdrecht.</title>
+          <pg>958</pg>
+          <date when="1696-04-27">1696 April 27</date>
+        </entry>
+        <entry>
+          <no>1731</no>
+          <title>Verbot des Viehhandels.</title>
+          <pg>958</pg>
+          <date when="1702-02-12">1702 Februar 12</date>
+        </entry>
+        <entry>
+          <no>1732</no>
+          <title>Kaufverbot für verdächtige Waren.</title>
+          <pg>958</pg>
+          <date when="1716-04-01">1716 April 1</date>
+        </entry>
+        <entry>
+          <no>1733</no>
+          <title>Mühlefahren des Erblehen-Müllers.</title>
+          <pg>958</pg>
+          <date when="1740-02-23">1740 Februar 23</date>
+        </entry>
+        <entry>
+          <no>1734</no>
+          <title>Kaminbau.</title>
+          <pg>958</pg>
+          <date when="1746-04-20">1746 April 20</date>
+        </entry>
+        <entry>
+          <no>1735</no>
+          <title>Zugrecht zwischen Baar und Zug.</title>
+          <pg>958</pg>
+          <date when="1756-04-26">1756 April 26</date>
+        </entry>
+        <entry>
+          <no>1736</no>
+          <title>Zugrecht in Fallimentssachen.</title>
+          <pg>958</pg>
+          <date when="1783-07-07">1783 Juli 7.-31</date>
+        </entry>
+        <entry>
+          <no>1737</no>
+          <title>Fischenz in der Lorze.</title>
+          <pg>959</pg>
+          <date when="1785-10-31">1785 Oktober 31</date>
+        </entry>
+
+        <entry>
+          <no>a</no>
+          <title>Das Baarer Dorfrecht.</title>
+          <pg>959</pg>
+          <entry>
+            <no>1738</no>
+            <title>Baarer Hofrodel.</title>
+            <pg>959</pg>
+            <date when="1416">1416/1476</date>
+            <date when="1476"/>
+          </entry>
+          <entry>
+            <no>1739</no>
+            <title>Baarer Dorfrecht a-z; aa-nn.</title>
+            <pg>963</pg>
+            <date when="1559">1559-1795</date>
+          </entry>
+          <entry>
+            <no>1740</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>988</pg>
+            <date when="1582-11-25">1582 November 25</date>
+          </entry>
+          <entry>
+            <no>1741</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>989</pg>
+            <date when="1647">1647</date>
+          </entry>
+          <entry>
+            <no>1742</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>989</pg>
+            <date when="1677-06-30">1677 Juni 30</date>
+          </entry>
+          <entry>
+            <no>1743</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>990</pg>
+            <date when="1677-07-03">1677 Juli 3</date>
+          </entry>
+          <entry>
+            <no>1744</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>990</pg>
+            <date when="1677-07-11">1677 Juli 11</date>
+          </entry>
+          <entry>
+            <no>1745</no>
+            <title>Gemeinde-Artikel.</title>
+            <pg>991</pg>
+            <date when="1678-06-24">1678 Juni 24</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>b</no>
+          <title>Die Korporation Baar-Dorf.</title>
+          <pg>992</pg>
+          <entry>
+            <no>1746</no>
+            <title>Verwaltung.</title>
+            <pg>992</pg>
+            <date when="1450-04-14">1450 April 14</date>
+          </entry>
+          <entry>
+            <no>1747</no>
+            <title>Aufnahme ins Dorfrecht.</title>
+            <pg>992</pg>
+            <date when="1489-12-26">1489 Dezember 26</date>
+          </entry>
+          <entry>
+            <no>1748</no>
+            <title>Weg in Walterswil.</title>
+            <pg>992</pg>
+            <date when="1563-03-30">1563 März 30</date>
+          </entry>
+          <entry>
+            <no>1749</no>
+            <title>Weidgänge.</title>
+            <pg>993</pg>
+            <date notAfter="1585" notBefore="1535">(vor 1585)<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1750</no>
+            <title>Treibrecht für die Allmende.</title>
+            <pg>993</pg>
+            <date when="1585-06-04">1585 Juni 4</date>
+          </entry>
+          <entry>
+            <no>1751</no>
+            <title>Treibrecht für die Allmende.</title>
+            <pg>993</pg>
+            <date when="1592-03-30">1592 März 30</date>
+          </entry>
+          <entry>
+            <no>1752</no>
+            <title>Ziegelhütte.</title>
+            <pg>993</pg>
+            <date when="1605-12-26">1605 Dezember 26</date>
+          </entry>
+          <entry>
+            <no>1753</no>
+            <title>Schulden an die Gemeinde.</title>
+            <pg>994</pg>
+            <date when="1621-12-26">1621 Dezember 26</date>
+          </entry>
+          <entry>
+            <no>1754</no>
+            <title>Kauf der Dorfgemeinde.</title>
+            <pg>994</pg>
+            <date when="1630-03-04">1630 März 4. und 6</date>
+          </entry>
+          <entry>
+            <no>1755</no>
+            <title>Kauf der Dorfgemeinde.</title>
+            <pg>994</pg>
+            <date when="1630-04-04">1630 April 4. und 14</date>
+          </entry>
+          <entry>
+            <no>1756</no>
+            <title>Kauf der Dorfgemeinde.</title>
+            <pg>994</pg>
+            <date from="1630" to="1639">o. J. [1630-1639]<precision degree="0.5" match="@from,@to"
+              /></date>
+          </entry>
+          <entry>
+            <no>1757</no>
+            <title>Kauf der Dorfgemeinde.</title>
+            <pg>994</pg>
+            <date when="1631-05-05">1631 Mai 5</date>
+          </entry>
+          <entry>
+            <no>1758</no>
+            <title>Zins der Kirche St. Martin.</title>
+            <pg>995</pg>
+            <date when="1639-11-17">1639 November 17</date>
+          </entry>
+          <entry>
+            <no>1759</no>
+            <title>Brunnengeld.</title>
+            <pg>995</pg>
+            <date when="1655-07-10">1655 Juli 10. und November 3</date>
+          </entry>
+          <entry>
+            <no>1760</no>
+            <title>Kauf der Dorfgemeinde.</title>
+            <pg>995</pg>
+            <date when="1671-06-14">1671 Juni 14. und September 6</date>
+          </entry>
+          <entry>
+            <no>1761</no>
+            <title>Mühle an der Aa (Lorze).</title>
+            <pg>995</pg>
+            <date when="1690-03-04">1690 März 4. und 6</date>
+          </entry>
+          <entry>
+            <no>1762</no>
+            <title>Wegpflicht durch das Breitholz.</title>
+            <pg>995</pg>
+            <date when="1690-07-16">1690 Juli 16. und August 4</date>
+          </entry>
+          <entry>
+            <no>1763</no>
+            <title>Lorzensteg.</title>
+            <pg>995</pg>
+            <date when="1717-11-24">1717 November 24</date>
+          </entry>
+          <entry>
+            <no>1764</no>
+            <title>Lasten auf dem gekauften Hasel.</title>
+            <pg>996</pg>
+            <date when="1735">1735/1751</date>
+            <date when="1751"/>
+          </entry>
+          <entry>
+            <no>1765</no>
+            <title>Neubau des Bruderhauses.</title>
+            <pg>996</pg>
+            <date when="1738">1738/1740</date>
+            <date when="1740"/>
+          </entry>
+          <entry>
+            <no>1766</no>
+            <title>Dorfstatuten.</title>
+            <pg>996</pg>
+            <date when="1749-12-26">1749 Dezember 26</date>
+          </entry>
+          <entry>
+            <no>1767</no>
+            <title>Steg der drei Naßmatten.</title>
+            <pg>1009</pg>
+            <date when="1750-02-12">1750 Februar 12</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>c</no>
+          <title>Blickensdorf.</title>
+          <pg>1010</pg>
+          <entry>
+            <no>1768</no>
+            <title>Hofrecht.</title>
+            <pg>1010</pg>
+            <date when="1381-01-27">1381 Januar 27.</date>
+          </entry>
+          <entry>
+            <no>1769</no>
+            <title>Schmalholz.</title>
+            <pg>1012</pg>
+            <date when="1387-06-19">1387 Juni 19.</date>
+          </entry>
+          <entry>
+            <no>1770</no>
+            <title>Schmalholz.</title>
+            <pg>1013</pg>
+            <date when="1426-11-13">1426 November 13.</date>
+          </entry>
+          <entry>
+            <no>1771</no>
+            <title>Schmalholz.</title>
+            <pg>1013</pg>
+            <date when="1430-11-15">1430 November 15.</date>
+          </entry>
+          <entry>
+            <no>1772</no>
+            <title>Allmendegerechtigkeit.</title>
+            <pg>1013</pg>
+            <date when="1451-06-11">1451 Juni 11.</date>
+          </entry>
+          <entry>
+            <no>1773</no>
+            <title>Schmalholz.</title>
+            <pg>1013</pg>
+            <date when="1502-05-18">1502 Mai 18.</date>
+          </entry>
+          <entry>
+            <no>1774</no>
+            <title>Streit mit einem Genossen.</title>
+            <pg>1015</pg>
+            <date when="1510-05-24"> 1510 Mai 24.</date>
+          </entry>
+          <entry>
+            <no>1775</no>
+            <title>Streit mit einem Genossen.</title>
+            <pg>1015</pg>
+            <date when="1514-08-09">1514 August 9.</date>
+          </entry>
+          <entry>
+            <no>1776</no>
+            <title>Korporations-Satzungen.</title>
+            <pg>1015</pg>
+            <date when="1514">1514</date>
+          </entry>
+          <entry>
+            <no>1777</no>
+            <title>Bannung eines Gehölzes.</title>
+            <pg>1018</pg>
+            <date when="1516-12-26">1516 Dezember 26.</date>
+          </entry>
+          <entry>
+            <no>1778</no>
+            <title>Gemeinderecht.</title>
+            <pg>1019</pg>
+            <date when="1521">1521</date>
+          </entry>
+          <entry>
+            <no>1779</no>
+            <title>Kauf durch die Korporation.</title>
+            <pg>1019</pg>
+            <date when="1526-10-03">1526 Oktober 3.</date>
+          </entry>
+          <entry>
+            <no>1780</no>
+            <title>Dorfsatzungen.</title>
+            <pg>1019</pg>
+            <date when="1562-03-30">1562 März 30.</date>
+          </entry>
+          <entry>
+            <no>1781</no>
+            <title>Schenkung einer Gemeindegerechtigkeit.</title>
+            <pg>1024</pg>
+            <date when="1635-11-16">1635 November 16.</date>
+          </entry>
+          <entry>
+            <no>1782</no>
+            <title>Zugrecht.</title>
+            <pg>1024</pg>
+            <date when="1639-08-27">1639 August 27.</date>
+          </entry>
+          <entry>
+            <no>1783</no>
+            <title>Markung Blickensdorf-Steinhausen.</title>
+            <pg>1024</pg>
+            <date when="1645-05-22">1645 Mai 22.</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>d</no>
+          <title>Deinikon.</title>
+          <pg>1024</pg>
+          <entry>
+            <no>1784</no>
+            <title>Hofrodel.</title>
+            <pg>1024</pg>
+            <date when="1463-03-08">1463 März 8</date>
+          </entry>
+          <entry>
+            <no>1785</no>
+            <title>Gericht zu Deinikon.</title>
+            <pg>1025</pg>
+            <date when="1560-04-23">1560 April 23</date>
+          </entry>
+          <entry>
+            <no>1786</no>
+            <title>Streit um eine Weide.</title>
+            <pg>1025</pg>
+            <date when="1609-06-23">1609 Juni 23</date>
+          </entry>
+          <entry>
+            <no>1787</no>
+            <title>Hofrodel (erste Fassung).</title>
+            <pg>1025</pg>
+            <date when="1628-05-25">1628 Mai 25</date>
+          </entry>
+          <entry>
+            <no>1788</no>
+            <title>Hofrodel (zweite Fassung).</title>
+            <pg>1028</pg>
+            <date when="1628-12-18">1628 Dezember 18</date>
+          </entry>
+          <entry>
+            <no>1789</no>
+            <title>Hofrodel.</title>
+            <pg>1029</pg>
+            <date when="1634">1634</date>
+          </entry>
+          <entry>
+            <no>1790</no>
+            <title>Gült der Genossame.</title>
+            <pg>1031</pg>
+            <date when="1638">1638</date>
+          </entry>
+          <entry>
+            <no>1791</no>
+            <title>Markung mit der Dorfgemeinde.</title>
+            <pg>1031</pg>
+            <date when="1643-05-08">1643 Mai 8. und 9</date>
+          </entry>
+          <entry>
+            <no>1792</no>
+            <title>Hofrodel.</title>
+            <pg>1031</pg>
+            <date when="1658-06-02">1658 Juni 2</date>
+          </entry>
+          <entry>
+            <no>1793</no>
+            <title>Bauholz.</title>
+            <pg>1032</pg>
+            <date when="1658-11-02">1658 November 2</date>
+          </entry>
+          <entry>
+            <no>1794</no>
+            <title>Genossenrecht der Haushofstätten.</title>
+            <pg>1033</pg>
+            <date when="1658">1658</date>
+          </entry>
+          <entry>
+            <no>1795</no>
+            <title>Holzweg in die Walterschwand.</title>
+            <pg>1033</pg>
+            <date when="1681-02-20">1681 Februar 20</date>
+          </entry>
+          <entry>
+            <no>1796</no>
+            <title>Genossensatzung.</title>
+            <pg>1034</pg>
+            <date when="1681-06-26">1681 Juni 26</date>
+          </entry>
+          <entry>
+            <no>1797</no>
+            <title>Hofrodel.</title>
+            <pg>1037</pg>
+            <date when="1681">1681</date>
+          </entry>
+          <entry>
+            <no>1798</no>
+            <title>Markrodel.</title>
+            <pg>1038</pg>
+            <date when="1733">1733</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>e</no>
+          <title>Grüt (Allenwinden) vgl. Stadt Zug.</title>
+          <pg>1039</pg>
+        </entry>
+
+        <entry>
+          <no>f</no>
+          <title>Inwil.</title>
+          <pg>1039</pg><date when="1407">1407</date>
+          <entry>
+            <no>1799</no>
+            <title>Wegrecht.</title>
+            <pg>1039</pg>
+            <date when="1407-04-24">1407 April 24</date>
+          </entry>
+          <entry>
+            <no>1800</no>
+            <title>Dorfrodel.</title>
+            <pg>1039</pg>
+            <date notBefore="1500" notAfter="1535">um 1510-1525<precision degree="0.5"
+                match="@notBefore,@notAfter"/></date>
+          </entry>
+          <entry>
+            <no>1801</no>
+            <title>Güterschatzung.</title>
+            <pg>1040</pg>
+            <date when="1633">1633</date>
+          </entry>
+          <entry>
+            <no>1802</no>
+            <title>Genossenrodel.</title>
+            <pg>1040</pg>
+            <date when="1666">1666 und 1702</date>
+          </entry>
+          <entry>
+            <no>1803</no>
+            <title>Inkenberg.</title>
+            <pg>1044</pg>
+            <date when="1717-05-08">1717 Mai 8</date>
+          </entry>
+          <entry>
+            <no>1804</no>
+            <title>Erneuerung des Genossenrechts.</title>
+            <pg>1044</pg>
+            <date when="1744-02-24">1744 Februar 24</date>
+          </entry>
+        </entry>
+
+      </entry>
+
+      <entry>
+        <no>C</no>
+        <title>Der Berg (Menzingen-Neuheim).</title>
+        <pg>1045</pg>
+        <entry>
+          <no>a</no>
+          <title>Das Einsiedler Gericht.</title>
+          <pg>1045</pg>
+          <entry>
+            <no>1805</no>
+            <title>Gerichtstreit.</title>
+            <pg>1045</pg>
+            <date when="1409-03-11">1409 März 11</date>
+          </entry>
+          <entry>
+            <no>1806</no>
+            <title>Fallrecht.</title>
+            <pg>1047</pg>
+            <date when="1413-05-31">1413 Mai 31</date>
+          </entry>
+          <entry>
+            <no>1807</no>
+            <title>Schiedspruch im Gerichtstreit.</title>
+            <pg>1047</pg>
+            <date when="1427-02-13">1427 Februar 13</date>
+          </entry>
+          <entry>
+            <no>1808</no>
+            <title>Eid der Gotteshausleute.</title>
+            <pg>1048</pg>
+            <date when="1427-02-13">1427 Februar 13</date>
+          </entry>
+          <entry>
+            <no>1809</no>
+            <title>Einsiedler Urbar für den Berg, Aegeri und Baar.</title>
+            <pg>1048</pg>
+            <date when="1427">1427</date>
+          </entry>
+          <entry>
+            <no>1810</no>
+            <title>Hofrecht (Ms Einsiedeln).</title>
+            <pg>1048</pg>
+            <date when="1427">1427</date>
+          </entry>
+          <entry>
+            <no>1811</no>
+            <title>Hofrecht (Wortlaut des Bergbuchs).</title>
+            <pg>1053</pg>
+            <date from="1401" to="1500">o. D. [15. Jh.]<precision match="@from,@to" degree="0.5"
+              /></date>
+          </entry>
+          <entry>
+            <no>1812</no>
+            <title>Verkauf des Gotteshausgerichts.</title>
+            <pg>1054</pg>
+            <date when="1464-02-24">1464 Februar 24</date>
+          </entry>
+          <entry>
+            <no>1813</no>
+            <title>Schwyz lädt nach Einsiedeln ein.</title>
+            <pg>1055</pg>
+            <date when="1466-02-27">1466 Februar 27</date>
+          </entry>
+          <entry>
+            <no>1814</no>
+            <title>Vorschläge der Tagsatzung.</title>
+            <pg>1055</pg>
+            <date when="1466-04-28">1466 April 28</date>
+          </entry>
+          <entry>
+            <no>1815</no>
+            <title>Widerstand einiger Gotteshausleute.</title>
+            <pg>1055</pg>
+            <date when="1466-11-13">1466 November 13</date>
+          </entry>
+          <entry>
+            <no>1816</no>
+            <title>Streit wegen des Verkaufs.</title>
+            <pg>1056</pg>
+            <date when="1467-02-28">1467 Februar 28</date>
+          </entry>
+          <entry>
+            <no>1817</no>
+            <title>Einladung zum Rechtstag nach Einsiedeln.</title>
+            <pg>1056</pg>
+            <date when="1467-06-15">1467 Juni 15</date>
+          </entry>
+          <entry>
+            <no>1818</no>
+            <title>Prozeß.</title>
+            <pg>1057</pg>
+            <date when="1468-02-20">1468 Februar 20</date>
+          </entry>
+          <entry>
+            <no>1819</no>
+            <title>Schlußurteil.</title>
+            <pg>1058</pg>
+            <date when="1468-03-14">1468 März 14</date>
+          </entry>
+          <entry>
+            <no>1820</no>
+            <title>Bestrafung der Frevel.</title>
+            <pg>1059</pg>
+            <date when="1480-01-07">1480 Januar 7</date>
+          </entry>
+          <entry>
+            <no>1821</no>
+            <title>Einzug der Zinsen.</title>
+            <pg>1059</pg>
+            <date when="1517-05-19">1517 Mai 19</date>
+          </entry>
+          <entry>
+            <no>1822</no>
+            <title>Hofrödel und Urbarien.</title>
+            <pg>1059</pg>
+            <date when="1528">1528 ff</date>
+          </entry>
+          <entry>
+            <no>1823</no>
+            <title>Gericht.</title>
+            <pg>1060</pg>
+            <date when="1543">1543 Januar</date>
+          </entry>
+          <entry>
+            <no>1824</no>
+            <title>Zehnten.</title>
+            <pg>1060</pg>
+            <date when="1543-02-14">1543 Februar 14</date>
+          </entry>
+          <entry>
+            <no>1825</no>
+            <title>Besetzungsrecht des Ammannpostens.</title>
+            <pg>1062</pg>
+            <date when="1543-04-21">1543 April 21</date>
+          </entry>
+          <entry>
+            <no>1826</no>
+            <title>Huldigung der Menzinger und Hinderburger.</title>
+            <pg>1062</pg>
+            <date when="1544-06-07">1544 Juni 7</date>
+          </entry>
+          <entry>
+            <no>1827</no>
+            <title>Eidverweigerung der Aegerer.</title>
+            <pg>1062</pg>
+            <date when="1544-06-13">1544 Juni 13</date>
+          </entry>
+          <entry>
+            <no>1828</no>
+            <title>Mühlenbau zu Hinderburg.</title>
+            <pg>1063</pg>
+            <date when="1560-08-03">1560 August 3</date>
+          </entry>
+          <entry>
+            <no>1829</no>
+            <title>Uneinigkeit wegen der Ehrschätze.</title>
+            <pg>1063</pg>
+            <date when="1565-08-11">1565 August 11</date>
+          </entry>
+          <entry>
+            <no>1830</no>
+            <title>Vereinbarung wegen der Ehrschätze.</title>
+            <pg>1063</pg>
+            <date when="1566-03-18">1566 März 18</date>
+          </entry>
+          <entry>
+            <no>1831</no>
+            <title>Bestallungsbrief des Gotteshausammanns.</title>
+            <pg>1064</pg>
+            <date when="1583-03-25">1583 März 25</date>
+          </entry>
+          <entry>
+            <no>1832</no>
+            <title>Appellation.</title>
+            <pg>1066</pg>
+            <date when="1598-04-18">1598 April 18</date>
+          </entry>
+          <entry>
+            <no>1833</no>
+            <title>Gotteshausleute am Berg.</title>
+            <pg>1067</pg>
+            <date when="1599-05-18">1599 Mai 18</date>
+          </entry>
+          <entry>
+            <no>1834</no>
+            <title>Appellation.</title>
+            <pg>1067</pg>
+            <date when="1603-08-26">1603 August 26</date>
+          </entry>
+          <entry>
+            <no>1835</no>
+            <title>Appellation.</title>
+            <pg>1067</pg>
+            <date when="1618-05-18">1618 Mai 18</date>
+          </entry>
+          <entry>
+            <no>1836</no>
+            <title>Leibeigenschaft der Gotteshausleute.</title>
+            <pg>1067</pg>
+            <date when="1622-01-20">1622 Januar 20</date>
+          </entry>
+          <entry>
+            <no>1837</no>
+            <title>Fall- und Ehrschatzpflicht.</title>
+            <pg>1068</pg>
+            <date when="1629-09-14">1629 September 14</date>
+          </entry>
+          <entry>
+            <no>1838</no>
+            <title>Eid der Gotteshausleute.</title>
+            <pg>1068</pg>
+            <date when="1629">1629</date>
+          </entry>
+          <entry>
+            <no>1839</no>
+            <title>Einsiedler Zinsen.</title>
+            <pg>1068</pg>
+            <date when="1630-01-20">1630 Januar 20</date>
+          </entry>
+          <entry>
+            <no>1840</no>
+            <title>Ehrschatz.</title>
+            <pg>1069</pg>
+            <date when="1630-01-31">1630 Januar 31</date>
+          </entry>
+          <entry>
+            <no>1841</no>
+            <title>Weibelamt.</title>
+            <pg>1069</pg>
+            <date when="1631-04-02">1631 April 2</date>
+          </entry>
+          <entry>
+            <no>1842</no>
+            <title>Maiengericht.</title>
+            <pg>1069</pg>
+            <date when="1631-05-12">1631 Mai 12</date>
+          </entry>
+          <entry>
+            <no>1843</no>
+            <title>Gerichtliche Kundschaft.</title>
+            <pg>1069</pg>
+            <date when="1642-09-01">1642 September 1</date>
+          </entry>
+          <entry>
+            <no>1844</no>
+            <title>Zugrecht.</title>
+            <pg>1069</pg>
+            <date when="1661-05-09">1661 Mai 9</date>
+          </entry>
+          <entry>
+            <no>1845</no>
+            <title>Zehnten.</title>
+            <pg>1070</pg>
+            <date when="1677-08-03">1677 August 3</date>
+          </entry>
+          <entry>
+            <no>1846</no>
+            <title>Auskauf des Gotteshausgerichts.</title>
+            <pg>1071</pg>
+            <date when="1679-01-13">1679 Januar 13</date>
+          </entry>
+          <entry>
+            <no>1847</no>
+            <title>Ergänzender Vergleich.</title>
+            <pg>1074</pg>
+            <date when="1679-11-16">1679 November 16.</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>b</no>
+          <title>Der Hof Hinderburg.</title>
+          <pg>1075</pg>
+          <entry>
+            <no>1848</no>
+            <title>Hofrecht.</title>
+            <pg>1075</pg>
+            <date when="1431">1431</date>
+          </entry>
+          <entry>
+            <no>1849</no>
+            <title>Sennhütte und Dorfbrunnen.</title>
+            <pg>1077</pg>
+            <date when="1767-04-21">1767 April 21</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>c</no>
+          <title>Das Bergrecht, d. h. das Gemeinderecht von Menzingen-Neuheim.</title>
+          <pg>1078</pg>
+          <entry>
+            <no>1850</no>
+            <title>Holzverkauf der Bauernsame.</title>
+            <pg>1078</pg>
+            <date when="1365-10-08">1365 Oktober 8</date>
+          </entry>
+          <entry>
+            <no>1851</no>
+            <title>Kopie eines Bergbriefs.</title>
+            <pg>1078</pg>
+            <date when="1448-06-30">1448 Juni 30</date>
+          </entry>
+          <entry>
+            <no>1852</no>
+            <title>Schatzungsrodel.</title>
+            <pg>1079</pg>
+            <date when="1468">1468 ca. November 30</date>
+          </entry>
+          <entry>
+            <no>1853</no>
+            <title>Gemeindesatzungen am Berg.</title>
+            <pg>1079</pg>
+            <date when="1509-10-20">1509 Oktober 20</date>
+          </entry>
+          <entry>
+            <no>1854</no>
+            <title>Kopie des Bergbriefs.</title>
+            <pg>1081</pg>
+            <date when="1517-07-24">1517 Juli 24</date>
+          </entry>
+          <entry>
+            <no>1855</no>
+            <title>Laufende Zusätze zum Bergbrief (1-120).</title>
+            <pg>1083</pg>
+            <date when="1586">1586-1796</date>
+          </entry>
+          <entry>
+            <no>1856</no>
+            <title>Mühle an der Sihl.</title>
+            <pg>1116</pg>
+            <date when="1598-09-15">1598 September 15</date>
+          </entry>
+          <entry>
+            <no>1857</no>
+            <title>Gemeindesatzungen.</title>
+            <pg>1116</pg>
+            <date from="1501" to="1600">(16. Jh)</date>
+          </entry>
+          <entry>
+            <no>1858</no>
+            <title>Zusatz zum Bergrecht.</title>
+            <pg>1122</pg>
+            <date when="1637-09-22">1637 September 22</date>
+          </entry>
+          <entry>
+            <no>1859</no>
+            <title>Abtrennung von Kirche und Schule zu Neuheim.</title>
+            <pg>1122</pg>
+            <date when="1675-10-28">1675 Oktober 28</date>
+          </entry>
+          <entry>
+            <no>1860</no>
+            <title>Unruhen.</title>
+            <pg>1123</pg>
+            <date when="1677-08-21">1677 August 21</date>
+          </entry>
+          <entry>
+            <no>1861</no>
+            <title>Hafnersteg.</title>
+            <pg>1123</pg>
+            <date when="1685-11-05">1685 November 5</date>
+          </entry>
+          <entry>
+            <no>1862</no>
+            <title>Bergrecht.</title>
+            <pg>1123</pg>
+            <date when="1686-06-08">1686 Juni 8</date>
+          </entry>
+          <entry>
+            <no>1863</no>
+            <title>Mandat für Friede und Ordnung.</title>
+            <pg>1123</pg>
+            <date when="1703-12-05">1703 Dezember 5</date>
+          </entry>
+          <entry>
+            <no>1864</no>
+            <title>Klage wegen Holzfrevel.</title>
+            <pg>1124</pg>
+            <date when="1709-08-05">1709 August 5</date>
+          </entry>
+          <entry>
+            <no>1865</no>
+            <title>Holzfrevel.</title>
+            <pg>1124</pg>
+            <date when="1709-08-26">1709 August 26</date>
+          </entry>
+          <entry>
+            <no>1866</no>
+            <title>Hafnersteg.</title>
+            <pg>1124</pg>
+            <date when="1719-09-09">1719 September 9</date>
+          </entry>
+          <entry>
+            <no>1867</no>
+            <title>Küfergeschirr auf den Zürcher Märkten.</title>
+            <pg>1124</pg>
+            <date when="1722-09-05">1722 September 5</date>
+          </entry>
+          <entry>
+            <no>1868</no>
+            <title>Weinzoll.</title>
+            <pg>1125</pg>
+            <date when="1726-06-26">1726 Juni 26</date>
+          </entry>
+          <entry>
+            <no>1869</no>
+            <title>Holztransport.</title>
+            <pg>1125</pg>
+            <date when="1727-05-28">1727 Mai 28</date>
+          </entry>
+          <entry>
+            <no>1870</no>
+            <title>Holzmandat.</title>
+            <pg>1125</pg>
+            <date when="1727-05-19">1727 Mai 19</date>
+          </entry>
+          <entry>
+            <no>1871</no>
+            <title>Hafnersteg.</title>
+            <pg>1125</pg>
+            <date when="1733-07-08">1733 Juli 8</date>
+          </entry>
+          <entry>
+            <no>1872</no>
+            <title>Bergartikel (revidiert).</title>
+            <pg>1126</pg>
+            <date when="1748-02-01">1748 Februar 1. und 8</date>
+          </entry>
+          <entry>
+            <no>1873</no>
+            <title>Milchhandel.</title>
+            <pg>1131</pg>
+            <date when="1764-09-27">1764 September 27</date>
+          </entry>
+          <entry>
+            <no>1874</no>
+            <title>Holzfrevel.</title>
+            <pg>1131</pg>
+            <date when="1775-12-18">1775 Dezember 18</date>
+          </entry>
+          <entry>
+            <no>1875</no>
+            <title>Zinsfrage.</title>
+            <pg>1131</pg>
+            <date when="1783-12-11">1783 Dezember 11</date>
+          </entry>
+        </entry>
+
+        <entry>
+          <no>d</no>
+          <title>Die Kirche von Menzingen.</title>
+          <pg>1132</pg>
+          <entry>
+            <no>1876</no>
+            <title>Päpstliche Bewilligung zum Bau.</title>
+            <pg>1132</pg>
+            <date when="1479-07-12">1479 Juli 12</date>
+          </entry>
+          <entry>
+            <no>1877</no>
+            <title>Streit mit Kappel und Baar.</title>
+            <pg>1132</pg>
+            <date when="1480-04-15">1480 April 15</date>
+          </entry>
+          <entry>
+            <no>1878</no>
+            <title>Verpflichtungen gegen Baar.</title>
+            <pg>1134</pg>
+            <date when="1480-05-16">1480 Mai 16</date>
+          </entry>
+          <entry>
+            <no>1879</no>
+            <title>Zinsauskauf.</title>
+            <pg>1135</pg>
+            <date when="1483-08-07">1483 August 7.</date>
+          </entry>
+          <entry>
+            <no>1880</no>
+            <title>Grenzen der Pfarrei.</title>
+            <pg>1135</pg>
+            <date when="1515-01-10">1515 Januar 10</date>
+          </entry>
+        </entry>
+
+      </entry>
+
+    </entry>
+
+    <entry>
+      <title>Nachtrag.</title>
+      <pg>1136</pg>
+
+      <entry>
+        <no>1881</no>
+        <title>Nachbarschaft Lüssi.</title>
+        <pg>1136</pg>
+        <date when="1763-01-06">1763 Januar 6</date>
+      </entry>
+
+    </entry>
+
+
+  </toe>
+</volinfo>
