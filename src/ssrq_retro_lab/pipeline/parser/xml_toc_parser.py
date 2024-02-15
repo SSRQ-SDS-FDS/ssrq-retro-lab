@@ -33,6 +33,30 @@ class XMLToC:
     meta: VolumeMeta
     volume_path: Path
 
+    def get_entry(self, article_number: int) -> Result[VolumeEntry, XMLToCParsingError]:
+        """Gets the volume entry for a given article number.
+
+        Args:
+            article_number: The article number.
+
+        Returns:
+            The volume entry as Result with VolumeEntry as Ok value
+            or an XMLToCParsingError as Err value.
+        """
+        entry = next(
+            (entry for entry in self.entries if entry.no == article_number), None
+        )
+
+        return (
+            Ok(entry)
+            if entry
+            else Err(
+                XMLToCParsingError(
+                    f"Found no entry for article number >>{article_number}<< in {self.meta.canton} {self.meta.volume} with title {self.meta.title}"
+                )
+            )
+        )
+
 
 def parse_xml_toc(
     toc: Selector, volume_path: Path
