@@ -8,10 +8,16 @@ from ssrq_retro_lab.pipeline.parser.xml_toc_parser import VolumeEntry, parse_xml
 from ssrq_retro_lab.pipeline.pdf import extraction
 from ssrq_retro_lab.repository.reader import PDFReader, XMLReader
 from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
+from typing import NamedTuple
 
-VolumeInfo = namedtuple(
-    "VolumeInfo", ["pdf_path", "toc_path", "skip_pages", "real_start"]
-)
+
+class ExtractionInput(NamedTuple):
+    article_number: int
+    real_start_page: int
+    real_end_page: int
+
+
+VolumeInfo = namedtuple("VolumeInfo", ["pdf_path", "toc_path"])
 
 
 class TextExtractionResult(TypedDict):
@@ -28,22 +34,20 @@ class TextExtractor(Component):
         1: VolumeInfo(
             ZG_DATA_ROOT / "pdf" / "ZG_1.1.pdf",
             ZG_DATA_ROOT / "toc" / "ZG_1-1.xml",
-            81,
-            43,
         ),
         2: VolumeInfo(
             ZG_DATA_ROOT / "pdf" / "ZG_1.2.pdf",
             ZG_DATA_ROOT / "toc" / "ZG_1-2.xml",
-            29,
-            579,
         ),
     }
     ZG_ARTICLE_THRESHOLD = 1142
 
     def invoke(
-        self, article_number: int
+        self, extraction_input: ExtractionInput
     ) -> Result[TextExtractionResult, ComponentError]:
-        volume_info = self._map_article_number_to_volume(article_number)
+        volume_info = self._map_article_number_to_volume(
+            extraction_input.article_number
+        )
         xml_toc_infos = parse_xml_toc(
             XMLReader(volume_info.toc_path).read(), volume_info.pdf_path
         )
@@ -51,7 +55,7 @@ class TextExtractor(Component):
         if is_err(xml_toc_infos):
             return Err(ComponentError(xml_toc_infos.unwrap_err().message))
 
-        entry = xml_toc_infos.unwrap().get_entry(article_number)
+        entry = xml_toc_infos.unwrap().get_entry(extraction_input.article_number)
 
         if is_err(entry):
             return Err(ComponentError(entry.unwrap_err().message))
@@ -65,9 +69,7 @@ class TextExtractor(Component):
                 entry=unwrapped_entry,
                 pages=extraction.extract_pages(
                     pdf,
-                    unwrapped_entry.pages,
-                    volume_info.skip_pages,
-                    volume_info.real_start,
+                    (extraction_input.real_start_page, extraction_input.real_end_page),
                 ),
             )
         )
