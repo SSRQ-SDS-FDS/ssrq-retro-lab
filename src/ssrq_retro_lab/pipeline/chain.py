@@ -1,10 +1,9 @@
-import dotenv
-from result import is_err, is_ok, Result, Ok
-
-from ssrq_retro_lab.config import PROJECT_ROOT
 from typing import Any, Sequence
+
 from loguru import logger
-from ssrq_retro_lab.pipeline.components.protocol import ComponentError, Component
+from result import Ok, Result, is_err, is_ok
+
+from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
 from ssrq_retro_lab.pipeline.components.text_extractor import TextExtractor
 
 DEFAULT_COMPONENTS = (TextExtractor(),)
