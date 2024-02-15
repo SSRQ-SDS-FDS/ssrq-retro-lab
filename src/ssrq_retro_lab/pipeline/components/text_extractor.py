@@ -9,7 +9,9 @@ from ssrq_retro_lab.pipeline.pdf import extraction
 from ssrq_retro_lab.repository.reader import PDFReader, XMLReader
 from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
 
-VolumeInfo = namedtuple("VolumeInfo", ["pdf_path", "toc_path"])
+VolumeInfo = namedtuple(
+    "VolumeInfo", ["pdf_path", "toc_path", "skip_pages", "real_start"]
+)
 
 
 class TextExtractionResult(TypedDict):
@@ -24,10 +26,16 @@ class TextExtractor(Component):
 
     ZG_VOLUMES = {
         1: VolumeInfo(
-            ZG_DATA_ROOT / "pdf" / "ZG_1.1.pdf", ZG_DATA_ROOT / "toc" / "ZG_1-1.xml"
+            ZG_DATA_ROOT / "pdf" / "ZG_1.1.pdf",
+            ZG_DATA_ROOT / "toc" / "ZG_1-1.xml",
+            81,
+            43,
         ),
         2: VolumeInfo(
-            ZG_DATA_ROOT / "pdf" / "ZG_1.2.pdf", ZG_DATA_ROOT / "toc" / "ZG_1-2.xml"
+            ZG_DATA_ROOT / "pdf" / "ZG_1.2.pdf",
+            ZG_DATA_ROOT / "toc" / "ZG_1-2.xml",
+            29,
+            579,
         ),
     }
     ZG_ARTICLE_THRESHOLD = 1142
@@ -55,7 +63,12 @@ class TextExtractor(Component):
         return Ok(
             TextExtractionResult(
                 entry=unwrapped_entry,
-                pages=extraction.extract_pages(pdf, unwrapped_entry.pages),
+                pages=extraction.extract_pages(
+                    pdf,
+                    unwrapped_entry.pages,
+                    volume_info.skip_pages,
+                    volume_info.real_start,
+                ),
             )
         )
 
