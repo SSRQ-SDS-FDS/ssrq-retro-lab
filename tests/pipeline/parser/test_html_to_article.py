@@ -1,12 +1,13 @@
-from ssrq_retro_lab.pipeline.parser.html_to_article import (
-    remove_header_from_pages,
-    collect_article_nodes_from_pages,
-)
-from ssrq_retro_lab.pipeline.components.text_extractor import (
-    TextExtractor,
-    ExtractionInput,
-)
 from parsel import Selector
+
+from ssrq_retro_lab.pipeline.components.text_extractor import (
+    ExtractionInput,
+    TextExtractor,
+)
+from ssrq_retro_lab.pipeline.parser.html_to_article import (
+    collect_article_nodes_from_pages,
+    remove_header_from_pages,
+)
 
 
 def test_collect_article_nodes_from_pages():

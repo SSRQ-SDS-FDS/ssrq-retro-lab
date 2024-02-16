@@ -1,7 +1,7 @@
-import pytest
 from parsel import Selector
+
 from ssrq_retro_lab.config import ZG_DATA_ROOT
-from ssrq_retro_lab.pipeline.pdf.extraction import _calc_pdf_pages, extract_pages
+from ssrq_retro_lab.pipeline.pdf.extraction import extract_pages
 from ssrq_retro_lab.repository.reader import PDFReader
 
 

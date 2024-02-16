@@ -1,16 +1,17 @@
-from parsel import Selector
-from ssrq_retro_lab.pipeline.parser.xml_toc_parser import (
-    _get_volume_meta_infos,
-    parse_xml_toc,
-    _parse_entry,
-    VolumeMeta,
-    VolumeEntry,
-    XMLToC,
-)
-from ssrq_retro_lab.config import ZG_DATA_ROOT
-from ssrq_retro_lab.repository.reader import XMLReader
-from result import is_ok
 import pytest
+from parsel import Selector
+from result import is_ok
+
+from ssrq_retro_lab.config import ZG_DATA_ROOT
+from ssrq_retro_lab.pipeline.parser.xml_toc_parser import (
+    VolumeEntry,
+    VolumeMeta,
+    XMLToC,
+    _get_volume_meta_infos,
+    _parse_entry,
+    parse_xml_toc,
+)
+from ssrq_retro_lab.repository.reader import XMLReader
 
 
 @pytest.fixture
