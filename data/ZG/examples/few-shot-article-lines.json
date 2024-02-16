@@ -1,0 +1,77 @@
+[
+  {
+    "text": "<p style='top:345.6pt;left:73.2pt;line-height:10.0pt'><span style='font-family:Times New Roman,serif;font-size:10.0pt'>793. </span><i><span style='font-family:Times New Roman,serif;font-size:10.0pt'>Kleidervorschrift</span></i></p>",
+    "spans": [
+      {
+        "text": "793. Kleidervorschrift",
+        "label": "TITLE",
+        "reason": "Initial title with document number in regular font and title in italics"
+      }
+    ]
+  },
+  {
+    "text": "<p style='top:358.5pt;left:98.7pt;line-height:10.0pt'><span style='font-family:Times New Roman,serif;font-size:10.0pt'>Der wyber und mägten gehüll umbs gsäß... soll durch ein mandath </span></p>",
+    "spans": [
+      {
+        "text": "Der wyber und mägten gehüll umbs gsäß... soll durch ein mandath",
+        "label": "TEXT",
+        "reason": "Transcript text – old / middle german – in a regular font"
+      }
+    ]
+  },
+  {
+    "text": "<p style='top:371.5pt;left:98.4pt;line-height:10.0pt'><span style='font-family:Times New Roman,serif;font-size:10.0pt'>beschriben und alsdan uf guotheysen widerumb myner g. h. ... könf- </span></p>",
+    "spans": [
+      {
+        "text": "beschriben und alsdan uf guotheysen widerumb myner g. h. ... könf-",
+        "label": "TEXT",
+        "reason": "Transcript text in regular font"
+      }
+    ]
+  },
+  {
+    "text": "<p style='top:384.4pt;left:98.4pt;line-height:10.0pt'><span style='font-family:Times New Roman,serif;font-size:10.0pt'>tig zyt in den kilchen abgerüeft werden.</span></p>",
+    "spans": [
+      {
+        "text": "tig zyt in den kilchen abgerüeft werden.",
+        "label": "TEXT",
+        "reason": "Transcript text in regular font"
+      }
+    ]
+  },
+  {
+    "text": "<p style='top:405.7pt;left:83.7pt;line-height:6.0pt'><span style='font-family:Times New Roman,serif;font-size:6.0pt'>20 </span></p>",
+    "spans": [
+      {
+        "text": "20",
+        "label": "LINENUMBER",
+        "reason": "Linenumber in regular font with smaller font size"
+      }
+    ]
+  },
+  {
+    "text": "<p style='top:404.1pt;left:98.8pt;line-height:8.0pt'><b><i><span style='font-family:Times New Roman,serif;font-size:8.0pt'>StAR 2,178. -  Vgl. dazu StAR 17,110,120,154.</span></i></b></p>",
+    "spans": [
+      {
+        "text": "StAR 2,178. -  Vgl. dazu StAR 17,110,120,154.",
+        "label": "REFERENCE",
+        "reason": "Archival reference in bold and italics"
+      }
+    ]
+  },
+  {
+    "text": "<p style='top:176.1pt;left:99.9pt;line-height:10.0pt'><i><span style='font-family:Times New Roman,serif;font-size:10.0pt'>Von Seiten der Bürgerschaft wird der Anzug gemacht, wie das bei so</span></i><span style='font-family:Times New Roman,serif;font-size:10.0pt'> </span><span style='font-family:Times New Roman,serif;font-size:10.0pt'>Kurtz auffgesetzte reforme</span></p>",
+    "spans": [
+      {
+        "text": "Von Seiten der Bürgerschaft wird der Anzug gemacht, wie das bei so",
+        "label": "SUMMARY",
+        "reason": "Summary created by the editors in italics; can't be a title, because it appears in the same line as the title"
+      },
+      {
+        "text": "Kurtz auffgesetzte reforme",
+        "label": "TRANSCRIPT",
+        "reason": "Transcript text – old / middle german – in a regular font"
+      }
+    ]
+  }
+]

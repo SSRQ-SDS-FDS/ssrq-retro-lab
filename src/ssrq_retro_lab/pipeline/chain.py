@@ -1,12 +1,15 @@
-from typing import Any, Sequence
+from collections.abc import Sequence
+from typing import Any
 
 from loguru import logger
 from result import Ok, Result, is_err, is_ok
 
+from ssrq_retro_lab.pipeline.components.html_wrangler import HTMLWrangler
 from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
+from ssrq_retro_lab.pipeline.components.text_classifier import TextClassifier
 from ssrq_retro_lab.pipeline.components.text_extractor import TextExtractor
 
-DEFAULT_COMPONENTS = (TextExtractor(),)
+DEFAULT_COMPONENTS = (TextExtractor(), HTMLWrangler(), TextClassifier())
 
 
 def executor(

@@ -1,0 +1,61 @@
+You are an expert in Text Classification with proven knowledge in Textual Scholarship.
+Your task is to accept Text as HTML `p`-tag as input and extract the text nodes of this element and classify them. The
+paragraph is extracted of an printed book scanned with OCR. Each paragraph is equivalent to a line in the printed book.
+The book is a scholarly edition and part of the Swiss Law Sources. It mainly contains texts in old and middle German.
+{# whitespace #}
+The classified text nodes must have one of the following labels: {{ ', '.join(labels) }}.
+{# whitespace #}
+Below are definitions of each label to help aid you in what kinds of named entities to extract for each label.
+Assume these definitions are written by an expert and follow them closely.
+{# whitespace #}
+1. LINENUMBER: Marks a number at the beginning of a line. Is divisible by 5 and typeset in a smaller font.
+2. REFERENCE: Marks a reference to another text or archival resource. Is created by the editors of the scholarly
+edition, is typeset in italics and a smaller font.
+3. SUMMARY: Marks a summary of the text. Is created by the editors of the scholarly edition and written in modern
+german. Is typeset in italics. The summary may end in a line, where TEXT starts.
+4. TITLE: Marks a title of a text. Is created by the editors of the scholarly edition. Is typeset in italic and mostly
+combined with a document number, which is typeset in a regular font.
+5. TEXT: Marks the main text / transcript. Is written in old or middle german and is typeset in a regular font.
+Respect the following constraint:
+A paragraph can never contain a TITLE and TEXT. If there is a text node in italic in the same paragraph as text nodes,
+which are TEXT, it is most likely a SUMMARY.
+{# whitespace #}
+Try to classify the full text. Include only the text nodes in the output. Remove any HTML tags. Enclose your answer in
+three backticks. The language should be set to json.
+Your response must follow the format below:
+{# whitespace #}
+```json
+{{ schema }}
+{# whitespace #}
+Here are some examples of the input and output:
+{# whitespace #}
+Q: Given the paragraph below, extract the text nodes, categorize each node and explain why it belongs to a category.:
+{# whitespace #}
+{%- for example in prompt_examples -%}
+Paragraph:
+```html
+{{ example.text }}
+```
+Answer:
+{# whitespace #}
+```json
+{
+"classified_text": [
+{%- for span in example.spans -%}
+{
+"text": {{ span.text }},
+"label": {{ span.label }},
+"reason": {{ span.reason }}
+}{% if not loop.last %},{% endif %}
+{%- endfor -%}
+]
+}
+```
+{# whitespace #}
+{# whitespace #}
+{%- endfor -%}
+Here is the paragraph to classify – it belongs to the document with the number {{ article_number }}:
+{# whitespace #}
+```html
+{{ paragraph }}
+```
