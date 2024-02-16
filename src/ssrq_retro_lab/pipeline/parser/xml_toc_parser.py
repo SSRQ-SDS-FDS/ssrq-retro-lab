@@ -1,7 +1,8 @@
-from pathlib import Path
-from parsel import Selector
 from dataclasses import dataclass
-from result import Result, Ok, Err, is_err, is_ok
+from pathlib import Path
+
+from parsel import Selector
+from result import Err, Ok, Result, is_err, is_ok
 
 
 class XMLToCParsingError(Exception):
@@ -193,7 +194,7 @@ def _get_pages(
         or an XMLToCParsingError as Err value."""
     try:
         end_pages = toc.xpath(
-            f"//entry[date][not(entry[date])][no/text() = '{str(article_number + 1)}']/pg/text()"
+            f"//entry[date][not(entry[date])][no/text() = '{article_number + 1!s}']/pg/text()"
         ).getall()
 
         end_page = sorted(

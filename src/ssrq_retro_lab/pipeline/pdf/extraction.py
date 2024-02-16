@@ -1,10 +1,10 @@
 import html
 
-import fitz_new  # type: ignore
+import fitz  # type: ignore
 
 
 def extract_pages(
-    pdf: fitz_new.Document,
+    pdf: fitz.Document,
     pages: tuple[int, ...],
 ) -> tuple[str, ...]:
     """Extracts the text from a range of pages.

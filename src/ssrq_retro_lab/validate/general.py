@@ -1,5 +1,6 @@
-from sklearn.metrics import accuracy_score, f1_score
 from collections import namedtuple
+
+from sklearn.metrics import accuracy_score, f1_score
 
 MLMetrics = namedtuple("MLMetrics", ["accuracy", "f1_score"])
 

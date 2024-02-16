@@ -1,8 +1,9 @@
+from result import is_err, is_ok
+
 from ssrq_retro_lab.pipeline.components.protocol import Component
-from result import is_ok, is_err
 from ssrq_retro_lab.pipeline.components.text_extractor import (
-    TextExtractor,
     ExtractionInput,
+    TextExtractor,
 )
 
 

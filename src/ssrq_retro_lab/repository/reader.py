@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Any
 
-import fitz_new  # type: ignore
+import fitz  # type: ignore
 from parsel import Selector
 
 
@@ -52,13 +52,13 @@ class TextReader(Reader):
 
 
 class PDFReader(Reader):
-    def read(self) -> fitz_new.Document:
+    def read(self) -> fitz.Document:
         """Reads a PDF file.
 
         Returns:
             The file as a fitz Document.
         """
-        return fitz_new.open(self.path)
+        return fitz.open(self.path)
 
 
 class JSONLReader(Reader):
