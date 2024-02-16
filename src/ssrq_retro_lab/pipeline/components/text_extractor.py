@@ -1,14 +1,14 @@
-from typing import TypedDict
-
-from result import Result, is_err, Ok, Err
-from ssrq_retro_lab.config import ZG_DATA_ROOT
 from collections import namedtuple
+from typing import NamedTuple, TypedDict
 
+from result import Err, Ok, Result, is_err
+from typeguard import typechecked
+
+from ssrq_retro_lab.config import ZG_DATA_ROOT
+from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
 from ssrq_retro_lab.pipeline.parser.xml_toc_parser import VolumeEntry, parse_xml_toc
 from ssrq_retro_lab.pipeline.pdf import extraction
 from ssrq_retro_lab.repository.reader import PDFReader, XMLReader
-from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
-from typing import NamedTuple
 
 
 class ExtractionInput(NamedTuple):
@@ -42,6 +42,7 @@ class TextExtractor(Component):
     }
     ZG_ARTICLE_THRESHOLD = 1142
 
+    @typechecked
     def invoke(
         self, extraction_input: ExtractionInput
     ) -> Result[TextExtractionResult, ComponentError]:
@@ -74,6 +75,7 @@ class TextExtractor(Component):
             )
         )
 
+    @typechecked
     def _map_article_number_to_volume(self, article_number: int) -> VolumeInfo:
         return (
             self.ZG_VOLUMES[1]
