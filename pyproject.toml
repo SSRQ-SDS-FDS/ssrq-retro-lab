@@ -29,6 +29,7 @@ path = "src/ssrq_retro_lab/__about__.py"
 [tool.hatch.envs.default]
 dependencies = [
     "coverage[toml]>=6.5",
+    "diskcache",
     "jupyter",
     "loguru",
     "matplotlib",

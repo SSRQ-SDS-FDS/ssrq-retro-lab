@@ -1,14 +1,16 @@
 import json
-from typing import Literal
+from hashlib import md5
+from typing import Literal, cast
 
+from diskcache import Cache  # type: ignore
 from loguru import logger
 from pydantic import BaseModel
-from result import Err, Ok
+from result import Err, Ok, Result
 from spacy_llm.registry.reader import fewshot_reader
 from textdistance import cosine
 from typeguard import typechecked
 
-from ssrq_retro_lab.config import ZG_DATA_ROOT
+from ssrq_retro_lab.config import CACHE_DIR, ZG_DATA_ROOT
 from ssrq_retro_lab.pipeline.components.html_wrangler import HTMLTextExtractionResult
 from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
 from ssrq_retro_lab.pipeline.llm.chat import generate
@@ -43,10 +45,11 @@ class TextClassifier(Component):
     _allowed_retries = 1
     _name = "TextClassifier"
     _repeat_previous = False
+    structured_article: StructuredArticle
 
     @typechecked
     def invoke(self, text: HTMLTextExtractionResult):
-        structured_article = StructuredArticle(
+        self.structured_article = StructuredArticle(
             article_number=text["entry"].no,
             date=text["entry"].date,
             references=[],
@@ -59,66 +62,86 @@ class TextClassifier(Component):
         schema = json.dumps(ClassifiedText.model_json_schema(), indent=2)
         labels = TextLabels.__args__  # type: ignore
 
-        for i, p in enumerate(text["article"]):
-            textline = p.get()
+        with Cache(CACHE_DIR) as cache:
+            for i, p in enumerate(text["article"]):
+                textline = p.get()
 
-            if textline is None:
-                logger.debug(f"Textline {i} is None. Skipping...")
-                continue
+                if textline is None:
+                    logger.debug(f"Textline {i} is None. Skipping...")
+                    continue
 
-            prompt = render_template(
-                CLASSIFICATON_DEFAULT_TEMPLATE,
-                paragraph=textline,
-                schema=schema,
-                labels=labels,
-                prompt_examples=examples,
-                article_number=f"{structured_article.article_number}.",
-            )
-
-            classification_result = generate(prompt, "gpt-3.5-turbo", True, "json")
-
-            if classification_result.is_err():
-                return Err(ComponentError(classification_result.unwrap_err().args[0]))
-
-            try:
-                validated_classification_result = ClassifiedText.model_validate_json(
-                    self._extract_json_from_result(classification_result.unwrap())
-                )
-            except Exception as e:
-                return Err(
-                    ComponentError(f"Failed to validate classification result: {e}")
+                classification_result = self._classify_textline(
+                    textline=textline,
+                    cache=cache,
+                    schema=schema,
+                    examples=examples,
+                    labels=labels,
                 )
 
-            for c in validated_classification_result.classified_text:
-                match c.label:
-                    case "LINENUMBER":
-                        logger.debug(f"Skipping line number {c.text}")
-                        continue
-                    case "REFERENCE":
-                        structured_article.references.append(c.text)
-                    case "SUMMARY":
-                        structured_article.summary.append(c.text)
-                    case "TITLE":
-                        if TextClassifier._is_real_title(
-                            structured_article.article_number,
-                            textline,
-                            text["entry"].title,
-                            c.text,
-                        ):
-                            structured_article.title = c.text
-                        else:
-                            structured_article.summary.append(c.text)
-                    case "TEXT":
-                        structured_article.text.append(c.text)
+                if classification_result.is_err():
+                    return Err(
+                        ComponentError(classification_result.unwrap_err().args[0])
+                    )
 
-        if len(structured_article.text) == 0 and len(structured_article.summary) == 0:
+                try:
+                    validated_classification_result = (
+                        ClassifiedText.model_validate_json(
+                            self._extract_json_from_result(
+                                classification_result.unwrap()
+                            )
+                        )
+                    )
+                except Exception as e:
+                    return Err(
+                        ComponentError(f"Failed to validate classification result: {e}")
+                    )
+
+                self._handle_classification_result(
+                    textline,
+                    text["entry"].title,
+                    validated_classification_result.classified_text,
+                )
+
+        if (
+            len(self.structured_article.text) == 0
+            and len(self.structured_article.summary) == 0
+        ):
             Err(
                 ComponentError(
-                    f"No text or summary found in the article with number {structured_article.article_number}"
+                    f"No text or summary found in the article with number {self.structured_article.article_number}"
                 )
             )
 
-        return Ok(structured_article)
+        return Ok(self.structured_article)
+
+    def _classify_textline(
+        self, textline: str, cache: Cache, schema: str, examples, labels
+    ) -> Result[str, ValueError]:
+        cache_key = TextClassifier.create_cache_key(textline)
+
+        if cache_key in cache:
+            logger.debug(f"Classification result for {textline} found in cache.")
+            return Ok(cast(str, cache[cache_key]))
+
+        prompt = render_template(
+            CLASSIFICATON_DEFAULT_TEMPLATE,
+            paragraph=textline,
+            schema=schema,
+            labels=labels,
+            prompt_examples=examples,
+            article_number=f"{self.structured_article.article_number}.",
+        )
+
+        result = generate(prompt, "gpt-3.5-turbo", True, "json")
+
+        if result.is_err():
+            return Err(ValueError(result.unwrap_err()))
+
+        classification_result = result.unwrap()
+
+        cache[cache_key] = classification_result
+
+        return Ok(classification_result)
 
     def _extract_json_from_result(self, result: str) -> str:
         import re
@@ -131,6 +154,35 @@ class TextClassifier(Component):
         if match:
             return match.group(1).strip()
         return result
+
+    def _handle_classification_result(
+        self, textline: str, entry_title: str, classified_text: list[TextClass]
+    ):
+        for c in classified_text:
+            match c.label:
+                case "LINENUMBER":
+                    logger.debug(f"Skipping line number {c.text}")
+                    continue
+                case "REFERENCE":
+                    self.structured_article.references.append(c.text)
+                case "SUMMARY":
+                    self.structured_article.summary.append(c.text)
+                case "TITLE":
+                    if TextClassifier._is_real_title(
+                        self.structured_article.article_number,
+                        textline,
+                        entry_title,
+                        c.text,
+                    ):
+                        self.structured_article.title = c.text
+                    else:
+                        self.structured_article.summary.append(c.text)
+                case "TEXT":
+                    self.structured_article.text.append(c.text)
+
+    @staticmethod
+    def create_cache_key(textline: str) -> str:
+        return md5(f"{textline}_classified".encode("utf-8")).hexdigest()
 
     @staticmethod
     def _is_real_title(
