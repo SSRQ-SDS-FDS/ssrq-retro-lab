@@ -43,9 +43,9 @@ Answer:
 "classified_text": [
 {%- for span in example.spans -%}
 {
-"text": {{ span.text }},
-"label": {{ span.label }},
-"reason": {{ span.reason }}
+"text": "{{ span.text }}",
+"label": "{{ span.label }}",
+"reason": "{{ span.reason }}"
 }{% if not loop.last %},{% endif %}
 {%- endfor -%}
 ]
