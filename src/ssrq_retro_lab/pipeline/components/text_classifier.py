@@ -62,7 +62,7 @@ class TextClassifier(Component):
         schema = json.dumps(ClassifiedText.model_json_schema(), indent=2)
         labels = TextLabels.__args__  # type: ignore
 
-        with Cache(CACHE_DIR) as cache:
+        with Cache((CACHE_DIR / self._name)) as cache:
             for i, p in enumerate(text["article"]):
                 textline = p.get()
 
