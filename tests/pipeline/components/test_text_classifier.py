@@ -30,7 +30,7 @@ def test_text_classifier_accuracy():
 
     html_result = (
         HTMLWrangler()
-        .invoke(TextExtractor().invoke(ExtractionInput(1639, 361, 362)).unwrap())
+        .invoke(TextExtractor().invoke(ExtractionInput(article_number=1639)).unwrap())
         .unwrap()
     )
 

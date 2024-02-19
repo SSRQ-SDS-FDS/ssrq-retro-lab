@@ -1,5 +1,5 @@
 from collections import namedtuple
-from typing import NamedTuple, TypedDict
+from typing import TypedDict
 
 from result import Err, Ok, Result, is_err
 from typeguard import typechecked
@@ -9,12 +9,11 @@ from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentErro
 from ssrq_retro_lab.pipeline.parser.xml_toc_parser import VolumeEntry, parse_xml_toc
 from ssrq_retro_lab.pipeline.pdf import extraction
 from ssrq_retro_lab.repository.reader import PDFReader, XMLReader
+from pydantic import BaseModel
 
 
-class ExtractionInput(NamedTuple):
+class ExtractionInput(BaseModel):
     article_number: int
-    real_start_page: int
-    real_end_page: int
 
 
 VolumeInfo = namedtuple("VolumeInfo", ["pdf_path", "toc_path"])
@@ -69,8 +68,7 @@ class TextExtractor(Component):
             TextExtractionResult(
                 entry=unwrapped_entry,
                 pages=extraction.extract_pages(
-                    pdf,
-                    (extraction_input.real_start_page, extraction_input.real_end_page),
+                    pdf=pdf, toc=xml_toc_infos.unwrap(), entry=unwrapped_entry
                 ),
             )
         )

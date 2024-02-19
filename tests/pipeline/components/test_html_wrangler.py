@@ -19,11 +19,11 @@ def test_html_wrangler_implements_protocol():
     ("text_extractor_input", "expected_nodes"),
     [
         (
-            ExtractionInput(793, 525, 525),
+            ExtractionInput(article_number=793),
             6,
         ),
         (
-            ExtractionInput(599, 423, 424),
+            ExtractionInput(article_number=599),
             4,
         ),
     ],

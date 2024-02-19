@@ -2,10 +2,11 @@ import html
 
 import fitz  # type: ignore
 
+from ssrq_retro_lab.pipeline.parser.xml_toc_parser import XMLToC, VolumeEntry
+
 
 def extract_pages(
-    pdf: fitz.Document,
-    pages: tuple[int, ...],
+    pdf: fitz.Document, toc: XMLToC, entry: VolumeEntry
 ) -> tuple[str, ...]:
     """Extracts the text from a range of pages.
 
@@ -17,9 +18,10 @@ def extract_pages(
         The extracted text. Is uses the extractHTML from PyMuPDF to extract the text.
         See https://pymupdf.readthedocs.io/en/latest/textpage.html#TextPage.extractHTML
     """
+    print(entry)
     return tuple(
         _unescape_extracted_text(pdf.load_page(page).get_textpage().extractHTML())
-        for page in _calc_pdf_pages(pages)
+        for page in _calc_pdf_pages(toc, entry)
     )
 
 
@@ -35,9 +37,7 @@ def _unescape_extracted_text(text: str) -> str:
     return html.unescape(text)
 
 
-def _calc_pdf_pages(
-    pages: tuple[int, ...],
-) -> range:
+def _calc_pdf_pages(toc: XMLToC, entry: VolumeEntry) -> range:
     """Calculates the pages to extract.
 
     Args:
@@ -46,7 +46,7 @@ def _calc_pdf_pages(
     Returns:
         The pages to extract as a range."""
 
-    start_page = min(pages) - 1  # PDF pages are 0-indexed
-    end_page = max(pages)
+    start_page = toc.page_to_image[min(entry.pages)]
+    end_page = toc.page_to_image[max(entry.pages)]
 
-    return range(start_page, end_page)
+    return range(start_page - 1, end_page)

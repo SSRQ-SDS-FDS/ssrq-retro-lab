@@ -10,6 +10,7 @@ from ssrq_retro_lab.pipeline.parser.xml_toc_parser import (
     _get_volume_meta_infos,
     _parse_entry,
     parse_xml_toc,
+    _map_book_pages_to_img,
 )
 from ssrq_retro_lab.repository.reader import XMLReader
 
@@ -72,3 +73,18 @@ def test_parse_entry(toc: Selector):
     assert unwrapped_entry.no == 822
     assert unwrapped_entry.title == "Korneinfuhr."
     assert unwrapped_entry.pages == (505,)
+
+
+@pytest.mark.parametrize(
+    ("page_number", "img_number"),
+    [
+        (43, 81),
+        (502, 544),
+        (483, 525),
+    ],
+)
+def test_map_book_pages_to_img(toc: Selector, page_number: int, img_number: int):
+    pages = _map_book_pages_to_img(toc)
+
+    assert is_ok(pages)
+    assert pages.unwrap()[page_number] == img_number

@@ -13,7 +13,7 @@ class XMLToCParsingError(Exception):
         super().__init__(message)
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True, frozen=True)
 class VolumeEntry:
     title: str
     date: str
@@ -33,6 +33,7 @@ class XMLToC:
     entries: tuple[VolumeEntry, ...]
     meta: VolumeMeta
     volume_path: Path
+    page_to_image: dict[int, int]
 
     def get_entry(self, article_number: int) -> Result[VolumeEntry, XMLToCParsingError]:
         """Gets the volume entry for a given article number.
@@ -82,7 +83,14 @@ def parse_xml_toc(
     if is_err(entries):
         return entries
 
-    return Ok(XMLToC(entries.unwrap(), meta.unwrap(), volume_path))
+    pages_to_img = _map_book_pages_to_img(toc)
+
+    if is_err(pages_to_img):
+        return pages_to_img
+
+    return Ok(
+        XMLToC(entries.unwrap(), meta.unwrap(), volume_path, pages_to_img.unwrap())
+    )
 
 
 def _get_volume_meta_infos(toc: Selector) -> Result[VolumeMeta, XMLToCParsingError]:
@@ -220,3 +228,29 @@ def _get_pages(
         return Err(
             XMLToCParsingError(f"Error while getting pages for {article_number}: {e}")
         )
+
+
+def _map_book_pages_to_img(toc: Selector) -> Result[dict[int, int], XMLToCParsingError]:
+    """Maps the book pages to the image pages.
+
+    Args:
+        toc: The table of contents.
+
+    Returns:
+        The mapping as dict with int as key and int as value."""
+    pages_to_image: dict[int, int] = {}
+    page_ranges = toc.xpath("//pages/range[@type = 'number']")
+
+    if len(page_ranges) == 0:
+        return Err(XMLToCParsingError("Found no page ranges"))
+
+    for page_range in page_ranges:
+        page_from = int(page_range.xpath("@from").get())  # type: ignore
+        page_to = int(page_range.xpath("@to").get())  # type: ignore
+        page_start = int(page_range.xpath("@start").get())  # type: ignore
+
+        for page in range(page_from - 1, page_to):
+            pages_to_image[page_start] = page + 1
+            page_start += 1
+
+    return Ok(pages_to_image)

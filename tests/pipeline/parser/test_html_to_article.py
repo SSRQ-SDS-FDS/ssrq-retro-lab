@@ -95,7 +95,9 @@ def test_collect_article_nodes_from_pages():
 
 
 def test_collect_article_nodes_from_pages_against_pdf():
-    extraction_result = TextExtractor().invoke(ExtractionInput(793, 525, 525)).unwrap()
+    extraction_result = (
+        TextExtractor().invoke(ExtractionInput(article_number=793)).unwrap()
+    )
 
     result = collect_article_nodes_from_pages(extraction_result["pages"], 793, 794)
 

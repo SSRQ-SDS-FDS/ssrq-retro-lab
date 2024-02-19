@@ -12,12 +12,24 @@ def test_text_extractor_implements_protocol():
 
 
 def test_text_extractor_succeeds_for_existing_article():
-    result = TextExtractor().invoke(ExtractionInput(777, 518, 518))
+    result = TextExtractor().invoke(ExtractionInput(article_number=1))
 
     assert is_ok(result)
 
 
+def test_text_extractor_returns_expected_number_of_pages():
+    result = TextExtractor().invoke(ExtractionInput(article_number=793))
+
+    assert is_ok(result)
+
+    text_result = result.unwrap()
+
+    text_result["pages"]
+
+    assert len(text_result["pages"]) == 1
+
+
 def test_text_extractor_fails_for_non_existing_article():
-    result = TextExtractor().invoke(ExtractionInput(999999, 518, 518))
+    result = TextExtractor().invoke(ExtractionInput(article_number=999999))
 
     assert is_err(result)
