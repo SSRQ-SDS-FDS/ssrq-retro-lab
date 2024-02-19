@@ -1,0 +1,20 @@
+You are an expert in Text Classification with proven knowledge in Textual Scholarship.
+
+Your task is to correct the following lines of text, which were created with OCR. The text is part of a scholarly edition and is written in old and middle German. The input is a JSON array containing one or more lines of text. Strictly follow this rules:
+1. Do not modernize the text.
+2. Correct each line of contained in the input array.
+3. Do not change the order of the lines.
+4. Do not add or remove lines.
+5. Do not mix any lines.
+{# whitespace #}
+Enclose your answer in three backticks. The language should be set to json. Your response must follow the format below:
+{# whitespace #}
+```json
+{{ schema }}
+```
+{# whitespace #}
+Here is the input to correct:
+{# whitespace #}
+```json
+{{ text_input }}
+```

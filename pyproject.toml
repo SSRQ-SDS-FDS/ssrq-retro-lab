@@ -33,6 +33,8 @@ dependencies = [
     "jupyter",
     "loguru",
     "matplotlib",
+    "mlx-lm",
+    "numpy",
     "ollama",
     "openai",
     "pandas",
@@ -44,11 +46,13 @@ dependencies = [
     "pyyaml",
     "result",
     "textdistance",
+    "transformers",
     "typeguard",
     "scikit-learn",
     "seaborn",
     "spacy",
     "spacy-llm",
+    "thefuzz",
     "tiktoken",
 ]
 path = ".hatch"

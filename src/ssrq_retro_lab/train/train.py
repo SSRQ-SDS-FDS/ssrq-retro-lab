@@ -22,7 +22,11 @@ def upload_training_file_to_openai(training_file: Path) -> str:
 
 
 def create_openai_finetuning_job(
-    training_file_id: str, name: str, model: str = "gpt-3.5-turbo-1106", epochs: int = 3
+    training_file_id: str,
+    name: str,
+    model: str = "gpt-3.5-turbo-1106",
+    epochs: int = 3,
+    validation_file_id: str | None = None,
 ) -> str:
     """Creates a new OpenAI fine-tuning job.
 
@@ -37,6 +41,7 @@ def create_openai_finetuning_job(
     """
     response = openai.fine_tuning.jobs.create(
         training_file=training_file_id,
+        validation_file=validation_file_id,
         model=model,
         suffix=name,
         hyperparameters={"n_epochs": epochs},

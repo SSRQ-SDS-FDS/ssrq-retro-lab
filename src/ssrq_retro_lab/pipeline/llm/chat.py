@@ -6,7 +6,7 @@ from loguru import logger
 from openai.types.chat import ChatCompletionMessageParam
 from result import Err, Ok, Result
 
-__all__ = ["generate"]
+__all__ = ["create_chat_completion_param", "generate"]
 
 USED_OPENAI_MODEL = [
     "ft:gpt-3.5-turbo-1106:personal:ssrq-ocr-cor:8tgnqalq",
@@ -41,6 +41,30 @@ def generate(
         return Ok(_extract_language_block_from_chat_result(result.unwrap(), language))
 
     return Ok(result.unwrap())
+
+
+def create_chat_completion_param(
+    system: str, user: str, assistant: str | None
+) -> Iterable[ChatCompletionMessageParam]:
+    """Create a chat completion parameter for OpenAI's chat API.
+
+    Args:
+        system (str): The system message.
+        user (str): The user message.
+        assistant (str | None): The assistant message (if available).
+
+    Returns:
+        Iterable[ChatCompletionMessageParam]: The chat completion parameter.
+    """
+    messages: list[ChatCompletionMessageParam] = [
+        {"role": "system", "content": system},
+        {"role": "user", "content": user},
+    ]
+
+    if assistant:
+        messages.append({"role": "assistant", "content": assistant})
+
+    return messages
 
 
 def _chat_with_open_ai(
