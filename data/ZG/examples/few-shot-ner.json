@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Ouch hat man minem herren dem abte von den Einsidellen erteilet ze den Einsidellen, das nieman keinen invâng nôch keinen rúhen wald mag noch ensol inne han ane mines herren des abtes hând und willen, (Nachtrag) und ane zins.",
+    "spans": [
+      {
+        "text": "herren dem abte",
+        "is_entity": true,
+        "label": "PERSON",
+        "reason": "is identified by it's role"
+      },
+      {
+        "text": "Einsidellen",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is mentioned by it's name"
+      },
+      {
+        "text": "niemand",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "not a person, it's a pronoun here"
+      }
+    ]
+  },
+  {
+    "text": "1 Mittermeyer hatte in Uri und Arth gestohlen, und von beiden Orten liefen Gesuche um Restitution des Gestohlenen ein.",
+    "spans": [
+      {
+        "text": "Mittermeyer",
+        "is_entity": true,
+        "label": "PERSON",
+        "reason": "is identified by it's name"
+      },
+      {
+        "text": "Uri",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Arth",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Orten",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is not the name of a place, but rather pointing to the previous mentioned places"
+      }
+    ]
+  },
+  {
+    "text": "So ist aber genôß des gotzhuses lúten von den Einsidellen des gotzhuses lút von Zúrich Sant Reglun, des gotzhuses lúte von der Richenowa, des gotzhuses lúte von Sant Gallen, des gotzhus lúte von Pfevers, des gotzhus lúte von Schennis und von Sekingen.",
+    "spans": [
+      {
+        "text": "Einsidellen",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Zúrich",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Richenowa",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Sant Gallen",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Pfevers",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Schennis",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "Sekingen",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      },
+      {
+        "text": "gotzhuses",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "is not place, but rather a building or an institution"
+      }
+    ]
+  },
+  {
+    "text": "StAZürich A 259.4.-1767 Juni 1. Personalien (Signalement) des alt Statthalter Brandenberg, seines Sohnes und Tochtersohnes, samt beigefügter Nachricht, daß Zug gezwungen war, sein Stadt- und Amt-Sekret zu ändern, ebd.",
+    "spans": [
+      {
+        "text": "StAZürich",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "is not a place, but an institution"
+      },
+      {
+        "text": "Brandenberg",
+        "is_entity": true,
+        "label": "PERSON",
+        "reason": "is identified by it's name"
+      },
+      {
+        "text": "Sohnes",
+        "is_entity": true,
+        "label": "PERSON",
+        "reason": "is identified by it's role"
+      },
+      {
+        "text": "Tochtersohnes",
+        "is_entity": true,
+        "label": "PERSON",
+        "reason": "is identified by it's role"
+      },
+      {
+        "text": "Zug",
+        "is_entity": true,
+        "label": "PLACE",
+        "reason": "is the name of a existing place with a physical location"
+      }
+    ]
+  }
+]
