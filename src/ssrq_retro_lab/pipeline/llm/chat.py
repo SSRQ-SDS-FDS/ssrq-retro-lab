@@ -1,16 +1,25 @@
 import re
+from typing import Iterable
 
 import openai
 from loguru import logger
+from openai.types.chat import ChatCompletionMessageParam
 from result import Err, Ok, Result
 
 __all__ = ["generate"]
 
-USED_OPENAI_MODEL = ["gpt-3.5-turbo", "gpt-4-0125-preview"]
+USED_OPENAI_MODEL = [
+    "ft:gpt-3.5-turbo-1106:personal:ssrq-ocr-cor:8tgnqalq",
+    "gpt-3.5-turbo",
+    "gpt-4-0125-preview",
+]
 
 
 def generate(
-    prompt: str, model_name: str, extract_language: bool, language: str
+    prompt: str | Iterable[ChatCompletionMessageParam],
+    model_name: str,
+    extract_language: bool,
+    language: str,
 ) -> Result[str, ValueError]:
     """Generate text completion for a given prompt using a specified model.
 
@@ -34,7 +43,9 @@ def generate(
     return Ok(result.unwrap())
 
 
-def _chat_with_open_ai(prompt: str, model_name: str) -> Result[str, str]:
+def _chat_with_open_ai(
+    prompt: str | Iterable[ChatCompletionMessageParam], model_name: str
+) -> Result[str, str]:
     """Return chat completion for a given prompt using OpenAI's chat API.
 
     Args:
@@ -49,7 +60,11 @@ def _chat_with_open_ai(prompt: str, model_name: str) -> Result[str, str]:
     )
 
     resp = openai.chat.completions.create(
-        model=model_name, messages=[{"role": "user", "content": prompt}], temperature=0
+        model=model_name,
+        messages=[{"role": "user", "content": prompt}]
+        if isinstance(prompt, str)
+        else prompt,
+        temperature=0,
     )
 
     result = resp.choices[0].message.content
