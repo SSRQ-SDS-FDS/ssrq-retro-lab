@@ -8,6 +8,7 @@ from ssrq_retro_lab.pipeline.components.html_wrangler import HTMLWrangler
 from ssrq_retro_lab.pipeline.components.ner_annotator import NERAnnotator
 from ssrq_retro_lab.pipeline.components.ocr_corrector import OCRCorrector
 from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
+from ssrq_retro_lab.pipeline.components.tei_converter import TEIConverter
 from ssrq_retro_lab.pipeline.components.text_classifier import TextClassifier
 from ssrq_retro_lab.pipeline.components.text_extractor import TextExtractor
 
@@ -17,6 +18,7 @@ DEFAULT_COMPONENTS = (
     TextClassifier(),
     OCRCorrector(),
     NERAnnotator(),
+    TEIConverter(),
 )
 
 

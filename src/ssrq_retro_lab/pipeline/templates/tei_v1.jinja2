@@ -1,0 +1,68 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>{{ title }}</title>
+                <respStmt>
+                    <persName>Bastian Politycki</persName>
+                    <resp>Erstellt mit dem SSRQ-Retro-Lab</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>SSRQ-SDS-FDS</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgabe</resp>
+                </respStmt>
+                <idno type="uuid">{{ uuid }}</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <!-- ToDo: Add source description -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://p.ssrq-sds-fds.ch/guidelines/transcription" />
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <!-- ToDo: Add keywords -->
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+
+        <body>
+            <p>
+                <lb/>{%- for token in doc -%}
+                {%- if token.text == "\n" -%}
+                {# whitespace #}
+                <lb />
+                {%- else -%}
+                {%- if token.ent_type_ == "PERSON" -%}
+                <persName>{{ token.text.strip() }}</persName>
+                {%- elif token.ent_type_ == "PLACE" -%}
+                <placeName>{{ token.text.strip() }}</placeName>
+                {%- else -%}
+                {{- token.text.strip() -}}
+                {%- endif -%}
+                {%- if token.whitespace_ -%} {{ ' ' }}{% endif -%}
+                {%- endif -%}
+                {%- endfor -%}
+            </p>
+        </body>
+    </text>
+</TEI>
