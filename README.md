@@ -159,7 +159,8 @@ Last but not least the result is converted into a TEI XML file. The TEI XML file
 
 The following video shows a demo of the complete process in a simple UI built with [`gradio`](https://www.gradio.app/). To speed up the process an article is used, which was already processed. The results for this article are retrieved from the cache. The cache is implemented with [`diskcache`](https://pypi.org/project/diskcache/)-library.
 
-[![Demo](./static/thumbnail-ui.png)](./static/pipeline-demo.mov)
+[![Demo](./static/thumbnail-ui.png)](https://github.com/SSRQ-SDS-FDS/ssrq-retro-lab/assets/42381332/704ad7c6-1cf8-4859-9486-a302f86b5697)
+
 
 #### To-Dos
 
