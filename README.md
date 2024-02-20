@@ -1,10 +1,10 @@
-# SSRQ Retro Lab
+# SSRQ Retro Lab [![DOI](https://zenodo.org/badge/741067079.svg)](https://zenodo.org/doi/10.5281/zenodo.10683208)
 
 This repository contains code (Python scripts as well as Jupyter notebooks) and data of retrodigitized units from the collection of Swiss Law Sources (SLS). The data is used for various experiments to evaluate the quality of the digitization process, improve the quality of OCR results, and develop a workflow for the retrodigitization of the SLS collection. Furthermore, it demonstrates potential ways for further use of the data by employing advanced methods such as topic modeling or named entity recognition.
 
 ## Table of Contents
 
-- [SSRQ Retro Lab](#ssrq-retro-lab)
+- [SSRQ Retro Lab ](#ssrq-retro-lab-)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
     - [Swiss Law Sources](#swiss-law-sources)
@@ -24,6 +24,7 @@ This repository contains code (Python scripts as well as Jupyter notebooks) and 
         - [TEI Conversion Component](#tei-conversion-component)
       - [Demo](#demo)
       - [To-Dos](#to-dos)
+  - [Talks](#talks)
   - [Authors](#authors)
   - [References](#references)
   - [Tools used](#tools-used)
@@ -170,6 +171,13 @@ This experiment is a first prototype, it is not ready for production use and the
 - [ ] Improve performance by bundling requests and / or using concurrent requests to external service (like OpenAI API)
 - [ ] Implement checks for the prompts send to the LLM (e.g. check for the length of the prompt)
 - ...
+
+## Talks
+
+The work done here will be presented in the context of the following talks:
+
+- Bastian Politycki, Pascale Sutter, Christian Sonder: „Datenschätze heben. Ein Bericht zur Digitalisierung der Sammlung Schweizerischer Rechtsquellen“. Editions als Transformation. Plenartagung der AG für germanistische Edition, 21.–24. Februar 2024, Bergische Universität Wuppertal. *Slides will be linked here after the talk.*
+- Bastian Politycki: „Anwendung generativer KI zur Digitalisierung gedruckter Editionen am Beispiel der Sammlung Schweizerischer Rechtsquellen“. W8: Generative KI, LLMs und GPT bei digitalen Editionen, DHd2024 Passau, 26.02.2024—01.03.2024. *Slides will be linked here after the talk.*
 
 ## Authors
 
