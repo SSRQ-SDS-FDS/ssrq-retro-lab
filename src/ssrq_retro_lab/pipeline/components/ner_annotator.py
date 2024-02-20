@@ -1,18 +1,15 @@
-import sys
 from typing import cast
 
 from diskcache import Cache
 from result import Err, Ok, Result, is_err
 from spacy.tokens import Doc, DocBin
 from spacy_llm.util import assemble
-from spacy_llm import logger as spacy_logger
 from typeguard import typechecked
 
 from ssrq_retro_lab.config import CACHE_DIR, PROJECT_ROOT, ZG_DATA_ROOT
 from ssrq_retro_lab.pipeline.components.ocr_corrector import StructuredCorrectedArticle
 from ssrq_retro_lab.pipeline.components.protocol import Component, ComponentError
 from ssrq_retro_lab.pipeline.components.text_classifier import TextClassifier
-from logging import StreamHandler
 from loguru import logger
 
 
