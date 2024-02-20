@@ -50,7 +50,7 @@
                 <lb/>{%- for token in doc -%}
                 {%- if token.text == "\n" -%}
                 {# whitespace #}
-                <lb />
+                <lb/>
                 {%- else -%}
                 {%- if token.ent_type_ == "PERSON" -%}
                 <persName>{{ token.text.strip() }}</persName>
