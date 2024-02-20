@@ -30,6 +30,7 @@ path = "src/ssrq_retro_lab/__about__.py"
 dependencies = [
     "coverage[toml]>=6.5",
     "diskcache",
+    "gradio",
     "jupyter",
     "loguru",
     "matplotlib",
